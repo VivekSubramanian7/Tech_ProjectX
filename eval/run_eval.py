@@ -73,14 +73,16 @@ def _ratio(num: int, den: int) -> float | None:
     return num / den if den else None
 
 
-def evaluate(
+def match(
     findings: list[Finding], labels: list[Label], *, iou_threshold: float = 0.5
-) -> EvalReport:
-    """Score findings against ground-truth labels at entity level."""
+) -> tuple[set[int], set[int]]:
+    """Greedy one-to-one match of findings to labels.
+
+    Returns (matched_label_indices, used_finding_indices). A finding index in the
+    used set is a true positive; one not in it is a false positive.
+    """
     used_findings: set[int] = set()
     matched_label_idxs: set[int] = set()
-
-    # Greedy one-to-one matching: each label claims the first unused matching finding.
     for li, label in enumerate(labels):
         for fi, finding in enumerate(findings):
             if fi in used_findings:
@@ -89,6 +91,14 @@ def evaluate(
                 used_findings.add(fi)
                 matched_label_idxs.add(li)
                 break
+    return matched_label_idxs, used_findings
+
+
+def evaluate(
+    findings: list[Finding], labels: list[Label], *, iou_threshold: float = 0.5
+) -> EvalReport:
+    """Score findings against ground-truth labels at entity level."""
+    matched_label_idxs, used_findings = match(findings, labels, iou_threshold=iou_threshold)
 
     matched = len(matched_label_idxs)
     total_labels = len(labels)
