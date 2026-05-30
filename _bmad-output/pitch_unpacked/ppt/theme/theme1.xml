@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Bosch 2024">
+  <a:themeElements>
+    <a:clrScheme name="Bosch Blau">
+      <a:dk1>
+        <a:sysClr val="windowText" lastClr="000000"/>
+      </a:dk1>
+      <a:lt1>
+        <a:sysClr val="window" lastClr="FFFFFF"/>
+      </a:lt1>
+      <a:dk2>
+        <a:srgbClr val="424C58"/>
+      </a:dk2>
+      <a:lt2>
+        <a:srgbClr val="B2B3B5"/>
+      </a:lt2>
+      <a:accent1>
+        <a:srgbClr val="007BC0"/>
+      </a:accent1>
+      <a:accent2>
+        <a:srgbClr val="004975"/>
+      </a:accent2>
+      <a:accent3>
+        <a:srgbClr val="007BC0"/>
+      </a:accent3>
+      <a:accent4>
+        <a:srgbClr val="004975"/>
+      </a:accent4>
+      <a:accent5>
+        <a:srgbClr val="007BC0"/>
+      </a:accent5>
+      <a:accent6>
+        <a:srgbClr val="004975"/>
+      </a:accent6>
+      <a:hlink>
+        <a:srgbClr val="738CB4"/>
+      </a:hlink>
+      <a:folHlink>
+        <a:srgbClr val="B0BBD0"/>
+      </a:folHlink>
+    </a:clrScheme>
+    <a:fontScheme name="Bosch">
+      <a:majorFont>
+        <a:latin typeface="Bosch Office Sans"/>
+        <a:ea typeface=""/>
+        <a:cs typeface=""/>
+      </a:majorFont>
+      <a:minorFont>
+        <a:latin typeface="Bosch Office Sans"/>
+        <a:ea typeface=""/>
+        <a:cs typeface=""/>
+      </a:minorFont>
+    </a:fontScheme>
+    <a:fmtScheme name="Office">
+      <a:fillStyleLst>
+        <a:solidFill>
+          <a:schemeClr val="phClr"/>
+        </a:solidFill>
+        <a:gradFill rotWithShape="1">
+          <a:gsLst>
+            <a:gs pos="0">
+              <a:schemeClr val="phClr">
+                <a:lumMod val="110000"/>
+                <a:satMod val="105000"/>
+                <a:tint val="67000"/>
+              </a:schemeClr>
+            </a:gs>
+            <a:gs pos="50000">
+              <a:schemeClr val="phClr">
+                <a:lumMod val="105000"/>
+                <a:satMod val="103000"/>
+                <a:tint val="73000"/>
+              </a:schemeClr>
+            </a:gs>
+            <a:gs pos="100000">
+              <a:schemeClr val="phClr">
+                <a:lumMod val="105000"/>
+                <a:satMod val="109000"/>
+                <a:tint val="81000"/>
+              </a:schemeClr>
+            </a:gs>
+          </a:gsLst>
+          <a:lin ang="5400000" scaled="0"/>
+        </a:gradFill>
+        <a:gradFill rotWithShape="1">
+          <a:gsLst>
+            <a:gs pos="0">
+              <a:schemeClr val="phClr">
+                <a:satMod val="103000"/>
+                <a:lumMod val="102000"/>
+                <a:tint val="94000"/>
+              </a:schemeClr>
+            </a:gs>
+            <a:gs pos="50000">
+              <a:schemeClr val="phClr">
+                <a:satMod val="110000"/>
+                <a:lumMod val="100000"/>
+                <a:shade val="100000"/>
+              </a:schemeClr>
+            </a:gs>
+            <a:gs pos="100000">
+              <a:schemeClr val="phClr">
+                <a:lumMod val="99000"/>
+                <a:satMod val="120000"/>
+                <a:shade val="78000"/>
+              </a:schemeClr>
+            </a:gs>
+          </a:gsLst>
+          <a:lin ang="5400000" scaled="0"/>
+        </a:gradFill>
+      </a:fillStyleLst>
+      <a:lnStyleLst>
+        <a:ln w="6350" cap="flat" cmpd="sng" algn="ctr">
+          <a:solidFill>
+            <a:schemeClr val="phClr"/>
+          </a:solidFill>
+          <a:prstDash val="solid"/>
+          <a:miter lim="800000"/>
+        </a:ln>
+        <a:ln w="12700" cap="flat" cmpd="sng" algn="ctr">
+          <a:solidFill>
+            <a:schemeClr val="phClr"/>
+          </a:solidFill>
+          <a:prstDash val="solid"/>
+          <a:miter lim="800000"/>
+        </a:ln>
+        <a:ln w="19050" cap="flat" cmpd="sng" algn="ctr">
+          <a:solidFill>
+            <a:schemeClr val="phClr"/>
+          </a:solidFill>
+          <a:prstDash val="solid"/>
+          <a:miter lim="800000"/>
+        </a:ln>
+      </a:lnStyleLst>
+      <a:effectStyleLst>
+        <a:effectStyle>
+          <a:effectLst/>
+        </a:effectStyle>
+        <a:effectStyle>
+          <a:effectLst/>
+        </a:effectStyle>
+        <a:effectStyle>
+          <a:effectLst>
+            <a:outerShdw blurRad="57150" dist="19050" dir="5400000" algn="ctr" rotWithShape="0">
+              <a:srgbClr val="000000">
+                <a:alpha val="63000"/>
+              </a:srgbClr>
+            </a:outerShdw>
+          </a:effectLst>
+        </a:effectStyle>
+      </a:effectStyleLst>
+      <a:bgFillStyleLst>
+        <a:solidFill>
+          <a:schemeClr val="phClr"/>
+        </a:solidFill>
+        <a:solidFill>
+          <a:schemeClr val="phClr">
+            <a:tint val="95000"/>
+            <a:satMod val="170000"/>
+          </a:schemeClr>
+        </a:solidFill>
+        <a:gradFill rotWithShape="1">
+          <a:gsLst>
+            <a:gs pos="0">
+              <a:schemeClr val="phClr">
+                <a:tint val="93000"/>
+                <a:satMod val="150000"/>
+                <a:shade val="98000"/>
+                <a:lumMod val="102000"/>
+              </a:schemeClr>
+            </a:gs>
+            <a:gs pos="50000">
+              <a:schemeClr val="phClr">
+                <a:tint val="98000"/>
+                <a:satMod val="130000"/>
+                <a:shade val="90000"/>
+                <a:lumMod val="103000"/>
+              </a:schemeClr>
+            </a:gs>
+            <a:gs pos="100000">
+              <a:schemeClr val="phClr">
+                <a:shade val="63000"/>
+                <a:satMod val="120000"/>
+              </a:schemeClr>
+            </a:gs>
+          </a:gsLst>
+          <a:lin ang="5400000" scaled="0"/>
+        </a:gradFill>
+      </a:bgFillStyleLst>
+    </a:fmtScheme>
+  </a:themeElements>
+  <a:objectDefaults>
+    <a:spDef>
+      <a:spPr>
+        <a:noFill/>
+        <a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+          <a:solidFill>
+            <a:srgbClr val="3F136C"/>
+          </a:solidFill>
+          <a:prstDash val="solid"/>
+        </a:ln>
+        <a:effectLst/>
+      </a:spPr>
+      <a:bodyPr rtlCol="0" anchor="ctr"/>
+      <a:lstStyle>
+        <a:defPPr marL="0" marR="0" indent="0" algn="ctr" defTabSz="914400" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+          <a:lnSpc>
+            <a:spcPct val="100000"/>
+          </a:lnSpc>
+          <a:spcBef>
+            <a:spcPts val="0"/>
+          </a:spcBef>
+          <a:spcAft>
+            <a:spcPts val="0"/>
+          </a:spcAft>
+          <a:buClrTx/>
+          <a:buSzTx/>
+          <a:buFontTx/>
+          <a:buNone/>
+          <a:tabLst/>
+          <a:defRPr kumimoji="0" sz="1800" b="0" i="0" u="none" strike="noStrike" kern="0" cap="none" spc="0" normalizeH="0" baseline="0" noProof="0" dirty="0" smtClean="0">
+            <a:ln>
+              <a:noFill/>
+            </a:ln>
+            <a:solidFill>
+              <a:srgbClr val="000000"/>
+            </a:solidFill>
+            <a:effectLst/>
+            <a:uLnTx/>
+            <a:uFillTx/>
+            <a:latin typeface="Bosch Office Sans"/>
+            <a:ea typeface="+mn-ea"/>
+            <a:cs typeface="+mn-cs"/>
+          </a:defRPr>
+        </a:defPPr>
+      </a:lstStyle>
+    </a:spDef>
+    <a:txDef>
+      <a:spPr>
+        <a:noFill/>
+      </a:spPr>
+      <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+        <a:noAutofit/>
+      </a:bodyPr>
+      <a:lstStyle>
+        <a:defPPr marR="0" algn="l" defTabSz="914400" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+          <a:spcBef>
+            <a:spcPts val="500"/>
+          </a:spcBef>
+          <a:spcAft>
+            <a:spcPts val="0"/>
+          </a:spcAft>
+          <a:buClrTx/>
+          <a:buSzTx/>
+          <a:buFontTx/>
+          <a:buNone/>
+          <a:tabLst/>
+          <a:defRPr kumimoji="0" sz="1800" b="0" i="0" u="none" strike="noStrike" kern="0" cap="none" spc="0" normalizeH="0" baseline="0" noProof="0" smtClean="0">
+            <a:ln>
+              <a:noFill/>
+            </a:ln>
+            <a:solidFill>
+              <a:srgbClr val="000000"/>
+            </a:solidFill>
+            <a:effectLst/>
+            <a:uLnTx/>
+            <a:uFillTx/>
+          </a:defRPr>
+        </a:defPPr>
+      </a:lstStyle>
+    </a:txDef>
+  </a:objectDefaults>
+  <a:extraClrSchemeLst/>
+  <a:custClrLst>
+    <a:custClr name="Bosch Red 50">
+      <a:srgbClr val="ED0007"/>
+    </a:custClr>
+    <a:custClr name="Bosch Purple 40">
+      <a:srgbClr val="9E2896"/>
+    </a:custClr>
+    <a:custClr name="Bosch Purple 20">
+      <a:srgbClr val="551151"/>
+    </a:custClr>
+    <a:custClr name="Bosch Blue 50">
+      <a:srgbClr val="007BC0"/>
+    </a:custClr>
+    <a:custClr name="Bosch Blue 30">
+      <a:srgbClr val="004975"/>
+    </a:custClr>
+    <a:custClr name="Bosch Turquoise 50">
+      <a:srgbClr val="18837E"/>
+    </a:custClr>
+    <a:custClr name="Bosch Turquoise 30">
+      <a:srgbClr val="0A4F4B"/>
+    </a:custClr>
+    <a:custClr name="Bosch Green 50">
+      <a:srgbClr val="00884A"/>
+    </a:custClr>
+    <a:custClr name="Bosch Green 30">
+      <a:srgbClr val="00512A"/>
+    </a:custClr>
+    <a:custClr name="Bosch Gray 50">
+      <a:srgbClr val="71767C"/>
+    </a:custClr>
+  </a:custClrLst>
+  <a:extLst>
+    <a:ext uri="{05A4C25C-085E-4340-85A3-A5531E510DB2}">
+      <thm15:themeFamily xmlns:thm15="http://schemas.microsoft.com/office/thememl/2012/main" name="template1.potx" id="{198F02AD-A328-41CF-AEF3-4AEA9DC97E6D}" vid="{A553CE3C-9352-4BF3-9E58-0BEA59765750}"/>
+    </a:ext>
+  </a:extLst>
+</a:theme>

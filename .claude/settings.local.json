@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 \"D:\\\\Projects\\\\TechonHack\\\\GDPR\\\\_bmad\\\\scripts\\\\resolve_customization.py\" --skill \"C:\\\\Users\\\\vivek\\\\.claude\\\\skills\\\\bmad-agent-pm\" --key agent)",
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\vivek\\\\Downloads\\\\Case Study_GDPR_BOSCH.docx\" -o \"D:\\\\Projects\\\\TechonHack\\\\GDPR\\\\_bmad-output\\\\case_study.md\")",
+      "PowerShell(if \\(-not \\(Test-Path \"D:\\\\Projects\\\\TechonHack\\\\GDPR\\\\_bmad-output\"\\)\\) { New-Item -ItemType Directory -Path \"D:\\\\Projects\\\\TechonHack\\\\GDPR\\\\_bmad-output\" | Out-Null }; pandoc --track-changes=all \"C:\\\\Users\\\\vivek\\\\Downloads\\\\Case Study_GDPR_BOSCH.docx\" -o \"D:\\\\Projects\\\\TechonHack\\\\GDPR\\\\_bmad-output\\\\case_study.md\"; if \\($?\\) { \"OK\" })",
+      "Bash(python C:/Users/vivek/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/0ca5bb82-4c6c-4afd-bd25-559f101e983b/7aa2fc20-69c1-479f-b9e3-cc6f9cfb3086/skills/docx/scripts/office/unpack.py 'C:/Users/vivek/Downloads/Bosch Automated GDPR Compliance.pptx' D:/Projects/TechonHack/GDPR/_bmad-output/pitch_unpacked)",
+      "Read(//c/Users/vivek/.claude/skills/bmad-create-prd/**)",
+      "Read(//c/Users/vivek/.claude/skills/bmad-create-prd/steps-c/**)",
+      "WebSearch",
+      "Bash(python \"D:\\\\Projects\\\\TechonHack\\\\GDPR\\\\_bmad\\\\scripts\\\\resolve_config.py\" --project-root \"D:\\\\Projects\\\\TechonHack\\\\GDPR\" --key agents)",
+      "Bash(python3 \"D:/Projects/TechonHack/GDPR/_bmad/scripts/resolve_customization.py\" --skill \"C:/Users/vivek/.claude/skills/bmad-validate-prd\" --key workflow)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(python \"_bmad/scripts/resolve_customization.py\" --skill \"C:/Users/vivek/.claude/skills/bmad-validate-prd\" --key workflow)",
+      "Bash(cd \"D:/Projects/TechonHack/GDPR\" && cat _bmad/core/config.yaml 2>&1; echo \"===CUSTOMIZE===\"; cat \"C:/Users/vivek/.claude/skills/bmad-validate-prd/customize.toml\" 2>&1 | head -80)",
+      "Bash(ls _bmad-output/*architecture*.md)",
+      "Bash(echo \"\\(exit $?\\)\")",
+      "Bash(find . -name \"project-context.md\")",
+      "Read(//c/Users/vivek/.claude/skills/bmad-create-architecture/**)"
+    ]
+  }
+}

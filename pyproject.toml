@@ -1,0 +1,10 @@
+[project]
+name = "bosch-gdpr-discovery"
+version = "0.1.0"
+description = "Automated GDPR Compliance - Bosch Data Discovery (scan engine)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["eval", "engine"]
+testpaths = ["eval", "engine"]
+addopts = "-q"

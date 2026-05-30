@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name="">
+          <a:extLst>
+            <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+              <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{2D680223-2271-D59F-9050-E5B468EB9DF4}"/>
+            </a:ext>
+          </a:extLst>
+        </p:cNvPr>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Textplatzhalter 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{FB6D067B-62FD-FF4F-BC16-FF1163E393D2}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" sz="quarter" idx="15"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" kern="1200" dirty="0" err="1">
+                <a:solidFill>
+                  <a:schemeClr val="accent1"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>TECHon</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" kern="1200" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="accent1"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t> Hackathon</a:t>
+            </a:r>
+            <a:endParaRPr lang="de-DE" kern="1200" dirty="0">
+              <a:solidFill>
+                <a:schemeClr val="accent1"/>
+              </a:solidFill>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Titel 2">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{E75D0194-C76F-F12A-9E5C-83D482A0167D}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="title"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>The Concept and Requirements</a:t>
+            </a:r>
+            <a:endParaRPr lang="de-DE" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="Inhaltsplatzhalter 3">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{022209FA-93DB-B716-BDE0-C35DEFDD8F7B}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph sz="half" idx="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="1295999"/>
+            <a:ext cx="4914000" cy="2055600"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="0" indent="0">
+              <a:buNone/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Scan Logic:</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Automatically detect personal data in unstructured sources</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Full Scan and Delta Scan capabilities</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Results should be accurate and reliable</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" indent="0">
+              <a:buNone/>
+            </a:pPr>
+            <a:br>
+              <a:rPr lang="en-US" dirty="0"/>
+            </a:br>
+            <a:endParaRPr lang="de-DE" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Inhaltsplatzhalter 4">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{6930B622-43FD-1EE4-5644-68725A867062}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph sz="half" idx="3"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="0" indent="0">
+              <a:buNone/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>User Frontend:</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Make findings transparent for user</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t>s</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>Possibility</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>to</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>delete</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> a </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>file</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>or</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>correct</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>the</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>finding</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>if</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>it</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>contains</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>no</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> personal </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>data</a:t>
+            </a:r>
+            <a:endParaRPr lang="de-DE" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t>The </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>user</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>should</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>have</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>the</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0"/>
+              <a:t> last </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="de-DE" dirty="0" err="1"/>
+              <a:t>word</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="6" name="Inhaltsplatzhalter 5">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{CAB44A09-CCD0-2D74-8C67-BA306FA010B6}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph sz="half" idx="2"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2599939" y="3467013"/>
+            <a:ext cx="5769322" cy="2055600"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="0" indent="0">
+              <a:buNone/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Admin Frontend (Reporting):</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" indent="0">
+              <a:buNone/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Dashboard with key KPIs:</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Total number of scanned files / Number of flagged files</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Total data volume (GB/TB) that has been scanned</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" dirty="0"/>
+              <a:t>Scan progress / Time the Scan needed to finish</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marL="0" indent="0">
+              <a:buNone/>
+            </a:pPr>
+            <a:endParaRPr lang="en-US" dirty="0"/>
+          </a:p>
+          <a:p>
+            <a:endParaRPr lang="de-DE" dirty="0"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="8" name="Foliennummernplatzhalter 7">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{5605D324-5517-0F17-B549-D9D2BFA0250F}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="12"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{4898AEC0-503E-4FA4-859C-D0F72D6E3F79}" type="slidenum">
+              <a:rPr lang="en-US" noProof="1" smtClean="0"/>
+              <a:pPr/>
+              <a:t>3</a:t>
+            </a:fld>
+            <a:endParaRPr lang="en-US" noProof="1"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="526654858"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:sld>

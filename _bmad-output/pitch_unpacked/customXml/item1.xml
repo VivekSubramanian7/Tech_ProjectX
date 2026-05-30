@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saxML>
+  
+	
+  <saxMLTemplate>presentation_169</saxMLTemplate>
+  
+	
+  <Variablen>
+    
+		
+    <Variable>
+      
+			
+      <Name>attachmentremark</Name>
+      
+			
+      <OrgInhalt/>
+      
+			
+      <Wert/>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>True</DocDatenDialog>
+      
+			
+      <Label>Attachment</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>AttachmentRemark</Sektion>
+      
+			
+      <Reihenfolge>0</Reihenfolge>
+      
+		
+    </Variable>
+    
+		
+    <Variable>
+      
+			
+      <Name>departmentshort</Name>
+      
+			
+      <OrgInhalt>BD/ICA-IPM1</OrgInhalt>
+      
+			
+      <Wert>BD/ICA-IPM1</Wert>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>True</DocDatenDialog>
+      
+			
+      <Label>Authoring</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <Trenner>
+        
+				
+        <VariableVor>classification</VariableVor>
+        
+				
+        <VariableVor>businessunit</VariableVor>
+        
+				
+        <Zwischen> | </Zwischen>
+        
+				
+        <VariableNach>departmentshort</VariableNach>
+        
+			
+      </Trenner>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>Bosch_footer_1</Sektion>
+      
+			
+      <Reihenfolge/>
+      
+		
+    </Variable>
+    
+		
+    <Variable>
+      
+			
+      <Name>classification</Name>
+      
+			
+      <OrgInhalt>Internal C-SC1</OrgInhalt>
+      
+			
+      <Wert>Internal C-SC1</Wert>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>True</DocDatenDialog>
+      
+			
+      <Label>Classification:</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <ComboBox>
+        
+				
+        <Option>Public C-SC0</Option>
+        
+				
+        <Option>Internal C-SC1</Option>
+        
+				
+        <Option>Confidential C-SC2</Option>
+        
+				
+        <Option>Strictly confidential C-SC3</Option>
+        
+				
+        <Option/>
+        
+			
+      </ComboBox>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>Bosch_footer_1</Sektion>
+      
+			
+      <Reihenfolge>0</Reihenfolge>
+      
+		
+    </Variable>
+    
+		
+    <Variable>
+      
+			
+      <Name>classification2</Name>
+      
+			
+      <OrgInhalt>Internal C-SC1</OrgInhalt>
+      
+			
+      <Wert>Internal C-SC1</Wert>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>False</DocDatenDialog>
+      
+			
+      <Label>Classification:</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <ComboBox>
+        
+				
+        <Option>Public C-SC0</Option>
+        
+				
+        <Option>Internal C-SC1</Option>
+        
+				
+        <Option>Confidential C-SC2</Option>
+        
+				
+        <Option>Strictly confidential C-SC3</Option>
+        
+				
+        <Option/>
+        
+			
+      </ComboBox>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>Bosch_footer_conf</Sektion>
+      
+			
+      <Reihenfolge>0</Reihenfolge>
+      
+		
+    </Variable>
+    
+		
+    <Variable>
+      
+			
+      <Name>copyright</Name>
+      
+			
+      <OrgInhalt>© Robert Bosch GmbH 2026. All rights reserved, also regarding any disposal, exploitation, reproduction, editing, distribution, as well as in the event of applications for industrial property rights.</OrgInhalt>
+      
+			
+      <Wert>© Robert Bosch GmbH 2026. All rights reserved, also regarding any disposal, exploitation, reproduction, editing, distribution, as well as in the event of applications for industrial property rights.</Wert>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>False</DocDatenDialog>
+      
+			
+      <Label>$tr_copyright$</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <Trenner>
+        
+				
+        <VariableVor>repositoryremark</VariableVor>
+        
+				
+        <Zwischen>&lt;br&gt;</Zwischen>
+        
+				
+        <VariableNach>copyright</VariableNach>
+        
+			
+      </Trenner>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>Bosch_footer_2</Sektion>
+      
+			
+      <Reihenfolge/>
+      
+		
+    </Variable>
+    
+		
+    <Variable>
+      
+			
+      <Name>dateformat</Name>
+      
+			
+      <OrgInhalt>2026-05-29</OrgInhalt>
+      
+			
+      <Wert>2026-05-29</Wert>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>True</DocDatenDialog>
+      
+			
+      <Label>Date</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <Trenner>
+        
+				
+        <VariableVor>departmentshort</VariableVor>
+        
+				
+        <VariableVor>classification</VariableVor>
+        
+				
+        <VariableVor>businessunit</VariableVor>
+        
+				
+        <Zwischen> | </Zwischen>
+        
+				
+        <VariableNach>dateformat</VariableNach>
+        
+			
+      </Trenner>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>Bosch_footer_1</Sektion>
+      
+			
+      <Reihenfolge>0</Reihenfolge>
+      
+		
+    </Variable>
+    
+		
+    <Variable>
+      
+			
+      <Name>businessunit</Name>
+      
+			
+      <OrgInhalt/>
+      
+			
+      <Wert/>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>False</DocDatenDialog>
+      
+			
+      <Label>$tr_businessunit$</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <Trenner>
+        
+				
+        <VariableVor>classification</VariableVor>
+        
+				
+        <Zwischen> | </Zwischen>
+        
+				
+        <VariableNach>businessunit</VariableNach>
+        
+			
+      </Trenner>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>Bosch_footer_1</Sektion>
+      
+			
+      <Reihenfolge>0</Reihenfolge>
+      
+		
+    </Variable>
+    
+		
+    <Variable>
+      
+			
+      <Name>repositoryremark</Name>
+      
+			
+      <OrgInhalt/>
+      
+			
+      <Wert/>
+      
+			
+      <Platzhalter>False</Platzhalter>
+      
+			
+      <DocDatenDialog>True</DocDatenDialog>
+      
+			
+      <Label>Filing note</Label>
+      
+			
+      <FrageVar>False</FrageVar>
+      
+			
+      <Prefix/>
+      
+			
+      <Suffix/>
+      
+			
+      <WegfallVar/>
+      
+			
+      <MussFeld>False</MussFeld>
+      
+			
+      <InDokument>True</InDokument>
+      
+			
+      <Sektion>Bosch_footer_2</Sektion>
+      
+			
+      <Reihenfolge>0</Reihenfolge>
+      
+		
+    </Variable>
+    
+	
+  </Variablen>
+  
+
+
+</saxML>

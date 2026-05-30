@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data / artifacts
+data/catalog.sqlite
+data/*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db

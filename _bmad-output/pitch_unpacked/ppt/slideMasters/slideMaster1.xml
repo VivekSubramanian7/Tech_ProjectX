@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p:sldMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:bg>
+      <p:bgRef idx="1001">
+        <a:schemeClr val="bg1"/>
+      </p:bgRef>
+    </p:bg>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="16" name="Logo">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{F38A617B-35DF-43CE-B5F7-67FA9A7F2474}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvPicPr>
+            <a:picLocks noSelect="1" noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr userDrawn="1"/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId22" cstate="hqprint">
+            <a:extLst>
+              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+              </a:ext>
+            </a:extLst>
+          </a:blip>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="9779054" y="5676108"/>
+            <a:ext cx="1015200" cy="276683"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Title Placeholder 1"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="title"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="648000"/>
+            <a:ext cx="10558800" cy="388800"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr vert="horz" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0" anchor="t" anchorCtr="0">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Add Slide Title</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Text Placeholder 2"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" idx="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="1296000"/>
+            <a:ext cx="10558800" cy="4240800"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr vert="horz" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr lvl="0"/>
+            <a:r>
+              <a:rPr lang="de-DE" noProof="1"/>
+              <a:t>Mastertextformat bearbeiten</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="1"/>
+            <a:r>
+              <a:rPr lang="de-DE" noProof="1"/>
+              <a:t>Zweite Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="2"/>
+            <a:r>
+              <a:rPr lang="de-DE" noProof="1"/>
+              <a:t>Dritte Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="3"/>
+            <a:r>
+              <a:rPr lang="de-DE" noProof="1"/>
+              <a:t>Vierte Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="4"/>
+            <a:r>
+              <a:rPr lang="de-DE" noProof="1"/>
+              <a:t>Fünfte Ebene</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" noProof="1"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="7" name="Slide Number Placeholder 6"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="12"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="5666400"/>
+            <a:ext cx="288290" cy="410210"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr vert="horz" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0" anchor="t"/>
+          <a:lstStyle>
+            <a:lvl1pPr algn="l">
+              <a:defRPr sz="1200">
+                <a:solidFill>
+                  <a:srgbClr val="999FA6"/>
+                </a:solidFill>
+                <a:latin typeface="+mn-lt"/>
+              </a:defRPr>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:fld id="{4898AEC0-503E-4FA4-859C-D0F72D6E3F79}" type="slidenum">
+              <a:rPr lang="en-US" noProof="1" dirty="0" smtClean="0"/>
+              <a:pPr/>
+              <a:t>‹Nr.›</a:t>
+            </a:fld>
+            <a:endParaRPr lang="en-US" noProof="1"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="14" name="Bosch_footer_1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{179AD5EC-CEF2-4193-998B-D730BC74E01B}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1"/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="547200" y="5688000"/>
+            <a:ext cx="9126000" cy="107950"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+              <a:lnSpc>
+                <a:spcPct val="107000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="100"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:tabLst/>
+              <a:defRPr/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:srgbClr val="ED0007"/>
+                </a:solidFill>
+                <a:latin typeface="+mn-lt"/>
+              </a:rPr>
+              <a:t>Lukas Spruth </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+                <a:latin typeface="+mn-lt"/>
+              </a:rPr>
+              <a:t>| 2026-05-29</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr marR="0" defTabSz="914400" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+              <a:lnSpc>
+                <a:spcPct val="107000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="100"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:tabLst/>
+            </a:pPr>
+            <a:endParaRPr kumimoji="0" lang="en-US" sz="600" b="0" i="0" u="none" strike="noStrike" kern="0" cap="none" spc="0" normalizeH="0" baseline="0" noProof="1">
+              <a:ln>
+                <a:noFill/>
+              </a:ln>
+              <a:solidFill>
+                <a:srgbClr val="000000"/>
+              </a:solidFill>
+              <a:effectLst/>
+              <a:uLnTx/>
+              <a:uFillTx/>
+              <a:latin typeface="+mn-lt"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="8" name="Bosch_footer_2">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{C3D77AD5-379C-4A86-AFCF-32945A0FEE26}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1"/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="547200" y="5793901"/>
+            <a:ext cx="9126000" cy="215900"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPct val="120000"/>
+              </a:lnSpc>
+              <a:spcAft>
+                <a:spcPts val="100"/>
+              </a:spcAft>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:srgbClr val="B2B3B5"/>
+                </a:solidFill>
+                <a:latin typeface="+mn-lt"/>
+              </a:rPr>
+              <a:t>© Robert Bosch GmbH 2026. All rights reserved, also regarding any disposal, exploitation, reproduction, editing, distribution, as well as in the event of applications for industrial property rights.</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="15" name="Bosch_footer_1" hidden="1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{DB0BF576-A4BE-4521-98AB-F28795DF7BD0}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1"/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="816069" y="5383543"/>
+            <a:ext cx="9154800" cy="108000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+              <a:lnSpc>
+                <a:spcPct val="107000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="100"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:tabLst/>
+              <a:defRPr/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" b="1" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:srgbClr val="D70012"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>%classification%</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>%businessunit%%departmentshort%%dateformat%</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="9" name="Bosch_footer_2" hidden="1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{E897C98A-4665-443F-B1CF-E9B71E9916EC}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1"/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="593090" y="5748656"/>
+            <a:ext cx="9152890" cy="215900"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPct val="120000"/>
+              </a:lnSpc>
+              <a:spcAft>
+                <a:spcPts val="100"/>
+              </a:spcAft>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>%repositoryremark%</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:srgbClr val="B2B3B5"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>%copyright%</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Bosch_footer_conf" hidden="1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{F284BCA6-6C15-7058-29DB-AB9000B6F1CF}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1"/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="816069" y="5168593"/>
+            <a:ext cx="9154800" cy="108000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+            <a:noAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+              <a:lnSpc>
+                <a:spcPct val="107000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:spcAft>
+                <a:spcPts val="100"/>
+              </a:spcAft>
+              <a:buClrTx/>
+              <a:buSzTx/>
+              <a:buFontTx/>
+              <a:buNone/>
+              <a:tabLst/>
+              <a:defRPr/>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" sz="600" b="1" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:srgbClr val="D70012"/>
+                </a:solidFill>
+              </a:rPr>
+              <a:t>%classification%</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" sz="600" kern="0" baseline="0" noProof="1">
+              <a:solidFill>
+                <a:schemeClr val="tx1"/>
+              </a:solidFill>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="13" name="AttachmentRemark" hidden="1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{F41551A9-D6BA-431A-8DBF-55BA472D9657}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks/>
+          </p:cNvSpPr>
+          <p:nvPr userDrawn="1"/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="9224010" y="259080"/>
+            <a:ext cx="1691640" cy="777240"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+          <a:ln w="0" cap="flat" cmpd="sng" algn="ctr">
+            <a:noFill/>
+            <a:prstDash val="solid"/>
+          </a:ln>
+          <a:effectLst/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="17779" rIns="0" bIns="0" rtlCol="0" anchor="t">
+            <a:normAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr rtl="0">
+              <a:lnSpc>
+                <a:spcPts val="900"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" sz="550" b="0" i="0" u="none" strike="noStrike" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="+mn-lt"/>
+              </a:rPr>
+              <a:t>%attachmentremark% </a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="12" name="SuperGraphic">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{1E0562BC-DD12-4C96-A115-D2D70EC1366D}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvPicPr>
+            <a:picLocks noSelect="1" noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr userDrawn="1"/>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId23">
+            <a:extLst>
+              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+              </a:ext>
+            </a:extLst>
+          </a:blip>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="6102000"/>
+            <a:ext cx="10969200" cy="68556"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="851553184"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>
+  <p:sldLayoutIdLst>
+    <p:sldLayoutId id="2147483748" r:id="rId1"/>
+    <p:sldLayoutId id="2147483710" r:id="rId2"/>
+    <p:sldLayoutId id="2147483713" r:id="rId3"/>
+    <p:sldLayoutId id="2147483749" r:id="rId4"/>
+    <p:sldLayoutId id="2147483750" r:id="rId5"/>
+    <p:sldLayoutId id="2147483751" r:id="rId6"/>
+    <p:sldLayoutId id="2147483752" r:id="rId7"/>
+    <p:sldLayoutId id="2147483753" r:id="rId8"/>
+    <p:sldLayoutId id="2147483754" r:id="rId9"/>
+    <p:sldLayoutId id="2147483755" r:id="rId10"/>
+    <p:sldLayoutId id="2147483746" r:id="rId11"/>
+    <p:sldLayoutId id="2147483744" r:id="rId12"/>
+    <p:sldLayoutId id="2147483724" r:id="rId13"/>
+    <p:sldLayoutId id="2147483726" r:id="rId14"/>
+    <p:sldLayoutId id="2147483727" r:id="rId15"/>
+    <p:sldLayoutId id="2147483728" r:id="rId16"/>
+    <p:sldLayoutId id="2147483729" r:id="rId17"/>
+    <p:sldLayoutId id="2147483745" r:id="rId18"/>
+    <p:sldLayoutId id="2147483723" r:id="rId19"/>
+    <p:sldLayoutId id="2147483734" r:id="rId20"/>
+  </p:sldLayoutIdLst>
+  <p:hf hdr="0" ftr="0" dt="0"/>
+  <p:txStyles>
+    <p:titleStyle>
+      <a:lvl1pPr algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="89000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPct val="0"/>
+        </a:spcBef>
+        <a:buNone/>
+        <a:defRPr sz="2800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="accent1"/>
+          </a:solidFill>
+          <a:latin typeface="+mj-lt"/>
+          <a:ea typeface="+mj-ea"/>
+          <a:cs typeface="+mj-cs"/>
+        </a:defRPr>
+      </a:lvl1pPr>
+    </p:titleStyle>
+    <p:bodyStyle>
+      <a:lvl1pPr marL="230400" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="107000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Wingdings" panose="05000000000000000000" pitchFamily="2" charset="2"/>
+        <a:buChar char="§"/>
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl1pPr>
+      <a:lvl2pPr marL="687600" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="103000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Symbol" panose="05050102010706020507" pitchFamily="18" charset="2"/>
+        <a:buChar char="-"/>
+        <a:defRPr sz="1600" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl2pPr>
+      <a:lvl3pPr marL="1144800" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="102000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Symbol" panose="05050102010706020507" pitchFamily="18" charset="2"/>
+        <a:buChar char="-"/>
+        <a:defRPr sz="1400" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl3pPr>
+      <a:lvl4pPr marL="1602000" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="103000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Bosch Office Sans" pitchFamily="2" charset="0"/>
+        <a:buChar char="‒"/>
+        <a:defRPr sz="1300" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl4pPr>
+      <a:lvl5pPr marL="1602000" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="103000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Bosch Office Sans" pitchFamily="2" charset="0"/>
+        <a:buChar char="‒"/>
+        <a:defRPr sz="1300" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl5pPr>
+      <a:lvl6pPr marL="1602000" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="103000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Bosch Office Sans" pitchFamily="2" charset="0"/>
+        <a:buChar char="‒"/>
+        <a:defRPr sz="1300" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl6pPr>
+      <a:lvl7pPr marL="1602000" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="103000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Bosch Office Sans" pitchFamily="2" charset="0"/>
+        <a:buChar char="‒"/>
+        <a:defRPr sz="1300" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl7pPr>
+      <a:lvl8pPr marL="1602000" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="103000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Bosch Office Sans" pitchFamily="2" charset="0"/>
+        <a:buChar char="‒"/>
+        <a:defRPr sz="1300" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl8pPr>
+      <a:lvl9pPr marL="1602000" indent="-230400" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:lnSpc>
+          <a:spcPct val="103000"/>
+        </a:lnSpc>
+        <a:spcBef>
+          <a:spcPts val="500"/>
+        </a:spcBef>
+        <a:buFont typeface="Bosch Office Sans" pitchFamily="2" charset="0"/>
+        <a:buChar char="‒"/>
+        <a:defRPr sz="1300" kern="1200" baseline="0">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl9pPr>
+    </p:bodyStyle>
+    <p:otherStyle>
+      <a:defPPr>
+        <a:defRPr lang="de-DE"/>
+      </a:defPPr>
+      <a:lvl1pPr marL="0" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl1pPr>
+      <a:lvl2pPr marL="457166" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl2pPr>
+      <a:lvl3pPr marL="914333" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl3pPr>
+      <a:lvl4pPr marL="1371499" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl4pPr>
+      <a:lvl5pPr marL="1828665" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl5pPr>
+      <a:lvl6pPr marL="2285832" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl6pPr>
+      <a:lvl7pPr marL="2742998" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl7pPr>
+      <a:lvl8pPr marL="3200165" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl8pPr>
+      <a:lvl9pPr marL="3657332" algn="l" defTabSz="914333" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+        <a:defRPr sz="1800" kern="1200">
+          <a:solidFill>
+            <a:schemeClr val="tx1"/>
+          </a:solidFill>
+          <a:latin typeface="+mn-lt"/>
+          <a:ea typeface="+mn-ea"/>
+          <a:cs typeface="+mn-cs"/>
+        </a:defRPr>
+      </a:lvl9pPr>
+    </p:otherStyle>
+  </p:txStyles>
+  <p:extLst>
+    <p:ext uri="{27BBF7A9-308A-43DC-89C8-2F10F3537804}">
+      <p15:sldGuideLst xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main"/>
+    </p:ext>
+  </p:extLst>
+</p:sldMaster>

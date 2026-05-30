@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sax_Colors>
+  
+        
+  <Line size="7">
+    
+          
+    <Color val="9e2896" tooltip="Bosch Purple 40"/>
+    
+          
+    <Color val="551151" tooltip="Bosch Purple 20"/>
+    
+        
+  </Line>
+  
+        
+  <Line size="7">
+    
+          
+    <Color val="007bc0" tooltip="Bosch Blue 50"/>
+    
+          
+    <Color val="004975" tooltip="Bosch Blue 30"/>
+    
+        
+  </Line>
+  
+        
+  <Line size="7">
+    
+          
+    <Color val="18837e" tooltip="Bosch Turquoise 50"/>
+    
+          
+    <Color val="0a4f4b" tooltip="Bosch Turquoise 30"/>
+    
+        
+  </Line>
+  
+        
+  <Line size="7">
+    
+          
+    <Color val="00884a" tooltip="Bosch Green 50"/>
+    
+          
+    <Color val="00512a" tooltip="Bosch Green 30"/>
+    
+        
+  </Line>
+  
+
+</sax_Colors>

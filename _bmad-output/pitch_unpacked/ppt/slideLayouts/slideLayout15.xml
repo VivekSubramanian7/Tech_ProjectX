@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" type="objTx" preserve="1">
+  <p:cSld name="2 Horizontal contents ">
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="17" name="Chapter_titleonly">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{9398DDFA-1939-498B-8921-7DDB40481FE9}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="body" sz="quarter" idx="15" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="259200"/>
+            <a:ext cx="10558800" cy="388800"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr marL="0" indent="0">
+              <a:lnSpc>
+                <a:spcPct val="89000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="0"/>
+              </a:spcBef>
+              <a:buNone/>
+              <a:defRPr sz="2800" kern="0" baseline="0">
+                <a:solidFill>
+                  <a:schemeClr val="tx1"/>
+                </a:solidFill>
+              </a:defRPr>
+            </a:lvl1pPr>
+            <a:lvl2pPr marL="233983" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="2800"/>
+            </a:lvl2pPr>
+            <a:lvl3pPr marL="525562" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="2800"/>
+            </a:lvl3pPr>
+            <a:lvl4pPr marL="748745" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="2800"/>
+            </a:lvl4pPr>
+            <a:lvl5pPr marL="748745" indent="0">
+              <a:buNone/>
+              <a:defRPr sz="2800"/>
+            </a:lvl5pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr lvl="0"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Add Chapter Title</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="13" name="Title 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{AB79D08E-37B8-49BA-9E18-ED577CD99900}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="title" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="648000"/>
+            <a:ext cx="10558800" cy="388800"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr>
+              <a:defRPr kern="1200" baseline="0"/>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Add Slide Title</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Content Placeholder 1"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph sz="half" idx="1" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="1296000"/>
+            <a:ext cx="10558800" cy="2055600"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr>
+              <a:defRPr/>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr lvl="0"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Add Text </a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="1"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Zweite Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="2"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Dritte Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="3"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Vierte Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="4"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Fünfte Ebene</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="6" name="Content Placeholder 2"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph sz="half" idx="2" hasCustomPrompt="1"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="205200" y="3481200"/>
+            <a:ext cx="10558800" cy="2055600"/>
+          </a:xfrm>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle>
+            <a:lvl1pPr>
+              <a:defRPr/>
+            </a:lvl1pPr>
+          </a:lstStyle>
+          <a:p>
+            <a:pPr lvl="0"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Add Text </a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="1"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Zweite Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="2"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Dritte Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="3"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Vierte Ebene</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="4"/>
+            <a:r>
+              <a:rPr lang="en-US" noProof="1"/>
+              <a:t>Fünfte Ebene</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="12" name="AttachmentRemark">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{2E7C0809-54C2-4B00-97B9-AEB55C54DF36}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks/>
+          </p:cNvSpPr>
+          <p:nvPr userDrawn="1"/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="9224010" y="259080"/>
+            <a:ext cx="1691640" cy="777240"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+          <a:ln w="0" cap="flat" cmpd="sng" algn="ctr">
+            <a:noFill/>
+            <a:prstDash val="solid"/>
+          </a:ln>
+          <a:effectLst/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="17779" rIns="0" bIns="0" rtlCol="0" anchor="t">
+            <a:normAutofit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr rtl="0">
+              <a:lnSpc>
+                <a:spcPts val="900"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" sz="550" b="0" i="0" u="none" strike="noStrike" kern="0" baseline="0" noProof="1">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="+mn-lt"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Slide Number Placeholder 1">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{D337342F-2EB7-4EB1-963F-314A664F0F2C}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="12"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr/>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{4898AEC0-503E-4FA4-859C-D0F72D6E3F79}" type="slidenum">
+              <a:rPr lang="en-US" noProof="1" smtClean="0"/>
+              <a:pPr/>
+              <a:t>‹Nr.›</a:t>
+            </a:fld>
+            <a:endParaRPr lang="en-US" noProof="1"/>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="3956372322"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:extLst>
+    <p:ext uri="{DCECCB84-F9BA-43D5-87BE-67443E8EF086}">
+      <p15:sldGuideLst xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main">
+        <p15:guide id="1" pos="128" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="2" pos="6784" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="3" orient="horz" pos="162" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="4" orient="horz" pos="408" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="5" orient="horz" pos="654" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="6" orient="horz" pos="816" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="7" orient="horz" pos="3489" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="8" orient="horz" pos="2113" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+        <p15:guide id="9" orient="horz" pos="2192" userDrawn="1">
+          <p15:clr>
+            <a:srgbClr val="FBAE40"/>
+          </p15:clr>
+        </p15:guide>
+      </p15:sldGuideLst>
+    </p:ext>
+  </p:extLst>
+</p:sldLayout>

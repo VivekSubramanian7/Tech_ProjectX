@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:p w14:paraId="1FDA5597" w14:textId="1720AC09" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00933D49" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="44"/>
+          <w:szCs w:val="44"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Automated GDPR Compliance: A Data Discovery Concept for Bosch</w:t>
+      <w:br/></w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Concept Paper for the Identification and Categorization of Personal Data on Corporate Drives and SharePoint Sites</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="161245AB" w14:textId="60E6B7C8" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00153B69" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Introduction: Objective and Background</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5607735B" w14:textId="37FE61DA" w:rsidR="00153B69" w:rsidRDefault="00153B69" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>As part of a 48-hour hackathon, an innovative software concept is being developed to enable the automated identification and categorization of personal and GDPR-relevant data on corporate drives, SharePoint sites, OneDrives, and other data sources. The goal is to sustainably identify sensible data and delete it when required. The solution will be developed as a prototype (Proof of Concept) and serve as a basis for future scaling.</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="7D63C8F3" w14:textId="77777777" w:rsidR="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Legal Basis:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="668D1E11" w14:textId="2960B09A" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>The General Data Protection Regulation (GDPR) is a comprehensive data privacy law enacted by the European Union (EU). It regulates how organizations worldwide must handle the personal data of individuals located in the EU. The primary goal is to give individuals control over their personal data and to unify data privacy and security laws across Europe.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="58376647" w14:textId="297B1716" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+      <w:r>
+        <w:t>Relevant Articles:</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblCellSpacing w:w="15" w:type="dxa"/>
+        <w:tblCellMar>
+          <w:top w:w="15" w:type="dxa"/>
+          <w:left w:w="15" w:type="dxa"/>
+          <w:bottom w:w="15" w:type="dxa"/>
+          <w:right w:w="15" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1134"/>
+        <w:gridCol w:w="1573"/>
+        <w:gridCol w:w="6365"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00823C55" w:rsidRPr="00823C55" w14:paraId="13274833" w14:textId="77777777" w:rsidTr="00823C55">
+        <w:trPr>
+          <w:tblCellSpacing w:w="15" w:type="dxa"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1089" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="605B8C88" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            
+            <w:r>
+              <w:t>Article</w:t>
+            </w:r>
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1543" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="332B15F9" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:t>Title</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="16F6BFC3" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            
+            <w:r>
+              <w:t>Relevance to Data Management</w:t>
+            </w:r>
+            
+            
+            
+            
+            
+            
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00823C55" w:rsidRPr="00823C55" w14:paraId="4945BAC6" w14:textId="77777777" w:rsidTr="00823C55">
+        <w:trPr>
+          <w:tblCellSpacing w:w="15" w:type="dxa"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1089" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="65099462" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            
+            <w:r>
+              <w:t>Article 5</w:t>
+            </w:r>
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1543" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="3B8E54DC" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+              <w:t>Principles relating to processing of personal data</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="5E5A4CEB" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+              <w:t>This article sets the core principles. For data management, data minimisation (only process necessary data) and storage limitation (don't store data longer than needed) are crucial. Tools help enforce this by identifying and deleting obsolete data.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00823C55" w:rsidRPr="00823C55" w14:paraId="7C5FB792" w14:textId="77777777" w:rsidTr="00823C55">
+        <w:trPr>
+          <w:tblCellSpacing w:w="15" w:type="dxa"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1089" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="131B0AE2" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            
+            <w:r>
+              <w:t>Article 17</w:t>
+            </w:r>
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1543" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="0F7D487C" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+              <w:t>Right to erasure ('right to be forgotten')</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="5452825B" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+              <w:t>This gives individuals the right to have their personal data deleted by an organization. A data management tool is essential to fulfill these requests by finding and securely deleting the relevant data from all systems, including unstructured files.</w:t>
+            </w:r>
+            
+            
+            
+            
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00823C55" w:rsidRPr="00823C55" w14:paraId="36C006A1" w14:textId="77777777" w:rsidTr="00823C55">
+        <w:trPr>
+          <w:tblCellSpacing w:w="15" w:type="dxa"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1089" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="7F12460F" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            
+            <w:r>
+              <w:t>Article 25</w:t>
+            </w:r>
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1543" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="7B16AE8C" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+              <w:t>Data protection by design and by default</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="30332FDD" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+              <w:t>This principle requires organizations to integrate data protection measures into their processing activities and systems from the very beginning. Using an automated tool to manage data lifecycles is a perfect example of implementing &quot;privacy by design.&quot;</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00823C55" w:rsidRPr="00823C55" w14:paraId="7DE7A98D" w14:textId="77777777" w:rsidTr="00823C55">
+        <w:trPr>
+          <w:trHeight w:val="330"/>
+          <w:tblCellSpacing w:w="15" w:type="dxa"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1089" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="7FCB240E" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            
+            <w:r>
+              <w:lastRenderedPageBreak/>
+              <w:t>Article 32</w:t>
+            </w:r>
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="1543" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="2F33178F" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:r>
+              <w:t>Security of processing</w:t>
+            </w:r>
+            
+            
+            
+            
+            
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="0" w:type="auto"/>
+            <w:vAlign w:val="center"/>
+            <w:hideMark/>
+          </w:tcPr>
+          <w:p w14:paraId="561BA722" w14:textId="77777777" w:rsidR="00823C55" w:rsidRPr="00823C55" w:rsidRDefault="00823C55" w:rsidP="00823C55">
+            <w:pPr>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:lang w:val="en-GB"/>
+              </w:rPr>
+              <w:t>To properly secure personal data, you first need to know where it is. Tools that scan for and classify personal data are fundamental to understanding the risk landscape and applying appropriate security measures to protect it.</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="3287B559" w14:textId="3B607D22" w:rsidR="00823C55" w:rsidRPr="00153B69" w:rsidRDefault="00823C55" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="76E159C6" w14:textId="429CEC7A" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00153B69" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Problem Statement: GDPR and Data Management</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3E3DFA77" w14:textId="0D203D97" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00153B69" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>With the introduction of the General Data Protection Regulation (GDPR), companies are obligated to manage personal data transparently and delete it after the retention period is exceeded. In large organizations like Bosch, the multitude and distribution of data sources, approximately 300,000 OneDrives and globally distributed shared drives and SharePoint sites, pose a significant challenge. Manual auditing is hardly feasible, creating a high demand for automated tools that can reliably identify and classify data relevant to data protection.</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="6ABE72AE" w14:textId="43A7A928" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00153B69" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Solution Approach: Software Concept and AI Implementation</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="27427A0B" w14:textId="647E25E9" w:rsidR="00153B69" w:rsidRDefault="00153B69" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>The planned software combines modern AI technologies with classic search mechanisms to detect personal and sensitive data across various corporate databases. The scan will be conducted in two stages: first, a complete search (full scan) is performed, followed by subsequent checks at regular intervals that only review files modified since the last scan (delta scan). The AI will provide suggestions for data categorization, with the final review and deletion of the file being conducted by a human to ensure compliance. The discovered data can always be attributed to a person, either as a direct owner (e.g., OneDrive) or indirectly as a &quot;Master of Data&quot; (e.g., SharePoint, Shared Drives).</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="3485C73C" w14:textId="77777777" w:rsidR="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="21FBF279" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="495B209F" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="2AA3E3D9" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0B6CE996" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="6512DE14" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="36D2F411" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="0CB1E299" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="29628C05" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="26CAC83E" w14:textId="77777777" w:rsidR="00B40944" w:rsidRPr="00153B69" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="3C50C300" w14:textId="323607EC" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00153B69" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>Scope: Artifacts to be Implemented</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0155AA06" w14:textId="60329646" w:rsidR="00153B69" w:rsidRDefault="00933D49" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Priority 1: Scan Logic:</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="4F055CB4" w14:textId="18A5AD6A" w:rsidR="00933D49" w:rsidRPr="00153B69" w:rsidRDefault="00933D49" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>The primary goal of the scan logic is to effectively identify personal data within unstructured content. The technical approach to achieve this is deliberately left open, allowing teams to be creative and innovative. The choice of implementation is yours—whether it's an AI-driven model, a classic template-matching system, or a hybrid solution, the key success factor will be the accuracy and reliability of the results.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="77DEB162" w14:textId="7C4D2CED" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00933D49" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:br/>
+        <w:t>Priority 2: Frontend (User View):</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="5C4100B9" w14:textId="54E71A1A" w:rsidR="00933D49" w:rsidRPr="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>When an employee logs in, this interface should:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="44C59A04" w14:textId="77777777" w:rsidR="00933D49" w:rsidRPr="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="33"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Show Personal Scan Results: Display a clear list of only the files the logged-in user is responsible for that have been flagged by the scan.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="67D797CA" w14:textId="5F534E23" w:rsidR="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="33"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Enable User Action: Allow the user to click on a file to understand the issue and take a simple, guided action. For example, they could confirm that the data is required for business reasons or acknowledge that they need to clean up the file.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="09373187" w14:textId="77777777" w:rsidR="009A5234" w:rsidRPr="009A5234" w:rsidRDefault="009A5234" w:rsidP="009A5234">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="473A331C" w14:textId="344B1887" w:rsidR="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Priority 3: Frontend (Admin View): </w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="75DB2904" w14:textId="679CB74F" w:rsidR="00933D49" w:rsidRPr="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>An overview dashboard that serves as a central control panel. This view should provide key metrics and a high-level summary of the data landscape. Essential key numbers to display include:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="73C17523" w14:textId="77777777" w:rsidR="00933D49" w:rsidRPr="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="31"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Total number of scanned files.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5FB7B520" w14:textId="77777777" w:rsidR="00933D49" w:rsidRPr="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="31"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Total size (GB/TB) of the scanned data.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="25AC7EBE" w14:textId="115646EF" w:rsidR="00933D49" w:rsidRPr="00933D49" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="31"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Number of files identified with potential findings.</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="77A02B78" w14:textId="77777777" w:rsidR="00933D49" w:rsidRPr="00153B69" w:rsidRDefault="00933D49" w:rsidP="00933D49">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="35D22A8F" w14:textId="55B25076" w:rsidR="00153B69" w:rsidRPr="00153B69" w:rsidRDefault="00B40944" w:rsidP="00153B69">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>(Priority 4: OneDrive, SharePoint, &amp; Fileshare Connectors)</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="027CEEB6" w14:textId="43A69B5E" w:rsidR="00153B69" w:rsidRDefault="00933D49" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>The foundation of this data discovery solution lies in its ability to access and read data from various corporate sources. For this hackathon, your task is to develop the automation that enables the system to reliably connect to and read content from these specified data sources.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4F29CF62" w14:textId="77777777" w:rsidR="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="1B2CF833" w14:textId="4DCBBECB" w:rsidR="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00404F2A">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Evaluation criteria:</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="5048E503" w14:textId="77777777" w:rsidR="00404F2A" w:rsidRPr="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00404F2A">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Scan accuracy (What % of the files are correctly identified, taken into consideration fals positives and negatives)</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="178685F3" w14:textId="77777777" w:rsidR="00404F2A" w:rsidRPr="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00404F2A">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Reproducibility (Repeated scans shall produce the same outcome)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1ECD774C" w14:textId="77777777" w:rsidR="00404F2A" w:rsidRPr="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00404F2A">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>Scan speed (How much time is consumed to get through a defined amount of data)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4B66650B" w14:textId="77777777" w:rsidR="00404F2A" w:rsidRPr="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00404F2A">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Resource intensity (How much computing power is required to fulfill the task)</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="29C77A9D" w14:textId="77777777" w:rsidR="00404F2A" w:rsidRPr="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00404F2A">
+      <w:pPr>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="233EFF56" w14:textId="0A21429C" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="Times New Roman" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi"/>
+          <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Example for personal data:</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:br/>
+      <w:t xml:space="preserve">First name, last name </w:t></w:r>
+      
+    </w:p>
+    <w:p w14:paraId="34D1FB92" w14:textId="2E196F41" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Username / login name </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="593AAC92" w14:textId="0E4DBF96" w:rsidR="007E2CC4" w:rsidRPr="00B40944" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>E</w:t>
+      </w:r>
+      <w:r>
+        <w:t>mail address</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="76ACD7F8" w14:textId="46C7EFE9" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Signature </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5FE62D51" w14:textId="7BAD89E1" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>(Photo / video of a person)</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="30470F6A" w14:textId="77777777" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Phone number (mobile / landline)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3127108D" w14:textId="77777777" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Fax number</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="42B2D028" w14:textId="77777777" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Home address</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="710F6474" w14:textId="709D938F" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Billing / shipping address </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1250D253" w14:textId="77777777" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Passport number</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="41A183BB" w14:textId="77777777" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>ID card number</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="50C500B3" w14:textId="6C478502" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Driver&#x2019;s license number</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="55C3D7CD" w14:textId="77777777" w:rsidR="007E2CC4" w:rsidRPr="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="007E2CC4">
+      <w:pPr>
+        <w:pStyle w:val="Listenabsatz"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        <w:t>Travel history</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="013D8B2D" w14:textId="1C656FBE" w:rsidR="00404F2A" w:rsidRDefault="00404F2A" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5FB07653" w14:textId="77777777" w:rsidR="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="2C131133" w14:textId="354941D6" w:rsidR="007E2CC4" w:rsidRDefault="007E2CC4" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Git repo with some examples: </w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="0EFA37C3" w14:textId="4FECEA2A" w:rsidR="007E2CC4" w:rsidRDefault="00B40944" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:hyperlink r:id="rId5" w:history="1">
+        <w:r>
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+            <w:lang w:val="en-GB"/>
+          </w:rPr>
+          <w:t>https://github.com/a-klumpp/GDPR-data-samples</w:t>
+        </w:r>
+      </w:hyperlink>
+    </w:p>
+    <w:p w14:paraId="209796F4" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="66BF7DDD" w14:textId="6F3B5ED1" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+        <w:t>Retention Period: 3 Years</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="572720AB" w14:textId="77777777" w:rsidR="00B40944" w:rsidRDefault="00B40944" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5E48E63C" w14:textId="77777777" w:rsidR="00B40944" w:rsidRPr="00933D49" w:rsidRDefault="00B40944" w:rsidP="00714DCA">
+      <w:pPr>
+        <w:rPr>
+          <w:lang w:val="en-GB"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:sectPr w:rsidR="00B40944" w:rsidRPr="00933D49">
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1417" w:right="1417" w:bottom="1134" w:left="1417" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:cols w:space="708"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
