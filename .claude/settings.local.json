@@ -16,7 +16,11 @@
       "Bash(ls _bmad-output/*architecture*.md)",
       "Bash(echo \"\\(exit $?\\)\")",
       "Bash(find . -name \"project-context.md\")",
-      "Read(//c/Users/vivek/.claude/skills/bmad-create-architecture/**)"
+      "Read(//c/Users/vivek/.claude/skills/bmad-create-architecture/**)",
+      "Bash(.venv/Scripts/python.exe -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import yaml; print\\('yaml', yaml.__version__\\)\")",
+      "Bash(.venv/Scripts/python.exe -m pytest --version)",
+      "Bash(.venv/Scripts/python.exe -m pytest eval/test_contracts.py -q)"
     ]
   }
 }
