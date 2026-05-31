@@ -1,0 +1,1 @@
+Build 2024.03.15 — fixed pagination bug. Ticket REF-991827364. Karte 1234 5678 9012 3456 ist nur eine Demo-Referenz. Keine Kundendaten in dieser Notiz.

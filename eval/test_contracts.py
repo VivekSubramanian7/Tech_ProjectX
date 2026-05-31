@@ -24,6 +24,7 @@ def test_bbox_holds_xywh_and_is_frozen():
 def test_label_carries_span_for_text():
     label = contracts.Label(
         file_id="doc1.txt",
+        native_id="doc1.txt",
         classification_code="EMAIL",
         modality="text",
         location=contracts.Span(0, 5),
@@ -39,6 +40,7 @@ def test_label_carries_span_for_text():
 def test_label_carries_bbox_for_image():
     label = contracts.Label(
         file_id="img1.png",
+        native_id="img1.png",
         classification_code="FACE",
         modality="image",
         location=contracts.BBox(10, 20, 30, 40),

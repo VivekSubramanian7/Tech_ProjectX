@@ -137,3 +137,91 @@ def evaluate(
         total_labels=total_labels,
         total_findings=total_findings,
     )
+
+
+def format_report(report: EvalReport) -> str:
+    lines = [
+        "=== Eval report (entity-level) ===",
+        f"Overall recall:        {report.overall_recall:.1%}  ({report.matched}/{report.total_labels} labels)",
+        f"False positive rate:   {report.false_positive_rate:.1%}  ({report.false_positives}/{report.total_findings} findings)",
+        f"Top-severity recall:   {_fmt_optional_pct(report.top_severity_recall)}",
+        "",
+        "Recall by modality:",
+    ]
+    for mod, val in sorted(report.recall_by_modality.items()):
+        lines.append(f"  {mod}: {_fmt_optional_pct(val)}")
+    lines.extend(["", "Recall by category:"])
+    for cat, val in sorted(report.recall_by_category.items()):
+        lines.append(f"  {cat}: {_fmt_optional_pct(val)}")
+    return "\n".join(lines)
+
+
+def _fmt_optional_pct(val: float | None) -> str:
+    return "n/a" if val is None else f"{val:.1%}"
+
+
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+    import json
+    import sys
+    from pathlib import Path
+
+    from calibration import calibrate
+    from collect_findings import collect_findings
+    from labeled_set import load_labeled_set
+
+    parser = argparse.ArgumentParser(description="Run Tier-1 engine on eval corpus and score KPIs.")
+    parser.add_argument(
+        "--corpus",
+        type=Path,
+        default=None,
+        help="Corpus root (default: data/samples)",
+    )
+    parser.add_argument("--json", action="store_true", help="Emit JSON instead of text report")
+    parser.add_argument("--calibration", action="store_true", help="Also print confidence calibration curve")
+    args = parser.parse_args(argv)
+
+    labels = load_labeled_set()
+
+    try:
+        findings = collect_findings(args.corpus)
+    except ImportError as exc:
+        print(f"Engine not available: {exc}", file=sys.stderr)
+        return 1
+    except FileNotFoundError as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
+
+    report = evaluate(findings, labels)
+
+    if args.json:
+        payload = {
+            "overall_recall": report.overall_recall,
+            "false_positive_rate": report.false_positive_rate,
+            "top_severity_recall": report.top_severity_recall,
+            "recall_by_category": report.recall_by_category,
+            "recall_by_modality": report.recall_by_modality,
+            "matched": report.matched,
+            "missed": report.missed,
+            "false_positives": report.false_positives,
+            "total_labels": report.total_labels,
+            "total_findings": report.total_findings,
+        }
+        print(json.dumps(payload, indent=2))
+    else:
+        print(format_report(report))
+        if args.calibration:
+            curve = calibrate(findings, labels)
+            print("\n=== Calibration ===")
+            for b in curve.bins:
+                prec = "n/a" if b.precision is None else f"{b.precision:.1%}"
+                print(
+                    f"  [{b.lower:.1f},{b.upper:.1f}): n={b.count} tp={b.true_positives} precision={prec}"
+                )
+            if curve.gaps:
+                print("Gaps:", "; ".join(curve.gaps))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

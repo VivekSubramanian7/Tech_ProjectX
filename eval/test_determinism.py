@@ -53,18 +53,70 @@ def test_dict_key_order_does_not_cause_false_nondeterminism():
     assert_deterministic(reordered_keys, runs=6)
 
 
-def _stub_tier1_scan():
-    """Placeholder for Epic 1's real Tier-1 engine over a fixed corpus.
+def _tier1_scan_engine():
+    """Tier-1 engine over eval corpus with fixed scope_id (NFR8)."""
+    try:
+        from collect_findings import collect_findings
+        from eval_config import EVAL_SCOPE_ID, eval_corpus_root
+    except ImportError:
+        return _tier1_scan_engine_fixtures_stub()
 
-    Deterministic by construction (sorted findings). Epic 1 replaces this with the
-    real engine entry point; the assertion below is the standing NFR8 gate.
-    """
-    findings = [
-        {"file_id": "local:doc1.txt", "code": "EMAIL", "span": [12, 33], "confidence": 0.99},
-        {"file_id": "local:doc1.txt", "code": "IBAN", "span": [100, 122], "confidence": 0.99},
-    ]
-    return sorted(findings, key=lambda f: (f["file_id"], f["span"][0], f["code"]))
+    corpus = eval_corpus_root()
+    if not corpus.is_dir():
+        return _tier1_scan_engine_fixtures_stub()
+
+    def _run():
+        findings = collect_findings(corpus, scope_id=EVAL_SCOPE_ID)
+        return sorted(
+            [
+                {
+                    "file_id": f.file_id,
+                    "code": f.classification_code,
+                    "span": [f.location.start, f.location.end],
+                    "confidence": f.confidence_score,
+                }
+                for f in findings
+            ],
+            key=lambda f: (f["file_id"], f["span"][0], f["code"]),
+        )
+
+    return _run
+
+
+def _tier1_scan_engine_fixtures_stub():
+    """Fallback when engine or eval corpus is unavailable."""
+    import tempfile
+    from pathlib import Path
+
+    fixtures = Path(__file__).resolve().parents[1] / "engine" / "tests" / "fixtures"
+    if not fixtures.is_dir():
+        fixtures = Path(__file__).resolve().parents[1] / ".." / "engine" / "tests" / "fixtures"
+    fixtures = fixtures.resolve()
+    try:
+        from app.repositories import CatalogRepository
+        from app.services.scan_orchestrator import ScanOrchestrator
+    except ImportError:
+        def _stub():
+            return [
+                {"file_id": "local:doc1.txt", "code": "EMAIL", "span": [12, 33], "confidence": 0.99},
+            ]
+
+        return _stub
+
+    root = Path(__file__).resolve().parents[1]
+    seed = root / "data" / "enum_seed.sql"
+    owners = root / "data" / "mock_owners.json"
+
+    def _run():
+        with tempfile.TemporaryDirectory() as tmp:
+            db = Path(tmp) / "catalog.sqlite"
+            repo = CatalogRepository(db)
+            repo.init_db(seed if seed.is_file() else None)
+            orch = ScanOrchestrator(repo, ownership_map_path=owners if owners.is_file() else None)
+            return orch.tier1_scan_callable(fixtures)()
+
+    return _run
 
 
 def test_tier1_scan_is_deterministic_nfr8():
-    assert_deterministic(_stub_tier1_scan, runs=10)
+    assert_deterministic(_tier1_scan_engine(), runs=10)

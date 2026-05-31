@@ -3,8 +3,17 @@ name = "bosch-gdpr-discovery"
 version = "0.1.0"
 description = "Automated GDPR Compliance - Bosch Data Discovery (scan engine)"
 requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.2",
+    "pytest>=8.3.0",
+    "httpx>=0.28.0",
+    "fastapi>=0.115.0",
+]
 
 [tool.pytest.ini_options]
 pythonpath = ["eval", "engine"]
 testpaths = ["eval", "engine"]
 addopts = "-q"
+markers = [
+    "slow: downloads spaCy models (deselect with -m 'not slow')",
+]

@@ -7,6 +7,7 @@ ACs:
 """
 from contracts import BBox, Span
 from enum_ref import ENUM
+from eval_config import EVAL_SCOPE_ID, eval_file_id
 from labeled_set import load_labeled_set, load_manifest
 
 
@@ -49,6 +50,22 @@ def test_manifest_distribution_matches_label_counts():
     assert sum(dist["by_category"].values()) == len(labels)
 
 
-def test_both_modalities_present_in_set():
+def test_set_is_text_only():
     modalities = {label.modality for label in load_labeled_set()}
-    assert {"text", "image"} <= modalities
+    assert modalities == {"text"}
+
+
+def test_file_id_is_stable_sha256_hex():
+    expected = eval_file_id("onboarding_email.txt")
+    assert len(expected) == 64
+    assert all(c in "0123456789abcdef" for c in expected)
+    labels = load_labeled_set()
+    onboarding = next(
+        l for l in labels
+        if l.classification_code == "EMAIL" and l.file_id == expected
+    )
+    assert onboarding.file_id == eval_file_id("onboarding_email.txt")
+
+
+def test_eval_scope_id_is_fixed():
+    assert EVAL_SCOPE_ID == "gdpr-eval-samples-v1"

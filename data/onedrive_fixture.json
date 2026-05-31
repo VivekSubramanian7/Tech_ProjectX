@@ -1,0 +1,26 @@
+{
+  "drive_id": "drive-test-001",
+  "delta_token": "delta-v1",
+  "delta_token_next": "delta-v2",
+  "items": [
+    {
+      "id": "item-001",
+      "name": "vendor_contact.txt",
+      "size": 48,
+      "mtime": 1710000000.0,
+      "content_b64": "RW1haWw6IHZlbmRvckBleGFtcGxlLmNvbQ=="
+    },
+    {
+      "id": "item-002",
+      "name": "new_doc.txt",
+      "size": 32,
+      "mtime": 1710000100.0,
+      "content_b64": "RW1haWw6IG5ld0B0ZXN0LmNvbQ=="
+    }
+  ],
+  "delta_changes": [
+    {"item_id": "item-002", "change_type": "created", "name": "new_doc.txt"},
+    {"item_id": "item-001", "change_type": "modified", "name": "vendor_contact.txt"},
+    {"item_id": "item-999", "change_type": "deleted", "name": "removed.txt"}
+  ]
+}

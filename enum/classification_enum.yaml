@@ -1,0 +1,224 @@
+# Single source of truth — see _bmad-output/pii-detection-scope.md
+entries:
+  - machine_code: PERSON_NAME
+    display_label: Full name
+    modality: text
+    mvp: true
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: USERNAME
+    display_label: Username / login
+    modality: text
+    mvp: true
+    risk_weight: Low
+    gdpr_focus: Art.5/17
+  - machine_code: EMAIL
+    display_label: Email address
+    modality: text
+    mvp: true
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: SIGNATURE
+    display_label: Signature
+    modality: image
+    mvp: true
+    risk_weight: High
+    gdpr_focus: Art.5/17/9-adj
+  - machine_code: FACE
+    display_label: Photo of a person
+    modality: image
+    mvp: true
+    risk_weight: High
+    gdpr_focus: Art.9 (biometric)
+  - machine_code: PHONE_NUMBER
+    display_label: Phone number
+    modality: text
+    mvp: true
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: FAX_NUMBER
+    display_label: Fax number
+    modality: text
+    mvp: true
+    risk_weight: Low
+    gdpr_focus: Art.5/17
+  - machine_code: HOME_ADDRESS
+    display_label: Home address
+    modality: text
+    mvp: true
+    risk_weight: High
+    gdpr_focus: Art.5/17
+  - machine_code: BILLING_SHIPPING_ADDRESS
+    display_label: Billing / shipping address
+    modality: text
+    mvp: true
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: PASSPORT_NUMBER
+    display_label: Passport number
+    modality: text
+    mvp: true
+    risk_weight: Critical
+    gdpr_focus: Art.5/17/32
+  - machine_code: DE_PERSONALAUSWEIS
+    display_label: German ID card number
+    modality: text
+    mvp: true
+    risk_weight: Critical
+    gdpr_focus: Art.5/17/32
+  - machine_code: DRIVERS_LICENSE_NUMBER
+    display_label: Driver's licence number
+    modality: text
+    mvp: true
+    risk_weight: High
+    gdpr_focus: Art.5/17/32
+  - machine_code: TRAVEL_HISTORY
+    display_label: Travel history
+    modality: text
+    mvp: true
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: IBAN
+    display_label: Bank account (IBAN)
+    modality: text
+    mvp: true
+    risk_weight: High
+    gdpr_focus: Art.5/17/32
+  - machine_code: CREDIT_CARD_NUMBER
+    display_label: Payment card number
+    modality: text
+    mvp: true
+    risk_weight: Critical
+    gdpr_focus: Art.5/17/32
+  - machine_code: IP_ADDRESS
+    display_label: IP address
+    modality: text
+    mvp: true
+    risk_weight: Low
+    gdpr_focus: Art.5/17
+  - machine_code: EMPLOYEE_ID
+    display_label: Employee / personnel ID
+    modality: text
+    mvp: true
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: LICENSE_PLATE
+    display_label: Vehicle licence plate
+    modality: image
+    mvp: true
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: DE_SOZIALVERSICHERUNGSNR
+    display_label: German social security number
+    modality: text
+    mvp: true
+    risk_weight: Critical
+    gdpr_focus: Art.5/17/32
+  - machine_code: DE_STEUER_ID
+    display_label: German tax ID
+    modality: text
+    mvp: true
+    risk_weight: High
+    gdpr_focus: Art.5/17/32
+  - machine_code: DATE_OF_BIRTH
+    display_label: Date of birth
+    modality: text
+    mvp: false
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: PLACE_OF_BIRTH
+    display_label: Place of birth
+    modality: text
+    mvp: false
+    risk_weight: Low
+    gdpr_focus: Art.5/17
+  - machine_code: NATIONALITY
+    display_label: Nationality
+    modality: text
+    mvp: false
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: GENDER
+    display_label: Gender
+    modality: text
+    mvp: false
+    risk_weight: Low
+    gdpr_focus: Art.5/17
+  - machine_code: MARITAL_STATUS
+    display_label: Marital status
+    modality: text
+    mvp: false
+    risk_weight: Low
+    gdpr_focus: Art.5/17
+  - machine_code: HEALTH_INSURANCE_NUMBER
+    display_label: Health insurance number
+    modality: text
+    mvp: false
+    risk_weight: High
+    gdpr_focus: Art.9-adj
+  - machine_code: DEVICE_LOCATION
+    display_label: Device / location data
+    modality: text
+    mvp: false
+    risk_weight: Medium
+    gdpr_focus: Art.5/17
+  - machine_code: NON_DE_NATIONAL_ID
+    display_label: National ID (non-DE)
+    modality: text
+    mvp: false
+    risk_weight: High
+    gdpr_focus: Art.5/17/32
+  - machine_code: NON_DE_TAX_ID
+    display_label: Tax ID (non-DE)
+    modality: text
+    mvp: false
+    risk_weight: High
+    gdpr_focus: Art.5/17/32
+  - machine_code: RACIAL_ETHNIC_ORIGIN
+    display_label: Racial / ethnic origin
+    modality: text
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9
+  - machine_code: POLITICAL_OPINION
+    display_label: Political opinion
+    modality: text
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9
+  - machine_code: RELIGIOUS_BELIEF
+    display_label: Religious / philosophical belief
+    modality: text
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9
+  - machine_code: TRADE_UNION_MEMBERSHIP
+    display_label: Trade-union membership
+    modality: text
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9
+  - machine_code: GENETIC_DATA
+    display_label: Genetic data
+    modality: text
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9
+  - machine_code: BIOMETRIC_DATA
+    display_label: Biometric data
+    modality: image
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9
+  - machine_code: HEALTH_DATA
+    display_label: Health data
+    modality: text
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9
+  - machine_code: SEX_LIFE_ORIENTATION
+    display_label: Sex life / sexual orientation
+    modality: text
+    mvp: false
+    risk_weight: Critical
+    gdpr_focus: Art.9

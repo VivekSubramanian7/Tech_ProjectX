@@ -11,6 +11,8 @@ venv/
 # Data / artifacts
 data/catalog.sqlite
 data/*.sqlite
+data/gdpr_synthetic_dataset_500/
+data/gdpr_synthetic_dataset_500.zip
 
 # OS
 .DS_Store

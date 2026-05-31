@@ -12,8 +12,14 @@ from run_eval import evaluate
 
 def _label(code, modality="text", loc=None, file_id="f1"):
     loc = loc or (Span(0, 10) if modality == "text" else BBox(0, 0, 10, 10))
-    return Label(file_id=file_id, classification_code=code, modality=modality,
-                 location=loc, provenance="test")
+    return Label(
+        file_id=file_id,
+        native_id="test.txt",
+        classification_code=code,
+        modality=modality,
+        location=loc,
+        provenance="test",
+    )
 
 
 def _finding(code, modality="text", loc=None, conf=0.9, risk="Medium", file_id="f1"):

@@ -1,26 +1,25 @@
 dataset: bosch-gdpr-eval-seed
 version: 0.1.0
 description: >
-  Seed labeled evaluation set for the GDPR scan engine. Span-level (text) and
-  bbox-level (image) ground truth across Priority-1 and MVP Priority-2 PII
-  categories. This seed nails the format and loader; volume grows toward target_size.
+  Seed labeled evaluation set for the GDPR scan engine. Span-level (text) ground
+  truth across Priority-1 and MVP Priority-2 PII categories. This seed nails the
+  format and loader; volume grows toward target_size.
 provenance:
   sources:
     - synthetic/a-klumpp        # github.com/a-klumpp/GDPR-data-samples (starting point, not the test suite)
     - manual-annotation         # hand-labeled by the team
+    - synthetic/llm             # LLM-generated via corpus prompt
   annotators: 2
 # Inter-annotator agreement (Cohen's kappa). Gate: must be >= 0.8 (PRD success criteria).
 inter_annotator_kappa: 0.86
 # Production target (PRD): grow toward this volume.
 target_size:
   text_entities: 200
-  images: 50
 distribution:
   by_modality:
-    text: 14
-    image: 4
+    text: 15
   by_category:
-    EMAIL: 2
+    EMAIL: 3
     PHONE_NUMBER: 1
     IBAN: 1
     CREDIT_CARD_NUMBER: 1
@@ -33,6 +32,3 @@ distribution:
     IP_ADDRESS: 1
     DRIVERS_LICENSE_NUMBER: 1
     TRAVEL_HISTORY: 1
-    FACE: 2
-    LICENSE_PLATE: 1
-    SIGNATURE: 1

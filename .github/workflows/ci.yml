@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Python deps
+        run: pip install pyyaml pytest httpx fastapi pydantic uvicorn
+      - name: Generate enum
+        run: python enum/generate.py
+      - name: Pytest
+        run: pytest eval engine/tests -q
+      - name: Enum exhaustiveness
+        run: pytest engine/tests/test_enum_codes_exhaustive.py -q
+      - name: Ruff
+        run: pip install ruff && ruff check engine/app engine/tests
+      - name: Web typecheck
+        run: |
+          cd web
+          npm install
+          npm run typecheck

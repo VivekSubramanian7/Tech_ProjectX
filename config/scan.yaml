@@ -1,0 +1,12 @@
+# Engine scan target — not used by eval (eval uses eval/eval_config.py).
+# Use the extracted folder, not a path inside the .zip archive.
+path: data/gdpr_synthetic_dataset_500/gdpr_synthetic_dataset_500/documents
+scope_id: local-scan-v1
+mode: full
+tier2: false
+reapply_ruleset: false
+source: local
+# Enable German spaCy NER when de_core_news_lg is installed (pip install spacy && python -m spacy download de_core_news_lg)
+use_spacy: false
+# Use Ultralytics/EasyOCR when installed; PNG gdpr-* hints used as fallback in CI
+use_ml_image: true

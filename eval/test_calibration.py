@@ -10,8 +10,14 @@ from calibration import calibrate
 
 
 def _label(code, start, file_id="f1"):
-    return Label(file_id=file_id, classification_code=code, modality="text",
-                 location=Span(start, start + 9), provenance="test")
+    return Label(
+        file_id=file_id,
+        native_id="test.txt",
+        classification_code=code,
+        modality="text",
+        location=Span(start, start + 9),
+        provenance="test",
+    )
 
 
 def _finding(code, start, conf, file_id="f1"):

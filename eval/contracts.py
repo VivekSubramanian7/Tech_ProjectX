@@ -39,6 +39,7 @@ class Label:
     """A piece of ground truth: this file contains this PII at this location."""
 
     file_id: str
+    native_id: str
     classification_code: str
     modality: str  # "text" | "image"
     location: Location

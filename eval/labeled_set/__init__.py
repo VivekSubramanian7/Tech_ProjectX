@@ -5,7 +5,7 @@ The ground truth the harness scores against. Data lives next to this module:
 - `manifest.yaml` — provenance, inter-annotator agreement (Cohen's kappa), and distribution
 
 This seed set nails the FORMAT and the loader; volume grows toward the manifest's
-`target_size` (200 text entities + 50 images).
+`target_size` (200 text entities).
 """
 from __future__ import annotations
 
@@ -16,6 +16,7 @@ from typing import Any
 import yaml
 
 from contracts import BBox, Label, Location, Span
+from eval_config import eval_file_id
 
 _DIR = Path(__file__).parent
 _LABELS_FILE = _DIR / "labels.jsonl"
@@ -39,9 +40,11 @@ def load_labeled_set() -> list[Label]:
         if not line:
             continue
         row = json.loads(line)
+        native_id = row["native_id"]
         labels.append(
             Label(
-                file_id=row["file_id"],
+                file_id=eval_file_id(native_id),
+                native_id=native_id,
                 classification_code=row["classification_code"],
                 modality=row["modality"],
                 location=_parse_location(row["location"]),

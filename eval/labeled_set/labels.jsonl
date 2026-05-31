@@ -1,18 +1,15 @@
-{"file_id": "local:onboarding_email.txt", "classification_code": "EMAIL", "modality": "text", "location": {"type": "span", "start": 12, "end": 33}, "provenance": "synthetic/a-klumpp"}
-{"file_id": "local:contact_list.txt", "classification_code": "EMAIL", "modality": "text", "location": {"type": "span", "start": 40, "end": 61}, "provenance": "synthetic/a-klumpp"}
-{"file_id": "local:contact_list.txt", "classification_code": "PHONE_NUMBER", "modality": "text", "location": {"type": "span", "start": 70, "end": 86}, "provenance": "synthetic/a-klumpp"}
-{"file_id": "local:invoice_2024.txt", "classification_code": "IBAN", "modality": "text", "location": {"type": "span", "start": 100, "end": 122}, "provenance": "manual-annotation"}
-{"file_id": "local:invoice_2024.txt", "classification_code": "CREDIT_CARD_NUMBER", "modality": "text", "location": {"type": "span", "start": 130, "end": 149}, "provenance": "manual-annotation"}
-{"file_id": "local:hr_record.txt", "classification_code": "PASSPORT_NUMBER", "modality": "text", "location": {"type": "span", "start": 5, "end": 14}, "provenance": "manual-annotation"}
-{"file_id": "local:hr_record.txt", "classification_code": "DE_PERSONALAUSWEIS", "modality": "text", "location": {"type": "span", "start": 30, "end": 40}, "provenance": "manual-annotation"}
-{"file_id": "local:hr_record.txt", "classification_code": "DE_SOZIALVERSICHERUNGSNR", "modality": "text", "location": {"type": "span", "start": 55, "end": 67}, "provenance": "manual-annotation"}
-{"file_id": "local:tax_form.txt", "classification_code": "DE_STEUER_ID", "modality": "text", "location": {"type": "span", "start": 18, "end": 29}, "provenance": "manual-annotation"}
-{"file_id": "local:letter.txt", "classification_code": "PERSON_NAME", "modality": "text", "location": {"type": "span", "start": 0, "end": 12}, "provenance": "synthetic/a-klumpp"}
-{"file_id": "local:letter.txt", "classification_code": "HOME_ADDRESS", "modality": "text", "location": {"type": "span", "start": 20, "end": 58}, "provenance": "synthetic/a-klumpp"}
-{"file_id": "local:server_log.txt", "classification_code": "IP_ADDRESS", "modality": "text", "location": {"type": "span", "start": 0, "end": 13}, "provenance": "synthetic/a-klumpp"}
-{"file_id": "local:license.txt", "classification_code": "DRIVERS_LICENSE_NUMBER", "modality": "text", "location": {"type": "span", "start": 22, "end": 33}, "provenance": "manual-annotation"}
-{"file_id": "local:trip_notes.txt", "classification_code": "TRAVEL_HISTORY", "modality": "text", "location": {"type": "span", "start": 0, "end": 64}, "provenance": "manual-annotation"}
-{"file_id": "local:team_photo.png", "classification_code": "FACE", "modality": "image", "location": {"type": "bbox", "x": 120, "y": 80, "w": 64, "h": 64}, "provenance": "manual-annotation"}
-{"file_id": "local:team_photo.png", "classification_code": "FACE", "modality": "image", "location": {"type": "bbox", "x": 240, "y": 90, "w": 60, "h": 60}, "provenance": "manual-annotation"}
-{"file_id": "local:parking_lot.jpg", "classification_code": "LICENSE_PLATE", "modality": "image", "location": {"type": "bbox", "x": 300, "y": 400, "w": 180, "h": 60}, "provenance": "manual-annotation"}
-{"file_id": "local:signed_contract.png", "classification_code": "SIGNATURE", "modality": "image", "location": {"type": "bbox", "x": 50, "y": 700, "w": 220, "h": 90}, "provenance": "manual-annotation"}
+{"native_id": "onboarding_email.txt", "classification_code": "EMAIL", "modality": "text", "location": {"type": "span", "start": 12, "end": 33}, "provenance": "synthetic/a-klumpp"}
+{"native_id": "contact_list.txt", "classification_code": "EMAIL", "modality": "text", "location": {"type": "span", "start": 40, "end": 61}, "provenance": "synthetic/a-klumpp"}
+{"native_id": "contact_list.txt", "classification_code": "PHONE_NUMBER", "modality": "text", "location": {"type": "span", "start": 67, "end": 78}, "provenance": "synthetic/a-klumpp"}
+{"native_id": "invoice_2024.txt", "classification_code": "IBAN", "modality": "text", "location": {"type": "span", "start": 100, "end": 122}, "provenance": "manual-annotation"}
+{"native_id": "invoice_2024.txt", "classification_code": "CREDIT_CARD_NUMBER", "modality": "text", "location": {"type": "span", "start": 130, "end": 149}, "provenance": "manual-annotation"}
+{"native_id": "hr_record.txt", "classification_code": "PASSPORT_NUMBER", "modality": "text", "location": {"type": "span", "start": 5, "end": 14}, "provenance": "manual-annotation"}
+{"native_id": "hr_record.txt", "classification_code": "DE_PERSONALAUSWEIS", "modality": "text", "location": {"type": "span", "start": 30, "end": 40}, "provenance": "manual-annotation"}
+{"native_id": "hr_record.txt", "classification_code": "DE_SOZIALVERSICHERUNGSNR", "modality": "text", "location": {"type": "span", "start": 55, "end": 67}, "provenance": "manual-annotation"}
+{"native_id": "tax_form.txt", "classification_code": "DE_STEUER_ID", "modality": "text", "location": {"type": "span", "start": 18, "end": 29}, "provenance": "manual-annotation"}
+{"native_id": "letter.txt", "classification_code": "PERSON_NAME", "modality": "text", "location": {"type": "span", "start": 5, "end": 15}, "provenance": "synthetic/a-klumpp"}
+{"native_id": "letter.txt", "classification_code": "HOME_ADDRESS", "modality": "text", "location": {"type": "span", "start": 20, "end": 50}, "provenance": "synthetic/a-klumpp"}
+{"native_id": "server_log.txt", "classification_code": "IP_ADDRESS", "modality": "text", "location": {"type": "span", "start": 0, "end": 13}, "provenance": "synthetic/a-klumpp"}
+{"native_id": "license.txt", "classification_code": "DRIVERS_LICENSE_NUMBER", "modality": "text", "location": {"type": "span", "start": 22, "end": 33}, "provenance": "manual-annotation"}
+{"native_id": "trip_notes.txt", "classification_code": "TRAVEL_HISTORY", "modality": "text", "location": {"type": "span", "start": 0, "end": 63}, "provenance": "manual-annotation"}
+{"native_id": "vendor_contact.txt", "classification_code": "EMAIL", "modality": "text", "location": {"type": "span", "start": 20, "end": 46}, "provenance": "synthetic/llm"}
