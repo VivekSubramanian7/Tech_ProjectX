@@ -1,0 +1,5 @@
+[Ticket #326325] Status: offen
+Gemeldet von: Veronique Eberhardt
+Rückmeldung an: wschoenland@example.net
+Telefon: 08942 444794
+Beschreibung: Login schlägt nach Update fehl.

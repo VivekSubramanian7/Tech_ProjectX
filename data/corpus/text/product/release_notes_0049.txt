@@ -1,0 +1,6 @@
+Release Notes — v7.5.4
+==============================
+- [JIRA-5854] Cross-group directional forecast
+- [JIRA-7978] Front-line demand-driven firmware
+- [JIRA-6311] Expanded fault-tolerant migration
+Build-Hash: ea61efcbccb8

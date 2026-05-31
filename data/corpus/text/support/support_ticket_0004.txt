@@ -1,0 +1,5 @@
+[Ticket #166474] Status: offen
+Gemeldet von: Randolf Müller B.Eng.
+Rückmeldung an: oestrovskybrian@example.com
+Telefon: 08044 98970
+Beschreibung: Login schlägt nach Update fehl.

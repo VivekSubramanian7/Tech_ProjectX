@@ -1,0 +1,5 @@
+[Ticket #382068] Status: offen
+Gemeldet von: Tibor Dowerg-Austermühle
+Rückmeldung an: ptroest@example.org
+Telefon: (01084) 486065
+Beschreibung: Login schlägt nach Update fehl.

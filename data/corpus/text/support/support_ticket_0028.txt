@@ -1,0 +1,6 @@
+[Ticket #742636] Status: offen
+Gemeldet von: Christel Hörle
+Rückmeldung an: knapperosel@example.net
+Telefon: +49(0)7553 90862
+Client-IP aus Log: 38.205.253.58
+Beschreibung: Login schlägt nach Update fehl.

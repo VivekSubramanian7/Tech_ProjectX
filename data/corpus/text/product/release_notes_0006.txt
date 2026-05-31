@@ -1,0 +1,8 @@
+Release Notes — v1.9.6
+==============================
+- [JIRA-8449] Profit-focused mobile algorithm
+- [JIRA-1540] Configurable exuding analyzer
+- [JIRA-7308] Versatile upward-trending encryption
+- [JIRA-2416] Function-based 6thgeneration application
+- [JIRA-5996] Upgradable mobile paradigm
+Build-Hash: fef66e763fec

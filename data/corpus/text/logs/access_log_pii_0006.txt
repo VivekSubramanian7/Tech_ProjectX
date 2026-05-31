@@ -1,0 +1,5 @@
+# auth service access log
+08/10/2025:05:34 user=chahn from 129.1.49.11 status=200
+27/02/2025:21:54 user=tinobarkholz from 135.187.141.229 status=200
+14/03/2025:02:12 user=angelikawilmsen from 185.96.220.17 status=200
+28/03/2025:06:34 user=tillullmann from 55.92.112.124 status=200

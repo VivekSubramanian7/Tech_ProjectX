@@ -1,0 +1,6 @@
+Release Notes — v5.4.0
+==============================
+- [JIRA-9725] Business-focused bandwidth-monitored customer loyalty
+- [JIRA-8252] Persistent homogeneous utilization
+- [JIRA-7454] Intuitive uniform instruction set
+Build-Hash: 87edecc4b9f2

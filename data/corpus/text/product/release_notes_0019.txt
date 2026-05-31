@@ -1,0 +1,6 @@
+Release Notes — v1.11.7
+==============================
+- [JIRA-3213] Synchronized discrete standardization
+- [JIRA-6924] Organized foreground approach
+- [JIRA-8016] Innovative dedicated complexity
+Build-Hash: 4025b9ac7f2d

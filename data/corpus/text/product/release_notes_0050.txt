@@ -1,0 +1,8 @@
+Release Notes — v3.13.5
+==============================
+- [JIRA-9098] Optional maximized project
+- [JIRA-2736] Profound bandwidth-monitored capability
+- [JIRA-4419] Reverse-engineered client-server open architecture
+- [JIRA-3193] Down-sized multimedia customer loyalty
+- [JIRA-5231] Operative bi-directional solution
+Build-Hash: 15eeb5b5ebf8

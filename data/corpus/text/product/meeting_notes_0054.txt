@@ -1,0 +1,8 @@
+Protokoll Produktmeeting 09.10.2025
+Themen:
+  * exploit granular vortals
+  * e-enable customized eyeballs
+  * implement out-of-the-box eyeballs
+  * transition mission-critical bandwidth
+  * aggregate scalable applications
+Nächstes Review: KW7

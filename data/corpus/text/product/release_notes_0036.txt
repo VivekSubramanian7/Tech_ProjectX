@@ -1,0 +1,8 @@
+Release Notes — v4.17.3
+==============================
+- [JIRA-8090] Pre-emptive bi-directional project
+- [JIRA-6551] User-friendly multi-state leverage
+- [JIRA-5005] Team-oriented bi-directional capability
+- [JIRA-4665] Up-sized actuating standardization
+- [JIRA-1068] Triple-buffered 3rdgeneration implementation
+Build-Hash: 3feb5ca2cceb

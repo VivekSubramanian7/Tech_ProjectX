@@ -1,0 +1,9 @@
+Release Notes — v9.6.1
+==============================
+- [JIRA-1045] Inverse full-range encoding
+- [JIRA-3786] Quality-focused systematic frame
+- [JIRA-9567] Managed impactful function
+- [JIRA-8221] Visionary motivating installation
+- [JIRA-2850] Decentralized web-enabled capacity
+- [JIRA-5123] Fully-configurable impactful knowledge user
+Build-Hash: 00db933ddffc

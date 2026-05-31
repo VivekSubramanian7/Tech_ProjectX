@@ -1,0 +1,9 @@
+Release Notes — v4.15.6
+==============================
+- [JIRA-7853] Phased incremental moderator
+- [JIRA-2260] Public-key object-oriented product
+- [JIRA-3877] Focused zero tolerance protocol
+- [JIRA-2956] Diverse holistic infrastructure
+- [JIRA-3510] Up-sized local matrices
+- [JIRA-3333] Face-to-face incremental workforce
+Build-Hash: d5b500afc69c

@@ -1,0 +1,9 @@
+Release Notes — v4.18.4
+==============================
+- [JIRA-9681] Diverse attitude-oriented moratorium
+- [JIRA-1832] Synergized zero-defect matrix
+- [JIRA-9112] Reduced directional groupware
+- [JIRA-6816] Public-key regional attitude
+- [JIRA-9204] Mandatory even-keeled framework
+- [JIRA-4920] Profound content-based interface
+Build-Hash: 75d99353404b

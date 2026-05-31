@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-315982
+Maße: 105 x 85 x 140 mm
+Toleranz: ±0.4 mm
+Materialcharge: LOT-178204
+Interne Referenz: 91247405388

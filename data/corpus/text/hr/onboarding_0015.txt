@@ -1,0 +1,8 @@
+Onboarding-Checkliste
+Neue Kollegin/Kollege: Hans-Herbert Mohaupt
+E-Mail-Konto: stollgislinde@example.org
+Benutzername (Login): weihmannandre
+Personalnummer: PNR-44745599
+Diensttelefon: 0933993359
+
+[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

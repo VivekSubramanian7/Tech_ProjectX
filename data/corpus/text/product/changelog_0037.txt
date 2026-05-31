@@ -1,0 +1,5 @@
+CHANGELOG
+v6.15 — Synchronized heuristic application
+v6.4 — Customizable actuating attitude
+v7.13 — Synchronized demand-driven middleware
+v3.20 — Open-architected 5thgeneration encryption

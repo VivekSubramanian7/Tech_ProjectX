@@ -1,0 +1,9 @@
+Release Notes — v8.3.8
+==============================
+- [JIRA-7558] Horizontal context-sensitive groupware
+- [JIRA-2531] Function-based multi-tasking model
+- [JIRA-2110] Public-key non-volatile intranet
+- [JIRA-4183] Universal 3rdgeneration challenge
+- [JIRA-5110] Polarized grid-enabled toolset
+- [JIRA-9199] Organized bottom-line access
+Build-Hash: 6e4dcff1e1df

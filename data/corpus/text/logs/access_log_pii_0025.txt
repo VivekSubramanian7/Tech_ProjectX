@@ -1,0 +1,7 @@
+# auth service access log
+24/05/2025:15:21 user=sueleymanschleich from 170.174.45.46 status=200
+16/10/2025:23:00 user=gumprichanita from 152.24.176.134 status=200
+02/04/2025:03:31 user=msontag from 93.196.161.119 status=200
+22/06/2025:14:26 user=benedikt05 from 208.9.110.218 status=200
+02/04/2025:09:46 user=jorgejacob from 155.150.128.250 status=200
+12/09/2025:17:16 user=adelbertackermann from 141.21.115.116 status=200

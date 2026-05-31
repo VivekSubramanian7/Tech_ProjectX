@@ -1,0 +1,7 @@
+Release Notes — v3.2.5
+==============================
+- [JIRA-1202] Team-oriented tertiary collaboration
+- [JIRA-8969] Advanced bandwidth-monitored Local Area Network
+- [JIRA-4319] Proactive didactic help-desk
+- [JIRA-8814] Business-focused scalable focus group
+Build-Hash: 558194928eb2

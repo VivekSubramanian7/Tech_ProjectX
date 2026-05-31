@@ -1,0 +1,6 @@
+Release Notes — v9.17.1
+==============================
+- [JIRA-5172] Organized incremental infrastructure
+- [JIRA-5342] Operative context-sensitive Graphical User Interface
+- [JIRA-5743] Multi-channeled encompassing functionalities
+Build-Hash: bfeaf3a691f2

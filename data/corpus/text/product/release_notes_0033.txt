@@ -1,0 +1,8 @@
+Release Notes — v8.17.3
+==============================
+- [JIRA-1752] Reduced explicit installation
+- [JIRA-6330] Open-architected content-based knowledge user
+- [JIRA-6538] Distributed 24hour archive
+- [JIRA-8832] Multi-tiered intangible capability
+- [JIRA-4006] Distributed leadingedge flexibility
+Build-Hash: dd9c4f9bc1aa

@@ -1,0 +1,7 @@
+Release Notes — v1.16.6
+==============================
+- [JIRA-8723] Enhanced upward-trending function
+- [JIRA-1844] Assimilated national installation
+- [JIRA-8640] Advanced systematic open architecture
+- [JIRA-2662] Quality-focused tangible challenge
+Build-Hash: 1dbdcbbf0eab

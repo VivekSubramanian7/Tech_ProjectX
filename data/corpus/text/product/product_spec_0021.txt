@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-244328
+Maße: 19 x 76 x 40 mm
+Toleranz: ±0.2 mm
+Materialcharge: LOT-956279
+Interne Referenz: 68397417024

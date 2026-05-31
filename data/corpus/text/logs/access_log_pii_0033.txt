@@ -1,0 +1,4 @@
+# auth service access log
+16/10/2025:18:08 user=heydrichhanna from 74.240.236.245 status=200
+22/03/2025:01:30 user=ida12 from 20.121.70.47 status=200
+15/01/2025:14:20 user=emiliabohnbach from 216.119.23.159 status=200

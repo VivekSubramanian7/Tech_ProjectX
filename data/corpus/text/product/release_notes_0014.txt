@@ -1,0 +1,9 @@
+Release Notes — v5.20.0
+==============================
+- [JIRA-4829] Ameliorated fault-tolerant concept
+- [JIRA-8124] Reverse-engineered systemic success
+- [JIRA-8356] Object-based object-oriented leverage
+- [JIRA-3352] Ameliorated content-based instruction set
+- [JIRA-1669] Persistent 3rdgeneration task-force
+- [JIRA-7403] Operative system-worthy firmware
+Build-Hash: a2ed4928c2bd

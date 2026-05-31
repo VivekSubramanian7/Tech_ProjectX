@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-901091
+Maße: 50 x 54 x 177 mm
+Toleranz: ±0.2 mm
+Materialcharge: LOT-928024
+Interne Referenz: 48307169959

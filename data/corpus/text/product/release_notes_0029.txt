@@ -1,0 +1,6 @@
+Release Notes — v4.6.3
+==============================
+- [JIRA-6307] User-centric 5thgeneration product
+- [JIRA-3674] Triple-buffered context-sensitive extranet
+- [JIRA-5313] Configurable responsive success
+Build-Hash: bc6b100afac5

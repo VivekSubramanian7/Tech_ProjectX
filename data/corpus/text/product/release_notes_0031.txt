@@ -1,0 +1,6 @@
+Release Notes — v2.10.7
+==============================
+- [JIRA-4707] Cross-group reciprocal open architecture
+- [JIRA-4024] Persevering mission-critical methodology
+- [JIRA-1933] Customer-focused needs-based open architecture
+Build-Hash: 6d96eb41a493

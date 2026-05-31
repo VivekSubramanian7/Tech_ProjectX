@@ -1,0 +1,6 @@
+[Ticket #503370] Status: offen
+Gemeldet von: Ana Rust
+Rückmeldung an: baumkarl-werner@example.com
+Telefon: 00325 93973
+Client-IP aus Log: 196.199.171.187
+Beschreibung: Login schlägt nach Update fehl.

@@ -1,0 +1,7 @@
+# auth service access log
+25/02/2025:22:38 user=marijan33 from 216.33.153.255 status=200
+26/01/2025:20:50 user=eimerjoern from 133.98.221.45 status=200
+26/11/2025:23:33 user=valerijseifert from 148.17.164.239 status=200
+12/05/2025:05:46 user=wohlgemutemin from 137.227.210.42 status=200
+20/05/2025:22:05 user=plathnathalie from 95.207.197.206 status=200
+22/03/2025:13:38 user=killerromy from 165.21.127.81 status=200

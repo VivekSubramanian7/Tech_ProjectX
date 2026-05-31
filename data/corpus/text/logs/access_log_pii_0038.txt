@@ -1,0 +1,5 @@
+# auth service access log
+16/01/2025:20:21 user=bienclaus-dieter from 192.154.82.227 status=200
+12/06/2025:11:07 user=xheinrich from 171.200.177.168 status=200
+21/01/2025:15:33 user=nathaliewaehner from 173.85.166.201 status=200
+03/01/2025:14:30 user=heinz-gerdtrupp from 121.19.252.145 status=200

@@ -1,0 +1,5 @@
+BESTELLUNG PO-969812
+Besteller: Anneli Krein MBA.
+Kontakt: beckmannmariechen@example.net
+Lieferadresse: Wähnerallee 7, 10920 Hohenstein-Ernstthal
+Artikel: 32x Material SKU-77470

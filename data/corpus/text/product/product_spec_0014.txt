@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-163903
+Maße: 128 x 117 x 137 mm
+Toleranz: ±0.3 mm
+Materialcharge: LOT-702225
+Interne Referenz: 98694257307

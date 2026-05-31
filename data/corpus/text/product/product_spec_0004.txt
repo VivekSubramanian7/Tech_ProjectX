@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-524864
+Maße: 131 x 131 x 11 mm
+Toleranz: ±0.4 mm
+Materialcharge: LOT-108256
+Interne Referenz: 28754619328

@@ -1,0 +1,5 @@
+CHANGELOG
+v9.19 — Synergistic background budgetary management
+v1.15 — Cross-group discrete analyzer
+v1.17 — Public-key bi-directional adapter
+v5.17 — Pre-emptive composite analyzer

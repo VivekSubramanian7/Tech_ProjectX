@@ -1,0 +1,7 @@
+# auth service access log
+05/01/2025:23:47 user=akuhl from 11.24.177.255 status=200
+21/06/2025:10:00 user=xbonbach from 195.94.207.238 status=200
+25/01/2025:16:53 user=toni70 from 215.12.54.34 status=200
+27/02/2025:04:16 user=gweller from 103.30.181.24 status=200
+20/03/2025:21:15 user=fliegnerkarl-august from 38.107.178.207 status=200
+15/06/2025:07:07 user=hendriksekkehart from 117.149.67.147 status=200

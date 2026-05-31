@@ -1,0 +1,6 @@
+Release Notes — v8.11.5
+==============================
+- [JIRA-1584] Streamlined clear-thinking approach
+- [JIRA-2349] Re-engineered cohesive workforce
+- [JIRA-2295] Quality-focused even-keeled paradigm
+Build-Hash: f29aeb100fea

@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-334944
+Maße: 54 x 132 x 61 mm
+Toleranz: ±0.7 mm
+Materialcharge: LOT-113095
+Interne Referenz: 80291564323

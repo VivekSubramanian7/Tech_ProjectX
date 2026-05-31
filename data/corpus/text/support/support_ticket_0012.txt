@@ -1,0 +1,6 @@
+[Ticket #927976] Status: offen
+Gemeldet von: Miroslawa Reising B.A.
+Rückmeldung an: boucseingrit@example.com
+Telefon: (01691) 69714
+Client-IP aus Log: 158.2.200.71
+Beschreibung: Login schlägt nach Update fehl.

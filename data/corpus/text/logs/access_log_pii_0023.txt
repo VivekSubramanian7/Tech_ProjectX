@@ -1,0 +1,7 @@
+# auth service access log
+10/03/2025:00:57 user=conrad45 from 66.5.42.161 status=200
+11/06/2025:02:09 user=louise74 from 135.167.143.76 status=200
+19/10/2025:19:20 user=anna-marie44 from 104.205.86.69 status=200
+27/04/2025:21:25 user=ulrichraedel from 74.40.92.26 status=200
+25/05/2025:19:52 user=ramonaberger from 67.220.180.252 status=200
+13/04/2025:13:31 user=hagen83 from 31.128.21.117 status=200

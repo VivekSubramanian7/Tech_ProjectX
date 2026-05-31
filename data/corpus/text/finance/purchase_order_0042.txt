@@ -1,0 +1,5 @@
+BESTELLUNG PO-247326
+Besteller: Giorgio Patberg B.A.
+Kontakt: obender@example.net
+Lieferadresse: Ahmed-Stroh-Weg 679, 14916 Göppingen
+Artikel: 32x Material SKU-43873

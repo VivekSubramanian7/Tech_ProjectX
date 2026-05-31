@@ -1,0 +1,6 @@
+[Ticket #678176] Status: offen
+Gemeldet von: Prof. Sonja Löchel B.A.
+Rückmeldung an: jseidel@example.net
+Telefon: 0397909447
+Client-IP aus Log: 49.255.57.88
+Beschreibung: Login schlägt nach Update fehl.

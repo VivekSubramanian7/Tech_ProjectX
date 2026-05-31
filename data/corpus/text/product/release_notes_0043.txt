@@ -1,0 +1,7 @@
+Release Notes — v9.8.3
+==============================
+- [JIRA-9268] Exclusive 24hour solution
+- [JIRA-1505] Fully-configurable responsive Graphical User Interface
+- [JIRA-2111] Horizontal zero administration collaboration
+- [JIRA-8030] Visionary encompassing analyzer
+Build-Hash: 67248e4b284f

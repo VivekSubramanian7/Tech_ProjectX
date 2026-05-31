@@ -1,0 +1,5 @@
+BESTELLUNG PO-916831
+Besteller: Dr. Erich Scholz
+Kontakt: tbeer@example.com
+Lieferadresse: Gutestr. 74-50, 38887 Magdeburg
+Artikel: 21x Material SKU-22363

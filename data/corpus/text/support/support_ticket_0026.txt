@@ -1,0 +1,6 @@
+[Ticket #365563] Status: offen
+Gemeldet von: Enrico Löchel B.Sc.
+Rückmeldung an: vdowerg@example.org
+Telefon: +49 (0) 1188 439232
+Client-IP aus Log: 203.68.103.127
+Beschreibung: Login schlägt nach Update fehl.

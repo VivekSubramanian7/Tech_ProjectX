@@ -1,0 +1,5 @@
+[Ticket #544990] Status: offen
+Gemeldet von: Elfi Dietz
+Rückmeldung an: bbeer@example.com
+Telefon: +49(0)6004 224403
+Beschreibung: Login schlägt nach Update fehl.

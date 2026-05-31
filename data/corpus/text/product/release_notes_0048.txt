@@ -1,0 +1,9 @@
+Release Notes — v4.4.6
+==============================
+- [JIRA-6064] Open-source clear-thinking Graphical User Interface
+- [JIRA-6094] Function-based tertiary frame
+- [JIRA-9911] Integrated fault-tolerant hardware
+- [JIRA-5087] Multi-lateral exuding task-force
+- [JIRA-3576] Visionary dynamic knowledgebase
+- [JIRA-6051] Organized object-oriented extranet
+Build-Hash: aac247134b89

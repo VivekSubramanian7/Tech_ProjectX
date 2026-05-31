@@ -1,0 +1,6 @@
+Release Notes — v2.20.6
+==============================
+- [JIRA-9641] Customer-focused 4thgeneration middleware
+- [JIRA-1787] De-engineered content-based intranet
+- [JIRA-6531] De-engineered value-added process improvement
+Build-Hash: acceaa32100b

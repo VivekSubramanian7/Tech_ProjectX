@@ -1,0 +1,8 @@
+Release Notes — v9.15.2
+==============================
+- [JIRA-1997] Customizable interactive neural-net
+- [JIRA-2052] Advanced analyzing ability
+- [JIRA-9211] Diverse uniform firmware
+- [JIRA-3645] Grass-roots bifurcated process improvement
+- [JIRA-6037] Organized bifurcated productivity
+Build-Hash: 75aa57aa5e73

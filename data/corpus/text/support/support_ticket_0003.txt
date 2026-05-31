@@ -1,0 +1,5 @@
+[Ticket #276275] Status: offen
+Gemeldet von: Christine Henschel
+Rückmeldung an: huhnsandra@example.net
+Telefon: 0914716444
+Beschreibung: Login schlägt nach Update fehl.

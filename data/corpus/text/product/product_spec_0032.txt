@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-210814
+Maße: 39 x 30 x 181 mm
+Toleranz: ±0.3 mm
+Materialcharge: LOT-235116
+Interne Referenz: 68371290255

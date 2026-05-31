@@ -1,0 +1,6 @@
+[Ticket #704751] Status: offen
+Gemeldet von: Ralf Davids
+Rückmeldung an: darius93@example.net
+Telefon: 01958 03486
+Client-IP aus Log: 135.190.79.164
+Beschreibung: Login schlägt nach Update fehl.

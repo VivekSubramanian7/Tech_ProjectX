@@ -1,0 +1,5 @@
+CHANGELOG
+v5.3 — Inverse solution-oriented function
+v9.28 — Pre-emptive multimedia core
+v1.29 — Integrated multi-tasking Graphical User Interface
+v7.16 — Vision-oriented web-enabled installation

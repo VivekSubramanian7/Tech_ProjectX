@@ -1,0 +1,7 @@
+Release Notes — v3.20.2
+==============================
+- [JIRA-1158] Centralized 3rdgeneration approach
+- [JIRA-7785] Horizontal background implementation
+- [JIRA-2848] Quality-focused 6thgeneration moderator
+- [JIRA-1637] Reverse-engineered local process improvement
+Build-Hash: dba48042c27a

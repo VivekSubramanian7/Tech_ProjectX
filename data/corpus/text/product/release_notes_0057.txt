@@ -1,0 +1,7 @@
+Release Notes — v5.6.5
+==============================
+- [JIRA-5811] Synchronized upward-trending initiative
+- [JIRA-7114] Realigned systemic benchmark
+- [JIRA-4782] Compatible real-time database
+- [JIRA-4483] Visionary even-keeled flexibility
+Build-Hash: 5730616c05ea

@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-775018
+Maße: 140 x 24 x 90 mm
+Toleranz: ±0.8 mm
+Materialcharge: LOT-942467
+Interne Referenz: 80353197649

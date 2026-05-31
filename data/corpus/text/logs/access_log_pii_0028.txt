@@ -1,0 +1,5 @@
+# auth service access log
+17/05/2025:01:33 user=jlinke from 113.132.97.226 status=200
+24/10/2025:11:33 user=truebheidelore from 177.26.169.7 status=200
+22/02/2025:00:41 user=zehraotto from 43.130.94.128 status=200
+25/11/2025:03:26 user=doehnzbigniew from 211.18.78.121 status=200

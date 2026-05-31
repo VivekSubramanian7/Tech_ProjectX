@@ -1,0 +1,6 @@
+[Ticket #179613] Status: offen
+Gemeldet von: Falk Albers
+Rückmeldung an: guelten32@example.com
+Telefon: +49(0)3266798946
+Client-IP aus Log: 190.115.82.217
+Beschreibung: Login schlägt nach Update fehl.

@@ -1,0 +1,6 @@
+CHANGELOG
+v9.0 — Open-architected actuating implementation
+v6.16 — Synchronized upward-trending policy
+v4.7 — Triple-buffered upward-trending product
+v5.7 — Sharable full-range Local Area Network
+v8.11 — Right-sized mobile capability

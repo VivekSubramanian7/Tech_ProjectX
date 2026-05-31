@@ -1,0 +1,9 @@
+Release Notes — v2.6.3
+==============================
+- [JIRA-3240] Operative national pricing structure
+- [JIRA-2120] Digitized exuding matrices
+- [JIRA-4523] Phased eco-centric alliance
+- [JIRA-5117] Proactive bandwidth-monitored conglomeration
+- [JIRA-8665] Focused static project
+- [JIRA-7415] Operative value-added intranet
+Build-Hash: fe8d34b0d17a

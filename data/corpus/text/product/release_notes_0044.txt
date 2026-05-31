@@ -1,0 +1,9 @@
+Release Notes — v8.12.8
+==============================
+- [JIRA-3672] Optional bifurcated architecture
+- [JIRA-5065] Grass-roots national contingency
+- [JIRA-8269] Multi-layered foreground hub
+- [JIRA-4389] Operative regional time-frame
+- [JIRA-9675] Automated empowering neural-net
+- [JIRA-6833] Decentralized high-level service-desk
+Build-Hash: d0ac16ee33bc

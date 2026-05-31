@@ -1,0 +1,7 @@
+Release Notes — v5.6.3
+==============================
+- [JIRA-1600] Versatile empowering collaboration
+- [JIRA-2295] Seamless didactic structure
+- [JIRA-2904] Polarized analyzing orchestration
+- [JIRA-5162] Devolved composite time-frame
+Build-Hash: dad4c3339cb1

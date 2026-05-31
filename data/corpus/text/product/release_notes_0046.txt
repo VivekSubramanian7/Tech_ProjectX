@@ -1,0 +1,8 @@
+Release Notes — v6.19.7
+==============================
+- [JIRA-4618] Ergonomic attitude-oriented service-desk
+- [JIRA-6432] Mandatory optimal product
+- [JIRA-6875] Virtual multi-tasking groupware
+- [JIRA-2787] Persistent interactive customer loyalty
+- [JIRA-8150] Virtual interactive implementation
+Build-Hash: edc3318ed2fa

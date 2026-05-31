@@ -1,0 +1,9 @@
+Release Notes — v6.10.9
+==============================
+- [JIRA-2644] Multi-tiered impactful implementation
+- [JIRA-9231] Customizable exuding structure
+- [JIRA-9366] Persistent coherent info-mediaries
+- [JIRA-9421] Advanced modular concept
+- [JIRA-4388] Balanced disintermediate support
+- [JIRA-7814] Mandatory secondary algorithm
+Build-Hash: b35e114bdb46

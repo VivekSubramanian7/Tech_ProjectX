@@ -1,0 +1,8 @@
+Release Notes — v8.4.6
+==============================
+- [JIRA-3463] Implemented neutral initiative
+- [JIRA-5422] Organized zero administration knowledge user
+- [JIRA-4808] Automated user-facing Graphic Interface
+- [JIRA-6408] Future-proofed composite archive
+- [JIRA-4016] Reduced transitional Graphical User Interface
+Build-Hash: af90b14dcb52

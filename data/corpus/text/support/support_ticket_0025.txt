@@ -1,0 +1,5 @@
+[Ticket #648159] Status: offen
+Gemeldet von: Herr Kristian Jungfer
+Rückmeldung an: benderroy@example.com
+Telefon: +49(0)5616 38446
+Beschreibung: Login schlägt nach Update fehl.

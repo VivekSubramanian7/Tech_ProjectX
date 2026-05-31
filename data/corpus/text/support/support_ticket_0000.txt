@@ -1,0 +1,6 @@
+[Ticket #862122] Status: offen
+Gemeldet von: Romuald Lübs
+Rückmeldung an: klausjungfer@example.org
+Telefon: +49(0)4987 718143
+Client-IP aus Log: 154.95.169.21
+Beschreibung: Login schlägt nach Update fehl.

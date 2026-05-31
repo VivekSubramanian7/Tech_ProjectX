@@ -1,0 +1,9 @@
+# application log (anonymised)
+2025-03-09 WARN worker-3 processed batch 9875
+2025-11-16 ERROR worker-4 processed batch 7631
+2025-01-05 INFO worker-2 processed batch 4054
+2025-10-09 INFO worker-3 processed batch 3103
+2025-04-22 WARN worker-14 processed batch 8221
+2025-06-09 INFO worker-3 processed batch 4691
+2025-02-11 DEBUG worker-11 processed batch 9618
+2025-04-10 DEBUG worker-16 processed batch 5151

@@ -1,0 +1,5 @@
+[Ticket #612698] Status: offen
+Gemeldet von: Tatjana Plath
+Rückmeldung an: gerdimatthaei@example.com
+Telefon: (08754) 96434
+Beschreibung: Login schlägt nach Update fehl.

@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-991208
+Maße: 15 x 107 x 71 mm
+Toleranz: ±0.8 mm
+Materialcharge: LOT-939869
+Interne Referenz: 24166359800

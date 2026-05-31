@@ -1,0 +1,41 @@
+dataset: bosch-gdpr-corpus-large
+version: 1.0.0
+description: Large synthetic labeled evaluation corpus for the GDPR scan engine. Realistic
+  German corporate .txt documents with span-level ground truth. Deterministically
+  generated; regenerate with eval/corpus_large/generate.py.
+modality: text
+provenance:
+  generator: eval/corpus_large/generate.py
+  master_seed: 20260531
+  faker_version: 40.19.1
+  faker_locale: de_DE
+  annotation: synthetic/generator
+counts:
+  files: 1200
+  pii_files: 720
+  decoy_files: 480
+  labels: 3161
+distribution:
+  by_modality:
+    text: 3161
+  by_category:
+    BILLING_SHIPPING_ADDRESS: 96
+    CREDIT_CARD_NUMBER: 49
+    DE_PERSONALAUSWEIS: 115
+    DE_SOZIALVERSICHERUNGSNR: 96
+    DE_STEUER_ID: 144
+    DRIVERS_LICENSE_NUMBER: 96
+    EMAIL: 288
+    EMPLOYEE_ID: 240
+    FAX_NUMBER: 48
+    HOME_ADDRESS: 144
+    IBAN: 144
+    IP_ADDRESS: 238
+    PASSPORT_NUMBER: 144
+    PERSON_NAME: 768
+    PHONE_NUMBER: 192
+    TRAVEL_HISTORY: 96
+    USERNAME: 263
+target_size:
+  files: 1000
+  text_entities: 1000

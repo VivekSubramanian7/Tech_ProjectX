@@ -1,0 +1,5 @@
+[Ticket #359154] Status: offen
+Gemeldet von: Franco Flantz-Wagner
+Rückmeldung an: ilonkakeudel@example.com
+Telefon: +49(0)8599 705332
+Beschreibung: Login schlägt nach Update fehl.

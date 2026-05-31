@@ -1,0 +1,5 @@
+[Ticket #527630] Status: offen
+Gemeldet von: Adelheid Henck
+Rückmeldung an: wagneraleksej@example.com
+Telefon: +49 (0) 3719 202410
+Beschreibung: Login schlägt nach Update fehl.
