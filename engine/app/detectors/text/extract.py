@@ -95,15 +95,16 @@ def _extract_docx(stream: BinaryIO) -> tuple[Iterator[TextSegment], str]:
 
 
 def _extract_pdf(stream: BinaryIO) -> tuple[Iterator[TextSegment], str]:
-    content_hash = incremental_sha256(stream)
+    # pypdf needs a seekable stream; source readers (e.g. ChunkedReader) are not
+    # seekable, so read once into a buffer — same approach as the docx path.
+    data = stream.readall() if hasattr(stream, "readall") else stream.read()
+    content_hash = hashlib.sha256(data).hexdigest()
     try:
         from pypdf import PdfReader
     except ImportError:
         return iter([]), content_hash
 
-    if hasattr(stream, "seek"):
-        stream.seek(0)
-    reader = PdfReader(stream)
+    reader = PdfReader(io.BytesIO(data))
 
     def _gen() -> Iterator[TextSegment]:
         offset = 0

@@ -39,6 +39,38 @@ def test_extract_file_docx(tmp_path: Path):
     assert len(content_hash) == 64
 
 
+class _NonSeekableReader:
+    """Mimics a source reader (e.g. ChunkedReader) that pypdf can't seek."""
+
+    def __init__(self, data: bytes) -> None:
+        self._data = data
+
+    def readall(self) -> bytes:
+        return self._data
+
+    def read(self, size: int = -1) -> bytes:
+        return self._data
+
+
+def test_extract_file_pdf_from_non_seekable_stream():
+    """PDF extraction must work even when the source stream has no seek()."""
+    import pytest
+
+    reportlab = pytest.importorskip("reportlab")
+    from reportlab.pdfgen import canvas
+
+    buf = io.BytesIO()
+    c = canvas.Canvas(buf)
+    c.drawString(72, 720, "Email: pdf_user@corp.de")
+    c.showPage()
+    c.save()
+
+    segments, content_hash = extract_file("doc.pdf", _NonSeekableReader(buf.getvalue()))
+    joined = "".join(s.text for s in segments)
+    assert "pdf_user@corp.de" in joined
+    assert len(content_hash) == 64
+
+
 def test_segments_have_global_offsets():
     text = "line1\nline2\nline3\n"
     segs = list(segments_from_text(text, chunk_chars=8, overlap=2))
