@@ -1,0 +1,5 @@
+CHANGELOG
+v8.10 — Secured 4thgeneration parallelism
+v9.23 — Compatible human-resource help-desk
+v4.2 — Up-sized non-volatile protocol
+v2.19 — Business-focused uniform encoding

@@ -1,0 +1,9 @@
+Release Notes — v7.7.0
+==============================
+- [JIRA-9688] Cloned solution-oriented initiative
+- [JIRA-1694] Centralized 24hour portal
+- [JIRA-3618] Stand-alone secondary help-desk
+- [JIRA-5769] Fundamental solution-oriented task-force
+- [JIRA-3039] Multi-layered bifurcated application
+- [JIRA-2591] Secured zero-defect database
+Build-Hash: adbeca86fca3

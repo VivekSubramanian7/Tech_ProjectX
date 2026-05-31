@@ -1,0 +1,7 @@
+Release Notes — v6.2.2
+==============================
+- [JIRA-6732] Managed grid-enabled pricing structure
+- [JIRA-3985] Seamless optimizing software
+- [JIRA-7462] Fundamental needs-based flexibility
+- [JIRA-5524] De-engineered didactic installation
+Build-Hash: f2af643c790a

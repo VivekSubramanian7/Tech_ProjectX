@@ -1,0 +1,3 @@
+# Treat rendered corpus binaries as binary (no EOL conversion, no diff/merge)
+*.pdf binary
+*.docx binary

@@ -1,0 +1,8 @@
+Onboarding-Checkliste
+Neue Kollegin/Kollege: Tilmann Reising-Trommler
+E-Mail-Konto: emmerichkohl@example.org
+Benutzername (Login): aennekraus
+Personalnummer: PNR-88836467
+Diensttelefon: 08036 321877
+
+[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

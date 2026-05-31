@@ -1,0 +1,6 @@
+Release Notes — v7.16.1
+==============================
+- [JIRA-7649] Progressive discrete time-frame
+- [JIRA-8710] Mandatory multi-state system engine
+- [JIRA-2857] Exclusive multi-state portal
+Build-Hash: a01260378eee

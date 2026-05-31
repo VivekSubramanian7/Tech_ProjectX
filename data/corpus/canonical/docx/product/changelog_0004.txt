@@ -1,0 +1,5 @@
+CHANGELOG
+v9.11 — Enterprise-wide even-keeled architecture
+v1.17 — Customer-focused zero-defect database
+v1.10 — Multi-channeled exuding flexibility
+v2.20 — Adaptive 4thgeneration protocol

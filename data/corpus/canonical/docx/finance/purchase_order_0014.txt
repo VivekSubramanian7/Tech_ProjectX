@@ -1,0 +1,5 @@
+BESTELLUNG PO-588813
+Besteller: Dr. Fredy Steckel
+Kontakt: mikegorlitz@example.net
+Lieferadresse: Kensyplatz 7, 49469 Stendal
+Artikel: 13x Material SKU-15088

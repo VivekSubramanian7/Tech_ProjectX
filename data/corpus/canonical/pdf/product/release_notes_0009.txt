@@ -1,0 +1,6 @@
+Release Notes — v9.18.5
+==============================
+- [JIRA-7855] Versatile context-sensitive core
+- [JIRA-2761] De-engineered foreground support
+- [JIRA-2112] Distributed maximized throughput
+Build-Hash: defada07a6f8

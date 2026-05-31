@@ -1,0 +1,7 @@
+Release Notes — v3.9.8
+==============================
+- [JIRA-6228] Managed executive info-mediaries
+- [JIRA-2356] Object-based zero-defect utilization
+- [JIRA-1708] Multi-channeled tertiary function
+- [JIRA-4527] Stand-alone systematic methodology
+Build-Hash: bdb3abfccc1c

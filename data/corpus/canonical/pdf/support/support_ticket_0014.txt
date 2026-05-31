@@ -1,0 +1,5 @@
+[Ticket #847907] Status: offen
+Gemeldet von: Frau Emmi Heinrich
+Rückmeldung an: guenter68@example.net
+Telefon: 05871 756908
+Beschreibung: Login schlägt nach Update fehl.

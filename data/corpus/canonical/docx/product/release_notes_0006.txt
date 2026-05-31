@@ -1,0 +1,8 @@
+Release Notes — v1.18.5
+==============================
+- [JIRA-2979] Ergonomic even-keeled pricing structure
+- [JIRA-3161] Organic logistical projection
+- [JIRA-5724] Intuitive maximized model
+- [JIRA-3451] Ameliorated web-enabled conglomeration
+- [JIRA-6565] Streamlined zero tolerance flexibility
+Build-Hash: fe1cd49cafde

@@ -1,0 +1,8 @@
+Onboarding-Checkliste
+Neue Kollegin/Kollege: Irmtraud Bruder
+E-Mail-Konto: fredhess@example.org
+Benutzername (Login): cbutte
+Personalnummer: PNR-87626713
+Diensttelefon: (03136) 61040
+
+[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

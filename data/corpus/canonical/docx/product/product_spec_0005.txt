@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-946220
+Maße: 148 x 10 x 88 mm
+Toleranz: ±0.1 mm
+Materialcharge: LOT-357141
+Interne Referenz: 99345716807

@@ -1,0 +1,6 @@
+Release Notes — v2.18.4
+==============================
+- [JIRA-8520] Expanded asynchronous focus group
+- [JIRA-6818] Upgradable exuding architecture
+- [JIRA-4099] Progressive secondary portal
+Build-Hash: 5af3f6a40dea

@@ -1,0 +1,5 @@
+# auth service access log
+06/01/2025:02:31 user=horst-dieterhecker from 31.116.8.235 status=200
+28/01/2025:01:00 user=christa-mariaetzler from 86.66.151.170 status=200
+09/03/2025:04:17 user=wenderosa-maria from 213.229.181.30 status=200
+10/02/2025:03:50 user=jdrub from 87.108.166.91 status=200

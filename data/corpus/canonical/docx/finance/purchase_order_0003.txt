@@ -1,0 +1,5 @@
+BESTELLUNG PO-226233
+Besteller: Wolfgang Caspar-Schuchhardt
+Kontakt: sthanel@example.net
+Lieferadresse: Klaus-Dieter-Kroker-Allee 3, 70771 Stadtroda
+Artikel: 38x Material SKU-44748

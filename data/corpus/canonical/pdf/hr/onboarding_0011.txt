@@ -1,0 +1,8 @@
+Onboarding-Checkliste
+Neue Kollegin/Kollege: Dr. Hans Georg Barth B.Eng.
+E-Mail-Konto: sabriliebelt@example.net
+Benutzername (Login): pstoll
+Personalnummer: PNR-24726573
+Diensttelefon: +49(0)4755 09235
+
+[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

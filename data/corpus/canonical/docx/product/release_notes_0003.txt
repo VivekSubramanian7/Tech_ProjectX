@@ -1,0 +1,9 @@
+Release Notes — v8.9.0
+==============================
+- [JIRA-6210] Focused client-server installation
+- [JIRA-9019] Multi-channeled dynamic infrastructure
+- [JIRA-2860] Synergized value-added encoding
+- [JIRA-9115] Profit-focused impactful budgetary management
+- [JIRA-3213] Ameliorated bi-directional product
+- [JIRA-6144] Synergistic contextually-based initiative
+Build-Hash: 1c8b1bd403a6

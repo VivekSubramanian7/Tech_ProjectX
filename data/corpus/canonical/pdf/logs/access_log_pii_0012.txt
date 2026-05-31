@@ -1,0 +1,5 @@
+# auth service access log
+13/05/2025:11:59 user=bonbachzenta from 71.43.141.117 status=200
+11/05/2025:19:09 user=danielle27 from 69.149.217.239 status=200
+26/02/2025:09:39 user=netterichard from 122.35.37.113 status=200
+06/11/2025:02:12 user=oeberth from 12.101.77.174 status=200

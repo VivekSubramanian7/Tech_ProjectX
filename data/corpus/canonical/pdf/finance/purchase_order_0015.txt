@@ -1,0 +1,5 @@
+BESTELLUNG PO-832015
+Besteller: Ing. Aloys Noack B.Eng.
+Kontakt: irose@example.com
+Lieferadresse: Marius-Neuschäfer-Allee 24-65, 27377 Goslar
+Artikel: 10x Material SKU-67223

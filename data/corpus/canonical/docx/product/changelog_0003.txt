@@ -1,0 +1,6 @@
+CHANGELOG
+v3.17 — Integrated client-driven analyzer
+v7.29 — Mandatory directional core
+v2.3 — Assimilated mobile toolset
+v9.6 — Public-key context-sensitive toolset
+v8.11 — Re-engineered even-keeled moderator

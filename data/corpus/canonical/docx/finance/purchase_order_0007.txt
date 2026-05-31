@@ -1,0 +1,5 @@
+BESTELLUNG PO-477420
+Besteller: Reginald Flantz-Höfig
+Kontakt: usteuer@example.org
+Lieferadresse: Gino-Neuschäfer-Platz 14-97, 63006 Rostock
+Artikel: 14x Material SKU-27200

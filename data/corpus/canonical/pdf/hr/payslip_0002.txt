@@ -1,0 +1,7 @@
+Entgeltabrechnung
+Name: Helmut Rust
+Personalnummer: PNR-78065841
+SV-Nummer: 12060777S713
+Steuer-ID: 80216745098
+Auszahlung auf IBAN: DE83295749796746500780
+Bruttobezug: 7.459,00 EUR

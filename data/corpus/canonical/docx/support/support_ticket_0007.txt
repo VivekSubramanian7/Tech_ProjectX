@@ -1,0 +1,5 @@
+[Ticket #102785] Status: offen
+Gemeldet von: Wally Schenk-Hofmann
+Rückmeldung an: abaum@example.com
+Telefon: +49(0)1225 41164
+Beschreibung: Login schlägt nach Update fehl.

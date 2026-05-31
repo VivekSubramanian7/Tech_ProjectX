@@ -1,8 +1,19 @@
 # Design — Large Labeled Text Corpus (1,200+ files)
 
 **Date:** 2026-05-31
-**Status:** Approved
+**Status:** Phase 1 complete ✅ · Phase 2 (docx/pdf) complete ✅
 **Author:** Vivek + Claude
+
+## Phase 2 outcome (2026-05-31)
+
+Built per the multi-format plan below. 800 files (400 `.docx` + 400 `.pdf`,
+60/40 PII/decoy), 2,097 **entity-level** labels (no raw PII), plus a canonical
+extracted-text sidecar per file under `data/corpus/canonical/`. Fresh content
+(seed `20260601`, distinct from txt). Entity labels + sidecars regenerate
+byte-identically; rendered binaries are reproducible-mode but not asserted
+byte-stable (format metadata). New code: `renderers.py`,
+`generate_multiformat.py`, `EntityLabel` in `contracts.py`, loader additions,
+`eval/test_corpus_multiformat.py`. Deps: `python-docx`, `reportlab`.
 
 ## Goal
 

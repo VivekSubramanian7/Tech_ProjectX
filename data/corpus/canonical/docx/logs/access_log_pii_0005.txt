@@ -1,0 +1,7 @@
+# auth service access log
+10/11/2025:21:43 user=nikolausgehringer from 164.163.249.65 status=200
+25/05/2025:02:55 user=hertrampfevelyn from 13.33.133.16 status=200
+16/09/2025:23:49 user=eberthsybilla from 42.113.235.173 status=200
+22/05/2025:03:38 user=ceciliakiller from 31.136.197.153 status=200
+06/06/2025:00:05 user=yhuebel from 122.67.160.148 status=200
+16/09/2025:10:12 user=segebahnernestine from 179.252.20.83 status=200

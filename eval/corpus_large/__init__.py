@@ -19,12 +19,14 @@ from typing import Any
 
 import yaml
 
-from contracts import BBox, Label, Location, Span
+from contracts import BBox, EntityLabel, Label, Location, Span
 
 _DIR = Path(__file__).resolve().parent
 _REPO_ROOT = _DIR.parents[1]
 _LABELS_FILE = _DIR / "labels.jsonl"
 _MANIFEST_FILE = _DIR / "manifest.yaml"
+_ENTITY_LABELS_FILE = _DIR / "labels_entity.jsonl"
+_MULTIFORMAT_MANIFEST_FILE = _DIR / "manifest_multiformat.yaml"
 
 # Distinct eval scope so file_ids never collide with the seed set.
 CORPUS_SOURCE_TYPE = "local"
@@ -77,3 +79,41 @@ def load_corpus_labels() -> list[Label]:
 def load_corpus_manifest() -> dict[str, Any]:
     """Load the corpus manifest (provenance, seed, distribution, counts)."""
     return yaml.safe_load(_MANIFEST_FILE.read_text(encoding="utf-8"))
+
+
+def load_entity_labels() -> list[EntityLabel]:
+    """Load the multi-format (.docx/.pdf) entity-level ground truth."""
+    labels: list[EntityLabel] = []
+    for line in _ENTITY_LABELS_FILE.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        row = json.loads(line)
+        native_id = row["native_id"]
+        labels.append(
+            EntityLabel(
+                file_id=corpus_file_id(native_id),
+                native_id=native_id,
+                classification_code=row["classification_code"],
+                modality=row["modality"],
+                occurrence=row["occurrence"],
+                provenance=row["provenance"],
+                file_format=row["file_format"],
+            )
+        )
+    return labels
+
+
+def load_multiformat_manifest() -> dict[str, Any]:
+    """Load the multi-format corpus manifest."""
+    return yaml.safe_load(_MULTIFORMAT_MANIFEST_FILE.read_text(encoding="utf-8"))
+
+
+def canonical_sidecar_path(native_id: str) -> Path:
+    """Path to the canonical extracted-text sidecar for a docx/pdf native_id.
+
+    e.g. "docx/hr/hr_record_0000.docx" -> data/corpus/canonical/docx/hr/hr_record_0000.txt
+    """
+    fmt, rest = native_id.split("/", 1)
+    stem = rest.rsplit(".", 1)[0]
+    return corpus_root() / "canonical" / fmt / f"{stem}.txt"

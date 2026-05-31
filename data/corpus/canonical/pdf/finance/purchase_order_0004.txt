@@ -1,0 +1,5 @@
+BESTELLUNG PO-126855
+Besteller: Gabriella Vogt-Mosemann
+Kontakt: gotthardanselm@example.org
+Lieferadresse: Daria-Hamann-Weg 53/15, 53881 Miesbach
+Artikel: 36x Material SKU-52434

@@ -1,0 +1,5 @@
+CHANGELOG
+v6.30 — Streamlined solution-oriented protocol
+v9.9 — Streamlined client-server middleware
+v8.11 — Integrated hybrid superstructure
+v8.5 — Streamlined content-based portal

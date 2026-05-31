@@ -1,0 +1,6 @@
+# auth service access log
+23/01/2025:15:56 user=jaehnhans-dietrich from 41.56.160.203 status=200
+08/10/2025:14:57 user=emmerichmuelichen from 28.40.65.108 status=200
+21/06/2025:19:55 user=franz-josefgertz from 97.116.61.164 status=200
+20/01/2025:07:22 user=aseifert from 11.218.5.31 status=200
+07/06/2025:06:45 user=corinna97 from 223.175.170.219 status=200

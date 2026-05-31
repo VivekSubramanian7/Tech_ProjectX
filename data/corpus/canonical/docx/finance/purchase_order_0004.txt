@@ -1,0 +1,5 @@
+BESTELLUNG PO-189761
+Besteller: Ing. Björn Löffler
+Kontakt: xkohl@example.com
+Lieferadresse: Alida-Zimmer-Ring 9, 18615 Sulzbach-Rosenberg
+Artikel: 22x Material SKU-70787

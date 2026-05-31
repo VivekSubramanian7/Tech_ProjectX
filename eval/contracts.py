@@ -47,6 +47,25 @@ class Label:
 
 
 @dataclass(frozen=True)
+class EntityLabel:
+    """Location-free ground truth for formats where exact spans are fragile.
+
+    For `.docx`/`.pdf`, the precise character offset of a PII value depends on the
+    text-extractor the engine uses, so we assert presence at the entity level
+    instead: this file contains this classification (this many times). Still
+    carries no raw PII value — only the code, an occurrence index, and the format.
+    """
+
+    file_id: str
+    native_id: str
+    classification_code: str
+    modality: str  # "text" | "image"
+    occurrence: int  # 0-based index of this entity within the file
+    provenance: str
+    file_format: str  # "docx" | "pdf" | ...
+
+
+@dataclass(frozen=True)
 class Finding:
     """The engine's output for one detected entity (no raw PII value)."""
 

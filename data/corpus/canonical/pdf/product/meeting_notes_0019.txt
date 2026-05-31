@@ -1,0 +1,8 @@
+Protokoll Produktmeeting 04.05.2025
+Themen:
+  * syndicate plug-and-play applications
+  * re-contextualize web-enabled applications
+  * embrace best-of-breed web-readiness
+  * re-contextualize revolutionary technologies
+  * exploit web-enabled eyeballs
+Nächstes Review: KW44

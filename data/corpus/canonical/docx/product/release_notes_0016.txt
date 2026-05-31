@@ -1,0 +1,8 @@
+Release Notes — v1.15.0
+==============================
+- [JIRA-3116] Persistent logistical functionalities
+- [JIRA-1094] Re-contextualized exuding policy
+- [JIRA-9920] Programmable 3rdgeneration architecture
+- [JIRA-8818] Synchronized zero administration encryption
+- [JIRA-5835] Persistent neutral open system
+Build-Hash: e9deaa4acbd8

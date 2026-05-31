@@ -1,0 +1,6 @@
+Release Notes — v2.14.6
+==============================
+- [JIRA-1878] Devolved maximized interface
+- [JIRA-9873] Enhanced attitude-oriented data-warehouse
+- [JIRA-2018] Upgradable multi-state protocol
+Build-Hash: ed2f893bea7f

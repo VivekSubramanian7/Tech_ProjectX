@@ -1,0 +1,5 @@
+BESTELLUNG PO-725719
+Besteller: Gerold Stiffel
+Kontakt: hildeklemm@example.com
+Lieferadresse: Aziz-Paffrath-Straße 86, 82124 Schleiz
+Artikel: 2x Material SKU-84516

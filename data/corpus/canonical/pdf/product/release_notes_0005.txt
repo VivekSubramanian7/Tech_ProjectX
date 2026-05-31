@@ -1,0 +1,8 @@
+Release Notes — v3.2.4
+==============================
+- [JIRA-2637] Triple-buffered composite software
+- [JIRA-4085] Automated solution-oriented matrices
+- [JIRA-9308] Stand-alone interactive product
+- [JIRA-6879] Secured 24/7 knowledgebase
+- [JIRA-8829] Expanded clear-thinking intranet
+Build-Hash: 6aae2c763fba

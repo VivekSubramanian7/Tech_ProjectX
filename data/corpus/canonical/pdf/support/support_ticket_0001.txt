@@ -1,0 +1,5 @@
+[Ticket #843558] Status: offen
+Gemeldet von: Oda Wagner-Stadelmann
+Rückmeldung an: fritznette@example.org
+Telefon: +49(0)7645739482
+Beschreibung: Login schlägt nach Update fehl.

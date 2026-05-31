@@ -1,0 +1,8 @@
+Onboarding-Checkliste
+Neue Kollegin/Kollege: Georg Schmidtke
+E-Mail-Konto: fiebigclaus-dieter@example.org
+Benutzername (Login): kdietz
+Personalnummer: PNR-35212107
+Diensttelefon: (01181) 44982
+
+[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

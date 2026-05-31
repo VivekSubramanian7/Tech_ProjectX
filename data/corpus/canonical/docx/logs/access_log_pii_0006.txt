@@ -1,0 +1,6 @@
+# auth service access log
+02/11/2025:20:46 user=stadelmannivanka from 37.248.220.2 status=200
+14/01/2025:10:44 user=wilfriedkobelt from 191.214.206.21 status=200
+12/11/2025:08:28 user=carmelo44 from 99.209.16.4 status=200
+13/04/2025:15:29 user=halinaschweitzer from 155.217.162.10 status=200
+11/10/2025:07:05 user=jwirth from 171.255.160.169 status=200

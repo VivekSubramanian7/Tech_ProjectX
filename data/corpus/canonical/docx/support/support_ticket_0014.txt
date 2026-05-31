@@ -1,0 +1,5 @@
+[Ticket #740291] Status: offen
+Gemeldet von: Evangelos auch Schlauchin
+Rückmeldung an: wmetz@example.org
+Telefon: 00089 52066
+Beschreibung: Login schlägt nach Update fehl.

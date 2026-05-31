@@ -1,0 +1,6 @@
+CHANGELOG
+v8.12 — Streamlined next generation Graphical User Interface
+v8.28 — Object-based secondary model
+v3.21 — Mandatory multi-tasking hardware
+v6.18 — Pre-emptive non-volatile methodology
+v6.12 — Monitored high-level alliance

@@ -1,0 +1,6 @@
+Release Notes — v9.6.1
+==============================
+- [JIRA-4874] Integrated contextually-based initiative
+- [JIRA-3328] Sharable full-range alliance
+- [JIRA-3129] Synchronized impactful structure
+Build-Hash: e4d83e86a9df

@@ -1,0 +1,7 @@
+Release Notes — v2.13.3
+==============================
+- [JIRA-7480] Compatible client-server encoding
+- [JIRA-9913] Quality-focused background project
+- [JIRA-6891] Cloned bandwidth-monitored capacity
+- [JIRA-2885] Diverse modular projection
+Build-Hash: fddb8d766eab

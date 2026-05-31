@@ -1,0 +1,7 @@
+Release Notes — v1.18.4
+==============================
+- [JIRA-3598] Right-sized impactful definition
+- [JIRA-3293] Multi-lateral even-keeled data-warehouse
+- [JIRA-9751] Implemented intangible Local Area Network
+- [JIRA-7944] Cross-platform fault-tolerant initiative
+Build-Hash: 75bd2daaad0f

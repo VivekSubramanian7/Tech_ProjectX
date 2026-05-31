@@ -1,0 +1,5 @@
+BESTELLUNG PO-436301
+Besteller: Sylvie Hermighausen
+Kontakt: arno24@example.org
+Lieferadresse: Danuta-Nette-Weg 67, 80001 Eichstätt
+Artikel: 24x Material SKU-84556

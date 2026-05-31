@@ -1,0 +1,6 @@
+Release Notes — v9.16.6
+==============================
+- [JIRA-3765] Realigned fault-tolerant approach
+- [JIRA-4959] Configurable interactive customer loyalty
+- [JIRA-4226] Decentralized neutral software
+Build-Hash: dad9cb1d7ef0

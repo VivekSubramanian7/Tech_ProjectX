@@ -1,0 +1,7 @@
+Release Notes — v8.9.0
+==============================
+- [JIRA-8344] Right-sized non-volatile paradigm
+- [JIRA-8538] Proactive upward-trending moderator
+- [JIRA-6428] Triple-buffered non-volatile array
+- [JIRA-1229] Monitored non-volatile protocol
+Build-Hash: be70be99fb7e

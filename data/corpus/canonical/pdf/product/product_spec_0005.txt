@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-132747
+Maße: 27 x 52 x 159 mm
+Toleranz: ±0.9 mm
+Materialcharge: LOT-649010
+Interne Referenz: 53756809127

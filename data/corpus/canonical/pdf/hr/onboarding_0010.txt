@@ -1,0 +1,8 @@
+Onboarding-Checkliste
+Neue Kollegin/Kollege: Carmen Meister B.A.
+E-Mail-Konto: friederikedoering@example.org
+Benutzername (Login): johannes11
+Personalnummer: PNR-58798979
+Diensttelefon: 0698500687
+
+[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

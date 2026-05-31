@@ -1,0 +1,5 @@
+BESTELLUNG PO-123071
+Besteller: Dipl.-Ing. Attila Steckel B.A.
+Kontakt: gordon22@example.net
+Lieferadresse: Vlado-Klapp-Weg 1387, 26875 Bad Freienwalde
+Artikel: 28x Material SKU-44793

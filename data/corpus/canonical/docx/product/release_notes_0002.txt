@@ -1,0 +1,8 @@
+Release Notes — v5.4.7
+==============================
+- [JIRA-9101] Focused bottom-line customer loyalty
+- [JIRA-1422] Future-proofed composite collaboration
+- [JIRA-9181] Down-sized object-oriented capability
+- [JIRA-6948] Managed system-worthy orchestration
+- [JIRA-6683] Universal asynchronous artificial intelligence
+Build-Hash: ae4eccfd1dd9

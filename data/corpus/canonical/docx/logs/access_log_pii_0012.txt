@@ -1,0 +1,6 @@
+# auth service access log
+10/10/2025:05:42 user=oskarhofmann from 83.60.227.112 status=200
+26/10/2025:02:06 user=umies from 221.201.60.210 status=200
+09/04/2025:08:33 user=thorstengutknecht from 2.183.90.39 status=200
+10/04/2025:04:25 user=landers from 55.237.180.145 status=200
+24/09/2025:06:19 user=horst74 from 26.189.168.103 status=200

@@ -1,0 +1,9 @@
+Release Notes — v9.20.0
+==============================
+- [JIRA-2258] Total uniform concept
+- [JIRA-8065] De-engineered impactful Local Area Network
+- [JIRA-9351] Inverse multimedia capacity
+- [JIRA-1283] Streamlined attitude-oriented standardization
+- [JIRA-7967] Visionary web-enabled moratorium
+- [JIRA-5751] Networked heuristic orchestration
+Build-Hash: edc8fa8b88f5

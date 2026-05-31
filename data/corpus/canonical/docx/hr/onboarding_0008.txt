@@ -1,0 +1,8 @@
+Onboarding-Checkliste
+Neue Kollegin/Kollege: Otmar Jähn
+E-Mail-Konto: smaelzer@example.net
+Benutzername (Login): siegfriedherrmann
+Personalnummer: PNR-19463356
+Diensttelefon: +49(0)1296 32221
+
+[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

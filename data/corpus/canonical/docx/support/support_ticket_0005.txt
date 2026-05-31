@@ -1,0 +1,6 @@
+[Ticket #834922] Status: offen
+Gemeldet von: Univ.Prof. Magdalena Schäfer
+Rückmeldung an: etzoldrosina@example.org
+Telefon: 05955 636315
+Client-IP aus Log: 89.35.31.176
+Beschreibung: Login schlägt nach Update fehl.

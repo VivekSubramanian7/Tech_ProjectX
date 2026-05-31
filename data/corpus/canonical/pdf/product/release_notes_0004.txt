@@ -1,0 +1,7 @@
+Release Notes — v1.12.8
+==============================
+- [JIRA-4356] Extended intermediate projection
+- [JIRA-6698] Adaptive modular Graphic Interface
+- [JIRA-5967] Customer-focused global service-desk
+- [JIRA-1212] Virtual static strategy
+Build-Hash: ffdbe07daeac

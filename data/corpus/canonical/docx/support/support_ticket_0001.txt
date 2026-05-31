@@ -1,0 +1,6 @@
+[Ticket #585140] Status: offen
+Gemeldet von: Univ.Prof. Henryk Hettner B.A.
+Rückmeldung an: gretelklotz@example.com
+Telefon: +49(0)8443 749867
+Client-IP aus Log: 108.250.236.212
+Beschreibung: Login schlägt nach Update fehl.

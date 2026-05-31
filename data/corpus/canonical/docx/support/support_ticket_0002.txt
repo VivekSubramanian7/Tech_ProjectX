@@ -1,0 +1,6 @@
+[Ticket #192502] Status: offen
+Gemeldet von: Klaus-Michael Schleich
+Rückmeldung an: xkoch-ii@example.com
+Telefon: (06543) 03424
+Client-IP aus Log: 99.221.5.178
+Beschreibung: Login schlägt nach Update fehl.

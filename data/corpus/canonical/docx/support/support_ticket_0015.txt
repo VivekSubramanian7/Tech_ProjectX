@@ -1,0 +1,6 @@
+[Ticket #474060] Status: offen
+Gemeldet von: Dipl.-Ing. Herta Bachmann
+Rückmeldung an: gotthardmonja@example.net
+Telefon: 07285 50685
+Client-IP aus Log: 170.101.167.103
+Beschreibung: Login schlägt nach Update fehl.

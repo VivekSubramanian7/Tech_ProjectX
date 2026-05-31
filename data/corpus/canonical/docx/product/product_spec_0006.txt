@@ -1,0 +1,6 @@
+Technische Spezifikation
+Artikel-Nr.: SKU-258109
+Maße: 41 x 72 x 93 mm
+Toleranz: ±0.1 mm
+Materialcharge: LOT-955022
+Interne Referenz: 28706529318

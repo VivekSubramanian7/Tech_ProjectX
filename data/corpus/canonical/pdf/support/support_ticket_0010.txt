@@ -1,0 +1,6 @@
+[Ticket #363946] Status: offen
+Gemeldet von: Univ.Prof. Sigfried Heydrich MBA.
+Rückmeldung an: beckbauer@example.com
+Telefon: 01100 98016
+Client-IP aus Log: 200.168.18.252
+Beschreibung: Login schlägt nach Update fehl.

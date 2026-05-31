@@ -1,0 +1,6 @@
+[Ticket #821190] Status: offen
+Gemeldet von: Wladimir Margraf
+Rückmeldung an: vrogge@example.com
+Telefon: (02409) 804689
+Client-IP aus Log: 196.240.141.40
+Beschreibung: Login schlägt nach Update fehl.

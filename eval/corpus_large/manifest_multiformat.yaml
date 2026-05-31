@@ -1,0 +1,46 @@
+dataset: bosch-gdpr-corpus-multiformat
+version: 1.0.0
+description: Multi-format (.docx/.pdf) labeled evaluation corpus for the GDPR scan
+  engine. Entity-level ground truth (no raw PII), with a canonical extracted-text
+  sidecar per file. Regenerate with eval/corpus_large/generate_multiformat.py.
+granularity: entity
+provenance:
+  generator: eval/corpus_large/generate_multiformat.py
+  master_seed: 20260601
+  faker_version: 40.19.1
+  faker_locale: de_DE
+  python_docx_version: 1.2.0
+  reportlab_version: 4.4.9
+  annotation: synthetic/generator
+counts:
+  files: 800
+  by_format:
+    docx: 400
+    pdf: 400
+  pii_files: 480
+  decoy_files: 320
+  entity_labels: 2097
+distribution:
+  by_format:
+    docx: 400
+    pdf: 400
+  by_category:
+    BILLING_SHIPPING_ADDRESS: 64
+    CREDIT_CARD_NUMBER: 35
+    DE_PERSONALAUSWEIS: 82
+    DE_SOZIALVERSICHERUNGSNR: 64
+    DE_STEUER_ID: 96
+    DRIVERS_LICENSE_NUMBER: 64
+    EMAIL: 192
+    EMPLOYEE_ID: 160
+    FAX_NUMBER: 32
+    HOME_ADDRESS: 96
+    IBAN: 96
+    IP_ADDRESS: 149
+    PASSPORT_NUMBER: 96
+    PERSON_NAME: 512
+    PHONE_NUMBER: 128
+    TRAVEL_HISTORY: 64
+    USERNAME: 167
+target_size:
+  files: 800
