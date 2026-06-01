@@ -1,6 +1,0 @@
-[Ticket #303239] Status: offen
-Gemeldet von: Natalja Steuer
-Rückmeldung an: gorlitzmilan@example.net
-Telefon: (09283) 494068
-Client-IP aus Log: 30.218.251.62
-Beschreibung: Login schlägt nach Update fehl.

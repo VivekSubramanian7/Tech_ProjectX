@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Anika Karge-Franke
-E-Mail-Konto: trupplouise@example.com
-Benutzername (Login): gerorosemann
-Personalnummer: PNR-20262467
-Diensttelefon: 04498 22657
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

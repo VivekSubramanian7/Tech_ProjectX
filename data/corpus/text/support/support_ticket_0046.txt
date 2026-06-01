@@ -1,5 +1,0 @@
-[Ticket #596223] Status: offen
-Gemeldet von: Dipl.-Ing. Ingbert Cichorius B.A.
-Rückmeldung an: heiko34@example.org
-Telefon: (03511) 664971
-Beschreibung: Login schlägt nach Update fehl.

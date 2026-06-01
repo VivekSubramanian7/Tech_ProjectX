@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Frau Aysel Ehlert
-E-Mail-Konto: magda50@example.org
-Benutzername (Login): goranroskoth
-Personalnummer: PNR-47701489
-Diensttelefon: 04514 977786
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-839744
-Maße: 176 x 45 x 189 mm
-Toleranz: ±0.1 mm
-Materialcharge: LOT-463058
-Interne Referenz: 31075684121

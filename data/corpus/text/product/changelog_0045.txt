@@ -1,6 +1,0 @@
-CHANGELOG
-v3.2 — Devolved 24hour help-desk
-v3.6 — Inverse secondary core
-v5.2 — Total context-sensitive functionalities
-v3.7 — Public-key static customer loyalty
-v7.19 — Pre-emptive high-level intranet

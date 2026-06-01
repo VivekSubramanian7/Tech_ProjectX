@@ -1,5 +1,0 @@
-BESTELLUNG PO-612691
-Besteller: Frau Regine Naser
-Kontakt: albersconrad@example.org
-Lieferadresse: Oderwaldweg 3352, 31245 Dachau
-Artikel: 9x Material SKU-94153

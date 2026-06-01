@@ -1,6 +1,0 @@
-[Ticket #767379] Status: offen
-Gemeldet von: Engin Kusch B.Sc.
-Rückmeldung an: alexeibeyer@example.net
-Telefon: +49(0)3094 087265
-Client-IP aus Log: 132.108.90.11
-Beschreibung: Login schlägt nach Update fehl.

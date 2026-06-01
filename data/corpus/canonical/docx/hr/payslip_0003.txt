@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Bärbel Pieper
-Personalnummer: PNR-61885049
-SV-Nummer: 15020581P258
-Steuer-ID: 72690918436
-Auszahlung auf IBAN: DE77113834672429191198
-Bruttobezug: 4.698,00 EUR

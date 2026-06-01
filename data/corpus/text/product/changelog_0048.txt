@@ -1,5 +1,0 @@
-CHANGELOG
-v9.27 — Enterprise-wide motivating product
-v3.15 — Digitized tertiary help-desk
-v3.3 — User-centric executive projection
-v3.1 — Intuitive human-resource knowledge user

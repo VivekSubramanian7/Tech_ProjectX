@@ -1,6 +1,0 @@
-# auth service access log
-07/05/2025:18:52 user=troestoscar from 194.32.220.206 status=200
-09/04/2025:00:06 user=phillipziegert from 148.130.19.119 status=200
-26/01/2025:13:43 user=mijo84 from 116.65.115.32 status=200
-03/03/2025:15:24 user=fatihullmann from 217.38.54.62 status=200
-10/11/2025:14:24 user=tweinhage from 222.19.181.238 status=200

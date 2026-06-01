@@ -1,7 +1,0 @@
-CHANGELOG
-v1.27 — Expanded 3rdgeneration adapter
-v8.28 — Focused attitude-oriented database
-v5.21 — Enterprise-wide scalable infrastructure
-v3.30 — Business-focused context-sensitive groupware
-v1.29 — Programmable directional contingency
-v1.9 — Distributed systematic data-warehouse

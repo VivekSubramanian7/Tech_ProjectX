@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-200134
-Maße: 101 x 22 x 87 mm
-Toleranz: ±0.2 mm
-Materialcharge: LOT-784282
-Interne Referenz: 67531842191

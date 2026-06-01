@@ -1,5 +1,0 @@
-BESTELLUNG PO-593212
-Besteller: James Wende-Faust
-Kontakt: vjunck@example.com
-Lieferadresse: Nergerweg 3, 36923 Bischofswerda
-Artikel: 39x Material SKU-46905

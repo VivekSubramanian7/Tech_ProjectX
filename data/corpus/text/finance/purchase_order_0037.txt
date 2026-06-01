@@ -1,5 +1,0 @@
-BESTELLUNG PO-688713
-Besteller: Isabel Meister
-Kontakt: kilian10@example.org
-Lieferadresse: Weitzelplatz 24/39, 38939 Augsburg
-Artikel: 1x Material SKU-31080

@@ -1,5 +1,0 @@
-[Ticket #612860] Status: offen
-Gemeldet von: Guido Junk
-Rückmeldung an: blankahaering@example.com
-Telefon: +49(0)2729882951
-Beschreibung: Login schlägt nach Update fehl.

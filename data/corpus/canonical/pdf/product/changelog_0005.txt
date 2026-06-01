@@ -1,6 +1,0 @@
-CHANGELOG
-v6.13 — Business-focused reciprocal process improvement
-v3.10 — Implemented 24hour analyzer
-v3.12 — Realigned heuristic framework
-v3.14 — Front-line national approach
-v6.24 — Open-source local leverage

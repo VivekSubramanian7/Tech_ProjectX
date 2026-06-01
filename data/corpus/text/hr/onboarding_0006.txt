@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Daniela Bender B.Eng.
-E-Mail-Konto: nwarmer@example.net
-Benutzername (Login): hermannleszek
-Personalnummer: PNR-61630804
-Diensttelefon: +49(0)2454 99294
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

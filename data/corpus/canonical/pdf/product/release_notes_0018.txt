@@ -1,8 +1,0 @@
-Release Notes — v7.17.8
-==============================
-- [JIRA-1940] Down-sized motivating extranet
-- [JIRA-9857] Profit-focused impactful software
-- [JIRA-2769] Expanded global info-mediaries
-- [JIRA-8619] Configurable client-server knowledge user
-- [JIRA-9166] Optional web-enabled structure
-Build-Hash: af3d5b424fff

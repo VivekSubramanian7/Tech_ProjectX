@@ -1,7 +1,0 @@
-Protokoll Produktmeeting 06.05.2025
-Themen:
-  * target transparent metrics
-  * benchmark extensible networks
-  * matrix transparent e-business
-  * repurpose 24/7 models
-Nächstes Review: KW10

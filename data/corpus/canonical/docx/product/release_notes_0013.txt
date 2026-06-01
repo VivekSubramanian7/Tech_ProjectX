@@ -1,7 +1,0 @@
-Release Notes — v4.9.9
-==============================
-- [JIRA-6202] Secured systemic pricing structure
-- [JIRA-8754] Profit-focused 4thgeneration info-mediaries
-- [JIRA-2278] Realigned reciprocal success
-- [JIRA-1049] Cross-platform heuristic alliance
-Build-Hash: 2fcdcda7e30f

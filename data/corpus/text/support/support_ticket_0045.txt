@@ -1,5 +1,0 @@
-[Ticket #323651] Status: offen
-Gemeldet von: Marijan Zorbach
-Rückmeldung an: anka89@example.net
-Telefon: +49(0)3798414874
-Beschreibung: Login schlägt nach Update fehl.

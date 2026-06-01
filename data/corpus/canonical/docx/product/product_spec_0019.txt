@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-622035
-Maße: 180 x 43 x 62 mm
-Toleranz: ±0.2 mm
-Materialcharge: LOT-710306
-Interne Referenz: 14064287594

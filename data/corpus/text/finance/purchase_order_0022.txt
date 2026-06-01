@@ -1,5 +1,0 @@
-BESTELLUNG PO-523525
-Besteller: Bartholomäus Pohl-Weiß
-Kontakt: haeringiwan@example.org
-Lieferadresse: Gisela-Mentzel-Straße 41/10, 72937 Göttingen
-Artikel: 24x Material SKU-62694

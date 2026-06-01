@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Cora Gnatz
-E-Mail-Konto: gotthard25@example.org
-Benutzername (Login): tdavids
-Personalnummer: PNR-71110275
-Diensttelefon: +49(0)2313 989130
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

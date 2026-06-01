@@ -1,8 +1,0 @@
-CHANGELOG
-v6.22 — Advanced web-enabled monitoring
-v1.14 — Re-engineered 5thgeneration firmware
-v9.30 — Monitored intermediate Internet solution
-v5.14 — Front-line intermediate installation
-v5.7 — Advanced systemic benchmark
-v9.13 — Customer-focused client-server protocol
-v8.21 — Optional value-added adapter

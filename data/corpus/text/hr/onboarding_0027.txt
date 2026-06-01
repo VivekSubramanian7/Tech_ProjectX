@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Herr Pius Mälzer MBA.
-E-Mail-Konto: volkmar97@example.org
-Benutzername (Login): wesackhildegard
-Personalnummer: PNR-34082323
-Diensttelefon: 03732 55954
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

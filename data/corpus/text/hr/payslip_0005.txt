@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Frau Cosima Weller B.Eng.
-Personalnummer: PNR-35037213
-SV-Nummer: 65071095Q961
-Steuer-ID: 85763401901
-Auszahlung auf IBAN: DE05490778603040295647
-Bruttobezug: 8.923,00 EUR

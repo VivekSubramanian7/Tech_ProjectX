@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Milka Speer
-Personalnummer: PNR-80687857
-SV-Nummer: 35221293K373
-Steuer-ID: 67503199420
-Auszahlung auf IBAN: DE44019767353758507758
-Bruttobezug: 8.491,00 EUR

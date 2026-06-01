@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Leo Koch
-Personalnummer: PNR-41205399
-SV-Nummer: 26270880X481
-Steuer-ID: 51776320980
-Auszahlung auf IBAN: DE77998174643389717708
-Bruttobezug: 9.409,00 EUR

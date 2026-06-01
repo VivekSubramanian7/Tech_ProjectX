@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-830542
-Maße: 120 x 137 x 55 mm
-Toleranz: ±0.9 mm
-Materialcharge: LOT-640247
-Interne Referenz: 32078491865

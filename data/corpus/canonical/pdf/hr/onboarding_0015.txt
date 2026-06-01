@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Dipl.-Ing. Edmund Girschner B.Sc.
-E-Mail-Konto: ggeisler@example.net
-Benutzername (Login): tgroettner
-Personalnummer: PNR-58651693
-Diensttelefon: 01220 480698
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

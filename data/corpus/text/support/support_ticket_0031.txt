@@ -1,6 +1,0 @@
-[Ticket #533792] Status: offen
-Gemeldet von: Folker Döring
-Rückmeldung an: kochwenzel@example.org
-Telefon: (07464) 066066
-Client-IP aus Log: 36.117.232.233
-Beschreibung: Login schlägt nach Update fehl.

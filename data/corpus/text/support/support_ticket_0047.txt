@@ -1,6 +1,0 @@
-[Ticket #783467] Status: offen
-Gemeldet von: Beata Ring B.A.
-Rückmeldung an: jeannettewesack@example.com
-Telefon: +49(0)3129 57214
-Client-IP aus Log: 123.9.90.184
-Beschreibung: Login schlägt nach Update fehl.

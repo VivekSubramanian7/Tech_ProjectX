@@ -1,5 +1,0 @@
-BESTELLUNG PO-301950
-Besteller: Tomas Stolze
-Kontakt: mia81@example.org
-Lieferadresse: Rohlederring 83/12, 50091 Ludwigslust
-Artikel: 38x Material SKU-25851

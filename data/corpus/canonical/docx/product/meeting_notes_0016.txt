@@ -1,8 +1,0 @@
-Protokoll Produktmeeting 09.04.2025
-Themen:
-  * deploy customized web services
-  * syndicate 24/7 deliverables
-  * implement interactive mindshare
-  * reinvent 24/7 communities
-  * envisioneer 24/7 platforms
-Nächstes Review: KW23

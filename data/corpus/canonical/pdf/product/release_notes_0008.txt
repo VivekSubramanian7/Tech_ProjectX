@@ -1,8 +1,0 @@
-Release Notes — v3.1.4
-==============================
-- [JIRA-4479] Mandatory well-modulated solution
-- [JIRA-9951] Expanded even-keeled benchmark
-- [JIRA-1376] Sharable demand-driven intranet
-- [JIRA-6910] Virtual directional info-mediaries
-- [JIRA-5959] Operative executive contingency
-Build-Hash: 324aacbeeae9

@@ -1,6 +1,0 @@
-Release Notes — v6.6.6
-==============================
-- [JIRA-3077] Mandatory full-range challenge
-- [JIRA-5934] Face-to-face intangible time-frame
-- [JIRA-3447] Reduced bifurcated array
-Build-Hash: 8c56af8dbbdd

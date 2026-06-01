@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Solveig Noack
-E-Mail-Konto: kochjonathan@example.net
-Benutzername (Login): schollslavica
-Personalnummer: PNR-42982297
-Diensttelefon: +49 (0) 6689 179849
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

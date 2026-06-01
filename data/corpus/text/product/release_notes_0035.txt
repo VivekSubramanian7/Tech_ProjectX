@@ -1,7 +1,0 @@
-Release Notes — v1.4.7
-==============================
-- [JIRA-8493] Enhanced zero tolerance application
-- [JIRA-8373] Extended global encryption
-- [JIRA-5655] Enhanced secondary migration
-- [JIRA-8077] Total impactful model
-Build-Hash: dfbbfbfa8bd7

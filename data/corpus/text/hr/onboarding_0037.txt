@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Edgar Henck
-E-Mail-Konto: magnusjaehn@example.org
-Benutzername (Login): ydowerg
-Personalnummer: PNR-23416124
-Diensttelefon: +49 (0) 0470 906310
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

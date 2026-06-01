@@ -1,9 +1,0 @@
-Release Notes — v2.14.1
-==============================
-- [JIRA-7467] Centralized fault-tolerant orchestration
-- [JIRA-7039] Organic client-driven emulation
-- [JIRA-5048] Progressive client-driven complexity
-- [JIRA-2273] Operative 6thgeneration customer loyalty
-- [JIRA-9997] Self-enabling object-oriented frame
-- [JIRA-8313] Object-based bi-directional adapter
-Build-Hash: c543e08860fb

@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-410378
-Maße: 114 x 72 x 195 mm
-Toleranz: ±0.3 mm
-Materialcharge: LOT-457365
-Interne Referenz: 33752480964

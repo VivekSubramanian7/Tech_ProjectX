@@ -1,6 +1,0 @@
-[Ticket #806456] Status: offen
-Gemeldet von: Wieland Weimer
-Rückmeldung an: wolf-ruediger06@example.com
-Telefon: 0566618389
-Client-IP aus Log: 160.237.37.204
-Beschreibung: Login schlägt nach Update fehl.

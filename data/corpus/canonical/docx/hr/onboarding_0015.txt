@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Concetta Dobes
-E-Mail-Konto: jopichhorst-peter@example.org
-Benutzername (Login): pheintze
-Personalnummer: PNR-45435537
-Diensttelefon: 0566801975
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

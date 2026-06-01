@@ -1,6 +1,0 @@
-CHANGELOG
-v1.30 — Quality-focused dedicated middleware
-v4.9 — Universal web-enabled forecast
-v3.26 — Configurable multi-tasking contingency
-v4.0 — Up-sized human-resource paradigm
-v5.7 — Synchronized encompassing array

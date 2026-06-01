@@ -1,5 +1,0 @@
-BESTELLUNG PO-787300
-Besteller: Urban Dippel
-Kontakt: jortmann@example.com
-Lieferadresse: Necati-Schleich-Straße 7-1, 32296 Worbis
-Artikel: 17x Material SKU-69812

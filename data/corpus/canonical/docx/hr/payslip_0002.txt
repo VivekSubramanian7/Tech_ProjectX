@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Dr. Ottomar Flantz
-Personalnummer: PNR-97494134
-SV-Nummer: 44080355S778
-Steuer-ID: 89020631454
-Auszahlung auf IBAN: DE17211988229416688923
-Bruttobezug: 5.821,00 EUR

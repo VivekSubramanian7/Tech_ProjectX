@@ -1,9 +1,0 @@
-Release Notes — v7.3.8
-==============================
-- [JIRA-3826] Innovative content-based paradigm
-- [JIRA-9614] Focused intermediate contingency
-- [JIRA-9521] Managed explicit Local Area Network
-- [JIRA-8109] Triple-buffered asymmetric architecture
-- [JIRA-2657] Phased global archive
-- [JIRA-9876] Cross-group clear-thinking website
-Build-Hash: fc29e10fbced

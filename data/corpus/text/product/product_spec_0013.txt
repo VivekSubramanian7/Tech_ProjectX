@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-384145
-Maße: 66 x 103 x 66 mm
-Toleranz: ±0.1 mm
-Materialcharge: LOT-102143
-Interne Referenz: 84905762418

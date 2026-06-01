@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-205028
-Maße: 180 x 54 x 54 mm
-Toleranz: ±0.8 mm
-Materialcharge: LOT-419506
-Interne Referenz: 26715390839

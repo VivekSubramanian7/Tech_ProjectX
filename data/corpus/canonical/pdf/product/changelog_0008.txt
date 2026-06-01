@@ -1,5 +1,0 @@
-CHANGELOG
-v7.21 — Virtual context-sensitive middleware
-v6.12 — User-friendly holistic benchmark
-v9.20 — Persistent static database
-v4.17 — Fundamental exuding attitude

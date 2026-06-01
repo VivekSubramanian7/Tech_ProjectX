@@ -1,8 +1,0 @@
-CHANGELOG
-v6.7 — Upgradable heuristic concept
-v7.25 — Persevering secondary Graphic Interface
-v3.15 — Fundamental encompassing benchmark
-v5.16 — Implemented logistical data-warehouse
-v8.13 — Reactive heuristic algorithm
-v1.7 — Multi-tiered system-worthy parallelism
-v5.6 — Total hybrid approach

@@ -1,5 +1,0 @@
-# auth service access log
-02/04/2025:00:39 user=sylvester59 from 48.247.165.111 status=200
-10/05/2025:20:12 user=hasanmentzel from 77.70.49.130 status=200
-15/06/2025:22:50 user=hansjoachim98 from 197.121.103.9 status=200
-12/06/2025:01:39 user=wmans from 6.147.243.47 status=200

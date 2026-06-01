@@ -1,6 +1,0 @@
-[Ticket #674749] Status: offen
-Gemeldet von: Oliver Jungfer
-Rückmeldung an: silvanaroht@example.com
-Telefon: +49(0)2036 72311
-Client-IP aus Log: 52.237.19.128
-Beschreibung: Login schlägt nach Update fehl.

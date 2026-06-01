@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-944508
-Maße: 33 x 48 x 146 mm
-Toleranz: ±0.8 mm
-Materialcharge: LOT-112946
-Interne Referenz: 69231715404

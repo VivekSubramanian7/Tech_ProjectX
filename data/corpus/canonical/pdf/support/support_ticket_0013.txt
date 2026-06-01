@@ -1,5 +1,0 @@
-[Ticket #808057] Status: offen
-Gemeldet von: Dr. Nico Gnatz B.Sc.
-Rückmeldung an: paertzeltberit@example.net
-Telefon: 01671 413908
-Beschreibung: Login schlägt nach Update fehl.

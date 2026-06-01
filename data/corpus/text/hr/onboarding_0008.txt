@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Nikolai Fiebig-Weinhage
-E-Mail-Konto: lene72@example.com
-Benutzername (Login): tzorbach
-Personalnummer: PNR-41185746
-Diensttelefon: 04493889558
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

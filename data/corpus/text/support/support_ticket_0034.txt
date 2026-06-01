@@ -1,6 +1,0 @@
-[Ticket #518618] Status: offen
-Gemeldet von: Dipl.-Ing. Annekatrin Scholl
-Rückmeldung an: moechlichenmagrit@example.org
-Telefon: 06581438820
-Client-IP aus Log: 56.249.141.87
-Beschreibung: Login schlägt nach Update fehl.

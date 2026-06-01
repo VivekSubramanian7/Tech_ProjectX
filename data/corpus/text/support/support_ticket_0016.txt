@@ -1,5 +1,0 @@
-[Ticket #698065] Status: offen
-Gemeldet von: Donald Trüb B.A.
-Rückmeldung an: hethurjulia@example.com
-Telefon: +49(0)1679514014
-Beschreibung: Login schlägt nach Update fehl.

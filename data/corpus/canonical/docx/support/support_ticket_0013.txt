@@ -1,5 +1,0 @@
-[Ticket #694582] Status: offen
-Gemeldet von: Karl-Ludwig Jäkel
-Rückmeldung an: wholsten@example.org
-Telefon: +49 (0) 2921 748724
-Beschreibung: Login schlägt nach Update fehl.

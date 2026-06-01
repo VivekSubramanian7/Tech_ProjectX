@@ -1,5 +1,0 @@
-BESTELLUNG PO-728441
-Besteller: Dipl.-Ing. Frauke Kruschwitz
-Kontakt: guelaywiek@example.net
-Lieferadresse: Gunther-Eckbauer-Allee 63-56, 53251 Saarbrücken
-Artikel: 38x Material SKU-36680

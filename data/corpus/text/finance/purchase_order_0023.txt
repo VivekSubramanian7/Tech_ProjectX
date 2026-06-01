@@ -1,5 +1,0 @@
-BESTELLUNG PO-134743
-Besteller: Dimitrios Krein
-Kontakt: klaudiajaekel@example.org
-Lieferadresse: Klemtallee 5, 31127 Ahaus
-Artikel: 39x Material SKU-81754

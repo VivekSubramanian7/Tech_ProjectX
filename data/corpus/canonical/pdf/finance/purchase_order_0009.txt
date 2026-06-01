@@ -1,5 +1,0 @@
-BESTELLUNG PO-385017
-Besteller: Dr. Egbert Reinhardt MBA.
-Kontakt: aloysschuchhardt@example.org
-Lieferadresse: Hendriksplatz 4-5, 28233 Hammelburg
-Artikel: 39x Material SKU-20574

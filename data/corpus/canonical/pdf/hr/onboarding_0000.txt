@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Dipl.-Ing. Willi Stolze B.A.
-E-Mail-Konto: mirco79@example.net
-Benutzername (Login): sfischer
-Personalnummer: PNR-57810878
-Diensttelefon: +49(0) 525723794
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

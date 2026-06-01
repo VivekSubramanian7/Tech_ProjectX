@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Margaretha Nerger
-E-Mail-Konto: fatimahenk@example.net
-Benutzername (Login): freudenbergerrudolph
-Personalnummer: PNR-13075695
-Diensttelefon: 04937344581
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

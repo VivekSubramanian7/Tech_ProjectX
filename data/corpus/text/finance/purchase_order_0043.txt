@@ -1,5 +1,0 @@
-BESTELLUNG PO-218514
-Besteller: Dora Bachmann MBA.
-Kontakt: nurten19@example.com
-Lieferadresse: Eberhardtgasse 92/27, 90260 Nabburg
-Artikel: 6x Material SKU-59495

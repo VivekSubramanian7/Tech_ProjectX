@@ -1,6 +1,0 @@
-# auth service access log
-13/02/2025:22:49 user=maik30 from 19.163.230.79 status=200
-15/06/2025:03:45 user=hessehasan from 80.16.176.151 status=200
-14/01/2025:03:51 user=guidohuhn from 188.184.147.72 status=200
-17/10/2025:08:30 user=ines62 from 104.154.97.51 status=200
-19/10/2025:06:13 user=fritschjens from 21.97.154.236 status=200

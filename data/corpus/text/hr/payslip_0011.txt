@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Jan Ortmann
-Personalnummer: PNR-98218980
-SV-Nummer: 65270156C886
-Steuer-ID: 63797054285
-Auszahlung auf IBAN: DE96201068345751946584
-Bruttobezug: 9.253,00 EUR

@@ -1,5 +1,0 @@
-# auth service access log
-08/10/2025:01:11 user=emmyschacht from 196.14.133.42 status=200
-02/02/2025:19:45 user=babett92 from 211.223.176.9 status=200
-12/03/2025:15:56 user=staudesigismund from 219.19.32.18 status=200
-23/04/2025:14:35 user=qsager from 142.159.104.189 status=200

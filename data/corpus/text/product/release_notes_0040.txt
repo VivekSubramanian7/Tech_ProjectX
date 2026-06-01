@@ -1,7 +1,0 @@
-Release Notes — v1.9.7
-==============================
-- [JIRA-4909] Automated encompassing portal
-- [JIRA-4741] Total human-resource budgetary management
-- [JIRA-5117] Innovative 6thgeneration system engine
-- [JIRA-1665] Down-sized full-range pricing structure
-Build-Hash: 02e0b538d50d

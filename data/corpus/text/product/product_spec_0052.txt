@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-722098
-Maße: 100 x 26 x 135 mm
-Toleranz: ±0.8 mm
-Materialcharge: LOT-398071
-Interne Referenz: 93405692181

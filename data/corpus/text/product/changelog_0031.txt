@@ -1,5 +1,0 @@
-CHANGELOG
-v9.0 — Front-line responsive intranet
-v5.1 — De-engineered full-range Graphical User Interface
-v8.14 — Upgradable discrete parallelism
-v2.2 — Virtual modular knowledgebase

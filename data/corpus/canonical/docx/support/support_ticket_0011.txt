@@ -1,6 +1,0 @@
-[Ticket #155521] Status: offen
-Gemeldet von: Univ.Prof. Stanislav Geisel B.A.
-Rückmeldung an: klemens06@example.org
-Telefon: +49(0)1238811237
-Client-IP aus Log: 154.192.121.45
-Beschreibung: Login schlägt nach Update fehl.

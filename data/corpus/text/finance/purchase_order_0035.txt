@@ -1,5 +1,0 @@
-BESTELLUNG PO-198405
-Besteller: Herr Dogan Mude B.Eng.
-Kontakt: alessandrosegebahn@example.org
-Lieferadresse: auch Schlauchingasse 34/44, 34026 Wolgast
-Artikel: 3x Material SKU-63298

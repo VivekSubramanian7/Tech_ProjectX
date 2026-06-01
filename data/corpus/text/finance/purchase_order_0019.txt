@@ -1,5 +1,0 @@
-BESTELLUNG PO-313167
-Besteller: Dipl.-Ing. Conny Wähner
-Kontakt: willfried43@example.net
-Lieferadresse: Meisterallee 4/8, 53258 Gadebusch
-Artikel: 27x Material SKU-94591

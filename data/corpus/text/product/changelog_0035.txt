@@ -1,7 +1,0 @@
-CHANGELOG
-v3.30 — Realigned contextually-based knowledge user
-v8.23 — Persistent asynchronous projection
-v7.15 — Focused multi-tasking frame
-v7.2 — Triple-buffered bandwidth-monitored firmware
-v4.26 — Distributed attitude-oriented info-mediaries
-v8.11 — Multi-tiered 3rdgeneration ability

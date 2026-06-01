@@ -1,6 +1,0 @@
-# auth service access log
-12/04/2025:20:14 user=dehmelelwira from 54.244.32.170 status=200
-15/06/2025:16:10 user=twagenknecht from 221.84.127.61 status=200
-18/11/2025:23:46 user=tilohenk from 44.82.254.87 status=200
-05/02/2025:14:03 user=swetlanawende from 134.108.52.76 status=200
-22/01/2025:11:47 user=antonio01 from 186.133.61.148 status=200

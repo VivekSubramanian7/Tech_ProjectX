@@ -1,5 +1,0 @@
-BESTELLUNG PO-488534
-Besteller: Mathilde Rosemann
-Kontakt: pmatthaei@example.com
-Lieferadresse: Vollbrechtgasse 69/30, 90474 Backnang
-Artikel: 30x Material SKU-82146

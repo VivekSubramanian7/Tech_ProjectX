@@ -1,6 +1,0 @@
-[Ticket #468053] Status: offen
-Gemeldet von: Herr Hans-Gerhard Winkler
-Rückmeldung an: karl-peterlorch@example.org
-Telefon: +49(0)2567 963575
-Client-IP aus Log: 85.38.163.58
-Beschreibung: Login schlägt nach Update fehl.

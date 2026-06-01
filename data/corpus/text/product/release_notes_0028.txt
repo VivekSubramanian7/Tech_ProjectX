@@ -1,8 +1,0 @@
-Release Notes — v5.6.3
-==============================
-- [JIRA-5509] Ergonomic coherent customer loyalty
-- [JIRA-9321] Organized human-resource instruction set
-- [JIRA-5576] Multi-lateral stable hardware
-- [JIRA-8997] Function-based coherent policy
-- [JIRA-6717] User-centric context-sensitive secured line
-Build-Hash: 6a048eec7c47

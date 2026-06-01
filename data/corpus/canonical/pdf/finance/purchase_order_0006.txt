@@ -1,5 +1,0 @@
-BESTELLUNG PO-971335
-Besteller: Prof. Beate Hoffmann
-Kontakt: kargeigor@example.com
-Lieferadresse: Anton-Heydrich-Platz 9, 12692 Augsburg
-Artikel: 6x Material SKU-23885

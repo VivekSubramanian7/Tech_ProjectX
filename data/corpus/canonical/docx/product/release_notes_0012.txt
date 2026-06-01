@@ -1,7 +1,0 @@
-Release Notes — v1.11.6
-==============================
-- [JIRA-6424] Public-key directional frame
-- [JIRA-8073] Re-engineered reciprocal throughput
-- [JIRA-4079] Synchronized heuristic task-force
-- [JIRA-7825] Triple-buffered asymmetric emulation
-Build-Hash: fa2d334badcb

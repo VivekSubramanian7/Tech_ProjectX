@@ -1,6 +1,0 @@
-[Ticket #191592] Status: offen
-Gemeldet von: Guido Stroh
-Rückmeldung an: nicolai17@example.org
-Telefon: +49(0)6605 794622
-Client-IP aus Log: 190.174.88.147
-Beschreibung: Login schlägt nach Update fehl.

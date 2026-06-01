@@ -1,6 +1,0 @@
-# auth service access log
-18/10/2025:14:13 user=bernadette82 from 213.72.174.102 status=200
-21/02/2025:14:49 user=pwagenknecht from 18.89.102.201 status=200
-28/05/2025:10:00 user=dobesgreta from 9.39.73.139 status=200
-14/10/2025:08:30 user=baldurgirschner from 9.115.187.195 status=200
-02/05/2025:16:01 user=ezimmer from 100.17.165.132 status=200

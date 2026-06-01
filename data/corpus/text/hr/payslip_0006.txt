@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Karl-Heinz Hein
-Personalnummer: PNR-73828051
-SV-Nummer: 65271248X980
-Steuer-ID: 18502376095
-Auszahlung auf IBAN: DE44505820870653517771
-Bruttobezug: 6.822,00 EUR

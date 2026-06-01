@@ -1,7 +1,0 @@
-Release Notes — v4.0.2
-==============================
-- [JIRA-2045] Future-proofed object-oriented methodology
-- [JIRA-1981] Reduced real-time capability
-- [JIRA-8023] Compatible homogeneous Graphic Interface
-- [JIRA-4560] Secured bifurcated conglomeration
-Build-Hash: 1812e1e6a4a8

@@ -1,5 +1,0 @@
-BESTELLUNG PO-381356
-Besteller: Marlies Speer MBA.
-Kontakt: walli21@example.net
-Lieferadresse: Hans-Dietrich-Heser-Weg 32, 42540 Stadtroda
-Artikel: 28x Material SKU-40416

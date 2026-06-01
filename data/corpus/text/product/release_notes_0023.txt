@@ -1,8 +1,0 @@
-Release Notes — v3.1.5
-==============================
-- [JIRA-6124] User-friendly attitude-oriented forecast
-- [JIRA-1683] Enhanced coherent adapter
-- [JIRA-4888] Intuitive dynamic solution
-- [JIRA-9932] Implemented uniform encoding
-- [JIRA-4866] Automated composite flexibility
-Build-Hash: afd462e67d3e

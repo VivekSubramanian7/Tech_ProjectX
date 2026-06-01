@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-448043
-Maße: 129 x 188 x 200 mm
-Toleranz: ±0.2 mm
-Materialcharge: LOT-340425
-Interne Referenz: 18259347078

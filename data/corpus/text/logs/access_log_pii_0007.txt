@@ -1,6 +1,0 @@
-# auth service access log
-17/04/2025:09:45 user=sheidrich from 91.77.251.24 status=200
-12/06/2025:04:08 user=hahnnuray from 182.216.92.243 status=200
-09/11/2025:17:36 user=jaekelludger from 151.229.108.240 status=200
-25/09/2025:16:30 user=dorota09 from 165.81.106.191 status=200
-13/04/2025:11:13 user=austermuehleamelie from 209.102.228.204 status=200

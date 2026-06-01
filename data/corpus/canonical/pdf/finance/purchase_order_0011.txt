@@ -1,5 +1,0 @@
-BESTELLUNG PO-333874
-Besteller: Dipl.-Ing. Leopoldine Graf
-Kontakt: agatheebert@example.org
-Lieferadresse: Stumpfplatz 6/1, 17774 Zossen
-Artikel: 8x Material SKU-10622

@@ -1,6 +1,0 @@
-CHANGELOG
-v8.13 — De-engineered disintermediate Graphic Interface
-v1.16 — Multi-tiered leadingedge architecture
-v7.1 — Decentralized heuristic matrix
-v5.8 — Synergistic grid-enabled attitude
-v5.26 — Distributed contextually-based challenge

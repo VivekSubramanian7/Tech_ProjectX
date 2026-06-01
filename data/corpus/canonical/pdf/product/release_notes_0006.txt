@@ -1,7 +1,0 @@
-Release Notes — v3.10.3
-==============================
-- [JIRA-5476] Fully-configurable stable capability
-- [JIRA-9957] Balanced fresh-thinking initiative
-- [JIRA-8894] Programmable discrete moratorium
-- [JIRA-1288] Distributed didactic task-force
-Build-Hash: b7be2b5632d8

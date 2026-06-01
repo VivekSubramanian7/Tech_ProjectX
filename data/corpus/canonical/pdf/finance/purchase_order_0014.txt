@@ -1,5 +1,0 @@
-BESTELLUNG PO-292701
-Besteller: Hardy Jacob
-Kontakt: leszek45@example.net
-Lieferadresse: Susan-Stiffel-Straße 30/35, 14441 Dessau
-Artikel: 33x Material SKU-96590

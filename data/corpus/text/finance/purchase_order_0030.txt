@@ -1,5 +1,0 @@
-BESTELLUNG PO-174606
-Besteller: Rolf Koch II B.Sc.
-Kontakt: ddrubin@example.org
-Lieferadresse: Ludger-Rose-Weg 78-38, 75758 Regensburg
-Artikel: 15x Material SKU-60416

@@ -1,6 +1,0 @@
-# auth service access log
-24/01/2025:18:51 user=michailklemm from 17.204.90.179 status=200
-12/01/2025:15:17 user=yhornich from 36.192.149.237 status=200
-06/10/2025:21:59 user=mhess from 122.149.11.227 status=200
-13/05/2025:23:14 user=rustwolfgang from 198.32.83.38 status=200
-06/09/2025:22:27 user=jvan-der-dussen from 82.48.161.165 status=200

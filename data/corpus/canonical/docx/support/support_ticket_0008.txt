@@ -1,5 +1,0 @@
-[Ticket #738125] Status: offen
-Gemeldet von: Irmtraut Ackermann B.Sc.
-Rückmeldung an: jacobanita@example.org
-Telefon: +49(0)4339 83714
-Beschreibung: Login schlägt nach Update fehl.

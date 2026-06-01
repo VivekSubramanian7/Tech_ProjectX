@@ -1,6 +1,0 @@
-[Ticket #687537] Status: offen
-Gemeldet von: Rudolph Anders
-Rückmeldung an: langenatalija@example.org
-Telefon: +49(0) 735869373
-Client-IP aus Log: 164.78.226.85
-Beschreibung: Login schlägt nach Update fehl.

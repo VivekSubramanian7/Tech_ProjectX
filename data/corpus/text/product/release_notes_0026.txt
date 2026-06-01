@@ -1,9 +1,0 @@
-Release Notes — v9.20.8
-==============================
-- [JIRA-7698] Streamlined solution-oriented superstructure
-- [JIRA-8764] Digitized grid-enabled conglomeration
-- [JIRA-5709] Diverse incremental process improvement
-- [JIRA-3676] Object-based uniform moderator
-- [JIRA-3978] Organized reciprocal hardware
-- [JIRA-1032] Extended system-worthy process improvement
-Build-Hash: 0efe79c6b8fa

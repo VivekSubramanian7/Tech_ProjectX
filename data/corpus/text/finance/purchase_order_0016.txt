@@ -1,5 +1,0 @@
-BESTELLUNG PO-717291
-Besteller: Prof. Tadeusz Baum MBA.
-Kontakt: karl-hanszorbach@example.org
-Lieferadresse: Rosenowallee 4-1, 84002 Meißen
-Artikel: 23x Material SKU-57662

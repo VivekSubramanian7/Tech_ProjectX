@@ -1,9 +1,0 @@
-Release Notes — v7.16.5
-==============================
-- [JIRA-3486] Synergistic zero tolerance flexibility
-- [JIRA-5277] Streamlined interactive collaboration
-- [JIRA-1152] Up-sized optimizing info-mediaries
-- [JIRA-1092] Front-line motivating toolset
-- [JIRA-7204] Team-oriented transitional workforce
-- [JIRA-4954] Streamlined transitional attitude
-Build-Hash: 1c5cf9dd3944

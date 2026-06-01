@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-587949
-Maße: 20 x 191 x 63 mm
-Toleranz: ±0.8 mm
-Materialcharge: LOT-621404
-Interne Referenz: 34514908264

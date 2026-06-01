@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-311373
-Maße: 47 x 120 x 72 mm
-Toleranz: ±0.9 mm
-Materialcharge: LOT-883385
-Interne Referenz: 34289716650

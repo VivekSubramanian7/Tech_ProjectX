@@ -1,7 +1,0 @@
-# auth service access log
-17/02/2025:15:41 user=holmjunitz from 191.154.25.200 status=200
-28/04/2025:20:36 user=conradiedeltrud from 7.10.40.108 status=200
-07/09/2025:04:28 user=lgroettner from 46.195.101.154 status=200
-26/02/2025:17:58 user=ckostolzin from 178.87.182.88 status=200
-10/04/2025:16:47 user=zimmerstefanie from 66.187.144.15 status=200
-22/04/2025:14:03 user=vgraf from 118.24.77.233 status=200

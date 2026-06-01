@@ -1,6 +1,0 @@
-# auth service access log
-15/05/2025:03:50 user=otmar16 from 171.38.103.18 status=200
-01/11/2025:19:43 user=vdrewes from 34.222.118.163 status=200
-27/10/2025:01:41 user=trubindeborah from 199.53.242.250 status=200
-27/09/2025:05:15 user=bertholdspeer from 27.138.236.106 status=200
-11/03/2025:07:30 user=wulfcaren from 61.83.183.151 status=200

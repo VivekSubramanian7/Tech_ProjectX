@@ -1,5 +1,0 @@
-BESTELLUNG PO-948023
-Besteller: Rudolph Speer
-Kontakt: matthaeiwilhelm@example.com
-Lieferadresse: Kambsstraße 3498, 20606 Gera
-Artikel: 30x Material SKU-24036

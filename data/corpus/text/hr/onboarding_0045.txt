@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Nermin Hoffmann
-E-Mail-Konto: ladeckleila@example.net
-Benutzername (Login): gjunk
-Personalnummer: PNR-81927008
-Diensttelefon: (09031) 87942
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

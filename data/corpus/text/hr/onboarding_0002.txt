@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Raphaela Mentzel-Nette
-E-Mail-Konto: bwulf@example.com
-Benutzername (Login): ulrichschoenland
-Personalnummer: PNR-69746853
-Diensttelefon: +49(0)7667 07561
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

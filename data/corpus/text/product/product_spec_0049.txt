@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-527524
-Maße: 167 x 151 x 48 mm
-Toleranz: ±0.3 mm
-Materialcharge: LOT-524792
-Interne Referenz: 60015983273

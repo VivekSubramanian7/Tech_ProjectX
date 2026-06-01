@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Karla Fliegner
-Personalnummer: PNR-12171558
-SV-Nummer: 72131146H948
-Steuer-ID: 79580541326
-Auszahlung auf IBAN: DE69519344669502270393
-Bruttobezug: 6.579,00 EUR

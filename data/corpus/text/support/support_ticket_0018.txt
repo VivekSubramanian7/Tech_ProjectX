@@ -1,6 +1,0 @@
-[Ticket #664413] Status: offen
-Gemeldet von: Prof. Cläre Segebahn
-Rückmeldung an: hschenk@example.net
-Telefon: 07942135321
-Client-IP aus Log: 32.18.157.113
-Beschreibung: Login schlägt nach Update fehl.

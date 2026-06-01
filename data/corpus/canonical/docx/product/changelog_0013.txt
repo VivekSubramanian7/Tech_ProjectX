@@ -1,5 +1,0 @@
-CHANGELOG
-v8.11 — Ergonomic optimizing open system
-v2.13 — Inverse full-range protocol
-v4.27 — Open-architected value-added collaboration
-v2.3 — Versatile web-enabled forecast

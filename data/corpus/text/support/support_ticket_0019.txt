@@ -1,5 +1,0 @@
-[Ticket #272458] Status: offen
-Gemeldet von: Irina Ditschlerin
-Rückmeldung an: ilonkatrommler@example.com
-Telefon: (07782) 599441
-Beschreibung: Login schlägt nach Update fehl.

@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Univ.Prof. Birgitta Drub
-Personalnummer: PNR-79707614
-SV-Nummer: 44111045B409
-Steuer-ID: 93704182517
-Auszahlung auf IBAN: DE08602343874543183002
-Bruttobezug: 6.951,00 EUR

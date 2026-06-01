@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Emilia Austermühle
-E-Mail-Konto: qbeyer@example.org
-Benutzername (Login): brankadietz
-Personalnummer: PNR-18401347
-Diensttelefon: 0452966059
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-451670
-Maße: 21 x 200 x 47 mm
-Toleranz: ±0.4 mm
-Materialcharge: LOT-784022
-Interne Referenz: 28723465014

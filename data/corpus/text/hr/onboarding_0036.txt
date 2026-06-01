@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Janusz Kramer
-E-Mail-Konto: margaretha56@example.com
-Benutzername (Login): maximkrause
-Personalnummer: PNR-26372239
-Diensttelefon: +49(0)9588 23982
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

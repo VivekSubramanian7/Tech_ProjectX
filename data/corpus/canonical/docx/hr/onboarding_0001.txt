@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Olaf Baum
-E-Mail-Konto: sueleyman27@example.org
-Benutzername (Login): gretareuter
-Personalnummer: PNR-76832176
-Diensttelefon: 08544529204
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

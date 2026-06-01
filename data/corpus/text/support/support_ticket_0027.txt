@@ -1,5 +1,0 @@
-[Ticket #465936] Status: offen
-Gemeldet von: Frau Gertrude Bauer B.A.
-Rückmeldung an: zbeckmann@example.org
-Telefon: +49(0)5553 23755
-Beschreibung: Login schlägt nach Update fehl.

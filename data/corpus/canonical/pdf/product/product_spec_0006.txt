@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-268893
-Maße: 190 x 147 x 146 mm
-Toleranz: ±0.3 mm
-Materialcharge: LOT-322360
-Interne Referenz: 26518974376

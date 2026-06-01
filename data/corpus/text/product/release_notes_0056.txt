@@ -1,6 +1,0 @@
-Release Notes — v6.15.4
-==============================
-- [JIRA-8738] Reverse-engineered client-server structure
-- [JIRA-1610] Balanced transitional protocol
-- [JIRA-9494] Visionary dynamic knowledgebase
-Build-Hash: e2e07fcbe2cb

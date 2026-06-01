@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Edelbert Gerlach B.Sc.
-E-Mail-Konto: hhauffer@example.net
-Benutzername (Login): rheinrich
-Personalnummer: PNR-28767730
-Diensttelefon: +49(0)8313426683
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

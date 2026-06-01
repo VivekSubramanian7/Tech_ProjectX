@@ -1,5 +1,0 @@
-BESTELLUNG PO-126192
-Besteller: Univ.Prof. Anna-Luise Bolzmann
-Kontakt: zirmebirte@example.com
-Lieferadresse: Kuschweg 5726, 02254 Rottweil
-Artikel: 6x Material SKU-49157

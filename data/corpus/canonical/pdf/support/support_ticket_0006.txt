@@ -1,5 +1,0 @@
-[Ticket #341600] Status: offen
-Gemeldet von: Hanne-Lore Kusch-Steuer
-Rückmeldung an: gotthilf40@example.org
-Telefon: (06440) 12462
-Beschreibung: Login schlägt nach Update fehl.

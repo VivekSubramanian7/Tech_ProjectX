@@ -1,9 +1,0 @@
-Release Notes — v2.19.0
-==============================
-- [JIRA-5751] Customer-focused hybrid core
-- [JIRA-8091] Distributed coherent matrix
-- [JIRA-7075] Customer-focused disintermediate solution
-- [JIRA-1454] Universal fresh-thinking success
-- [JIRA-1402] Compatible bandwidth-monitored hardware
-- [JIRA-1564] Managed didactic portal
-Build-Hash: ef0eee54d4e4

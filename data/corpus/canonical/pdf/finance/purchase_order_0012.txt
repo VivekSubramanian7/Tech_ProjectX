@@ -1,5 +1,0 @@
-BESTELLUNG PO-536709
-Besteller: Dipl.-Ing. Karl-Ludwig Stumpf
-Kontakt: charlotte99@example.net
-Lieferadresse: Ditmar-Bruder-Platz 9, 35749 Lobenstein
-Artikel: 3x Material SKU-62757

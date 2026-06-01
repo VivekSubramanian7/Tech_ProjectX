@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Hanni auch Schlauchin
-E-Mail-Konto: gierschnerwalburga@example.com
-Benutzername (Login): metaschmiedt
-Personalnummer: PNR-60536064
-Diensttelefon: 07164 896020
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

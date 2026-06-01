@@ -1,6 +1,0 @@
-Release Notes — v3.7.1
-==============================
-- [JIRA-4469] Innovative multi-state success
-- [JIRA-5826] Up-sized contextually-based focus group
-- [JIRA-9090] Compatible zero administration benchmark
-Build-Hash: cef0fba9e0db

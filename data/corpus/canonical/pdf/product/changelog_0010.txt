@@ -1,5 +1,0 @@
-CHANGELOG
-v9.20 — Face-to-face fresh-thinking intranet
-v4.28 — Networked grid-enabled architecture
-v8.3 — Fully-configurable user-facing knowledgebase
-v2.28 — Front-line systematic standardization

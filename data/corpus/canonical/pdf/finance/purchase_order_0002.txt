@@ -1,5 +1,0 @@
-BESTELLUNG PO-139530
-Besteller: Ing. Wencke Beyer
-Kontakt: rupertbolnbach@example.net
-Lieferadresse: Buchholzstr. 61/47, 69090 Dachau
-Artikel: 20x Material SKU-46388

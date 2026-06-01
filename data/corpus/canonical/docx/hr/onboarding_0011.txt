@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Kenneth Weiß
-E-Mail-Konto: niemeierirmtrud@example.org
-Benutzername (Login): hugo55
-Personalnummer: PNR-40729744
-Diensttelefon: +49 (0) 2282 192096
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

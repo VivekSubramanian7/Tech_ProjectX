@@ -1,5 +1,0 @@
-BESTELLUNG PO-529678
-Besteller: Dipl.-Ing. Hans-Günther Sauer
-Kontakt: troestbenno@example.com
-Lieferadresse: Hans-Georg-Jäntsch-Straße 913, 41953 Wittmund
-Artikel: 37x Material SKU-85954

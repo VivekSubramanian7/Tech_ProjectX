@@ -1,7 +1,0 @@
-# auth service access log
-23/09/2025:03:22 user=gorlitzkrystyna from 108.30.186.21 status=200
-11/06/2025:03:26 user=traudlstoll from 201.181.103.68 status=200
-17/04/2025:14:13 user=preissfriedl from 86.99.100.212 status=200
-13/04/2025:20:49 user=qtrub from 90.173.85.144 status=200
-14/05/2025:21:39 user=roskothsusi from 135.138.96.46 status=200
-05/06/2025:22:19 user=hans-henning97 from 201.83.170.222 status=200

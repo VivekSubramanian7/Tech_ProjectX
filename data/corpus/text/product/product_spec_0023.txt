@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-234977
-Maße: 194 x 119 x 19 mm
-Toleranz: ±0.2 mm
-Materialcharge: LOT-424738
-Interne Referenz: 74130548924

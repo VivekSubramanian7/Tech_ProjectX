@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Mary Trapp
-E-Mail-Konto: damianroemer@example.org
-Benutzername (Login): rudolphgnatz
-Personalnummer: PNR-71250254
-Diensttelefon: +49(0) 376927430
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

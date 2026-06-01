@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-649917
-Maße: 156 x 92 x 133 mm
-Toleranz: ±0.7 mm
-Materialcharge: LOT-461135
-Interne Referenz: 72905214681

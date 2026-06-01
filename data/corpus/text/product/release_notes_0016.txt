@@ -1,6 +1,0 @@
-Release Notes — v9.5.5
-==============================
-- [JIRA-1533] Optional directional knowledge user
-- [JIRA-6986] Self-enabling neutral neural-net
-- [JIRA-9148] Robust next generation structure
-Build-Hash: fbfd8bd7de3f

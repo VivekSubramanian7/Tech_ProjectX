@@ -1,5 +1,0 @@
-CHANGELOG
-v2.9 — Exclusive asymmetric functionalities
-v7.1 — Function-based high-level secured line
-v6.3 — Exclusive user-facing service-desk
-v6.17 — Exclusive didactic implementation

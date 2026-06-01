@@ -1,5 +1,0 @@
-BESTELLUNG PO-510012
-Besteller: Dipl.-Ing. Klara Tintzmann
-Kontakt: junitzkatarzyna@example.org
-Lieferadresse: Anni-Stiffel-Weg 3, 93317 Wertingen
-Artikel: 14x Material SKU-58070

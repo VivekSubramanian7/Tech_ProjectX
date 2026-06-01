@@ -1,7 +1,0 @@
-Release Notes — v3.9.4
-==============================
-- [JIRA-4194] Expanded coherent superstructure
-- [JIRA-8203] Vision-oriented real-time groupware
-- [JIRA-3233] Triple-buffered transitional core
-- [JIRA-1052] Assimilated transitional installation
-Build-Hash: 0ffe4d4faa4d

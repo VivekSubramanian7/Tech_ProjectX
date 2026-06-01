@@ -1,7 +1,0 @@
-Release Notes — v5.4.2
-==============================
-- [JIRA-8656] Inverse tertiary collaboration
-- [JIRA-1611] Digitized human-resource throughput
-- [JIRA-2791] Enterprise-wide coherent complexity
-- [JIRA-7299] Seamless needs-based Graphic Interface
-Build-Hash: c44ea66bf4c9

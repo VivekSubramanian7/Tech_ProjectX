@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Lorenzo Rosenow
-E-Mail-Konto: kunibertstahr@example.org
-Benutzername (Login): patrick07
-Personalnummer: PNR-96044974
-Diensttelefon: +49(0) 827160712
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

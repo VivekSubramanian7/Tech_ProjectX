@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Petra Hölzenbecher
-E-Mail-Konto: zitapoelitz@example.org
-Benutzername (Login): jose73
-Personalnummer: PNR-38221252
-Diensttelefon: +49(0)0909 000941
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

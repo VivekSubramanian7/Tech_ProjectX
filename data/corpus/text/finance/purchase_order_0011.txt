@@ -1,5 +1,0 @@
-BESTELLUNG PO-172753
-Besteller: Dipl.-Ing. Eveline Hermighausen
-Kontakt: klingelhoefercatherine@example.com
-Lieferadresse: Daniele-Schuchhardt-Gasse 4787, 96659 Gifhorn
-Artikel: 30x Material SKU-79997

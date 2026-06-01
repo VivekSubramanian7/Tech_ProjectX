@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-364178
-Maße: 145 x 112 x 86 mm
-Toleranz: ±0.5 mm
-Materialcharge: LOT-345838
-Interne Referenz: 68872305190

@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Reinhardt Hellwig MBA.
-E-Mail-Konto: mullrich@example.net
-Benutzername (Login): heinz-georgwesack
-Personalnummer: PNR-92655849
-Diensttelefon: +49(0)0508445636
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

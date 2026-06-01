@@ -1,7 +1,0 @@
-# auth service access log
-28/10/2025:13:45 user=tknappe from 1.38.53.65 status=200
-03/04/2025:20:52 user=eberthevelyne from 58.130.154.35 status=200
-25/03/2025:01:21 user=kirsten06 from 210.26.43.134 status=200
-16/04/2025:20:45 user=pruppert from 29.67.222.103 status=200
-08/09/2025:17:48 user=xrenner from 68.206.200.15 status=200
-11/05/2025:19:03 user=peberth from 63.245.98.216 status=200

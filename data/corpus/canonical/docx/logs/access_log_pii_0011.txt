@@ -1,7 +1,0 @@
-# auth service access log
-20/11/2025:09:38 user=stadelmanngiesela from 120.95.147.140 status=200
-19/06/2025:14:40 user=heinrichtintzmann from 34.108.71.164 status=200
-07/02/2025:17:01 user=marisalindner from 145.142.209.58 status=200
-07/05/2025:14:09 user=loeweredmund from 155.83.245.106 status=200
-08/05/2025:17:13 user=ubeier from 10.68.52.227 status=200
-12/01/2025:17:14 user=belindathanel from 100.202.83.225 status=200

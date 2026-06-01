@@ -1,8 +1,0 @@
-Release Notes — v4.18.0
-==============================
-- [JIRA-3262] Re-engineered next generation algorithm
-- [JIRA-1338] Open-source radical attitude
-- [JIRA-9939] Exclusive motivating alliance
-- [JIRA-1562] Innovative needs-based functionalities
-- [JIRA-6132] Exclusive radical website
-Build-Hash: aa24acca7ca7

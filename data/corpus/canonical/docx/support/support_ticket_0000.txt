@@ -1,5 +1,0 @@
-[Ticket #361100] Status: offen
-Gemeldet von: Juan auch Schlauchin-Hänel
-Rückmeldung an: troestaleksander@example.org
-Telefon: 01361 30018
-Beschreibung: Login schlägt nach Update fehl.

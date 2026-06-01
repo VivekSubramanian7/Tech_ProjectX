@@ -1,5 +1,0 @@
-[Ticket #287417] Status: offen
-Gemeldet von: Carl Hentschel
-Rückmeldung an: mercedes19@example.org
-Telefon: +49 (0) 1824 804411
-Beschreibung: Login schlägt nach Update fehl.

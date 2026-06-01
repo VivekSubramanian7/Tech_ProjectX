@@ -1,7 +1,0 @@
-Release Notes — v3.11.6
-==============================
-- [JIRA-5629] Front-line tertiary collaboration
-- [JIRA-4564] Progressive multi-tasking forecast
-- [JIRA-3846] Automated local secured line
-- [JIRA-7150] Secured motivating support
-Build-Hash: eaa0a1a6b5cf

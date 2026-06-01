@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-115688
-Maße: 51 x 186 x 50 mm
-Toleranz: ±0.8 mm
-Materialcharge: LOT-681976
-Interne Referenz: 42780693178

@@ -1,6 +1,0 @@
-[Ticket #871687] Status: offen
-Gemeldet von: Johanne Staude
-Rückmeldung an: marija05@example.com
-Telefon: +49 (0) 1589 988217
-Client-IP aus Log: 116.18.58.3
-Beschreibung: Login schlägt nach Update fehl.

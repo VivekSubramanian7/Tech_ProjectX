@@ -1,6 +1,0 @@
-CHANGELOG
-v8.0 — Re-contextualized coherent collaboration
-v9.6 — Up-sized well-modulated pricing structure
-v7.13 — Operative client-server protocol
-v7.15 — Distributed heuristic approach
-v2.11 — Cloned context-sensitive definition

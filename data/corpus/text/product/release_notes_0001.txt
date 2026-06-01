@@ -1,6 +1,0 @@
-Release Notes — v3.16.2
-==============================
-- [JIRA-8292] Progressive methodical superstructure
-- [JIRA-9837] Networked transitional moderator
-- [JIRA-1707] Robust fault-tolerant help-desk
-Build-Hash: 0731eaac0cab

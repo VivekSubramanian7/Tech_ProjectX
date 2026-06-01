@@ -1,6 +1,0 @@
-# auth service access log
-26/02/2025:02:51 user=juliana15 from 113.42.3.148 status=200
-17/01/2025:06:51 user=fsager from 7.171.30.227 status=200
-08/10/2025:20:44 user=mirjana69 from 70.69.223.165 status=200
-11/02/2025:00:58 user=ysauer from 129.202.26.155 status=200
-13/03/2025:02:11 user=dippelbalthasar from 192.57.124.95 status=200

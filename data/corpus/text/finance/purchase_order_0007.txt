@@ -1,5 +1,0 @@
-BESTELLUNG PO-218283
-Besteller: Hans-Wilhelm Langern
-Kontakt: laura62@example.org
-Lieferadresse: Tröstweg 27-97, 49272 Plauen
-Artikel: 16x Material SKU-91733

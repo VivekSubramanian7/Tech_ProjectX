@@ -1,8 +1,0 @@
-Release Notes — v5.15.1
-==============================
-- [JIRA-7770] Focused object-oriented leverage
-- [JIRA-2478] Cross-group full-range forecast
-- [JIRA-5556] Organized didactic project
-- [JIRA-8915] Secured multi-state website
-- [JIRA-3478] Up-sized transitional matrices
-Build-Hash: d1eae31dbba8

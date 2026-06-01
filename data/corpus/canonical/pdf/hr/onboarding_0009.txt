@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Prof. Andres Börner B.Eng.
-E-Mail-Konto: zroehrdanz@example.net
-Benutzername (Login): jbudig
-Personalnummer: PNR-34814088
-Diensttelefon: +49(0)8783 253267
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

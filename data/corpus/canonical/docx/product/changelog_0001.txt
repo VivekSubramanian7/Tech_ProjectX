@@ -1,5 +1,0 @@
-CHANGELOG
-v9.14 — Virtual uniform emulation
-v3.4 — Cross-platform dynamic data-warehouse
-v5.19 — Expanded tertiary encryption
-v3.4 — Innovative 4thgeneration encoding

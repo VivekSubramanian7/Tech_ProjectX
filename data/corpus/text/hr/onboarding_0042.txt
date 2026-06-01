@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Sybille Schleich
-E-Mail-Konto: peukertbirgitt@example.com
-Benutzername (Login): dhoefig
-Personalnummer: PNR-27562772
-Diensttelefon: 03353769830
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

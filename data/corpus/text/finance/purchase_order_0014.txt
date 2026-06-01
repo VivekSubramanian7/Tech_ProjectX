@@ -1,5 +1,0 @@
-BESTELLUNG PO-599491
-Besteller: Joseph Vollbrecht-Kraus
-Kontakt: burkhard69@example.org
-Lieferadresse: Ortwin-Neureuther-Gasse 57-57, 76906 Wanzleben
-Artikel: 15x Material SKU-27022

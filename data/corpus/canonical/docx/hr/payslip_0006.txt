@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Woldemar Seidel
-Personalnummer: PNR-51765668
-SV-Nummer: 32230447Y175
-Steuer-ID: 34187829503
-Auszahlung auf IBAN: DE12461204540787508580
-Bruttobezug: 3.440,00 EUR

@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Lydia Stey
-Personalnummer: PNR-24441255
-SV-Nummer: 14270166C671
-Steuer-ID: 14432506986
-Auszahlung auf IBAN: DE29752293053043321056
-Bruttobezug: 5.926,00 EUR

@@ -1,6 +1,0 @@
-Release Notes — v6.2.2
-==============================
-- [JIRA-3162] Networked non-volatile contingency
-- [JIRA-5073] Right-sized static moratorium
-- [JIRA-4698] Optional modular customer loyalty
-Build-Hash: 5d0cbcbfd9d4

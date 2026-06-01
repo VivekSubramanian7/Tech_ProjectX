@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Erdal Rosemann
-Personalnummer: PNR-41081727
-SV-Nummer: 04051276D287
-Steuer-ID: 48196725839
-Auszahlung auf IBAN: DE26526069871570638387
-Bruttobezug: 3.819,00 EUR

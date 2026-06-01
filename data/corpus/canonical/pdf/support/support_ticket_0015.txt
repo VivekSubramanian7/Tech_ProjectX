@@ -1,6 +1,0 @@
-[Ticket #696599] Status: offen
-Gemeldet von: Rosa-Maria Geisel
-Rückmeldung an: zfliegner@example.com
-Telefon: 08863679388
-Client-IP aus Log: 160.229.224.129
-Beschreibung: Login schlägt nach Update fehl.

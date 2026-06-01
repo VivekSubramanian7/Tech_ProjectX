@@ -1,5 +1,0 @@
-BESTELLUNG PO-469179
-Besteller: Milka Mans
-Kontakt: klemens93@example.org
-Lieferadresse: Tassilo-Butte-Ring 8, 39085 Badoberan
-Artikel: 13x Material SKU-53148

@@ -1,7 +1,0 @@
-Release Notes — v8.3.8
-==============================
-- [JIRA-4989] Persistent 6thgeneration data-warehouse
-- [JIRA-1431] Persistent reciprocal initiative
-- [JIRA-4172] Seamless object-oriented functionalities
-- [JIRA-1646] Synchronized multi-tasking standardization
-Build-Hash: 73ef261bafdd

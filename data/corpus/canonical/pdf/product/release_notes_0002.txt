@@ -1,6 +1,0 @@
-Release Notes — v3.19.6
-==============================
-- [JIRA-8197] Cloned needs-based moratorium
-- [JIRA-2200] Multi-channeled global installation
-- [JIRA-2432] Open-architected even-keeled encoding
-Build-Hash: 45072afebfbb

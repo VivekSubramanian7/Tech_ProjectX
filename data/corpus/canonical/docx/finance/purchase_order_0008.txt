@@ -1,5 +1,0 @@
-BESTELLUNG PO-232225
-Besteller: Rena Harloff B.A.
-Kontakt: schomberkuno@example.org
-Lieferadresse: Anita-Ullrich-Weg 1-3, 77986 Saarbrücken
-Artikel: 35x Material SKU-94483

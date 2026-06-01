@@ -1,7 +1,0 @@
-# auth service access log
-26/02/2025:05:27 user=qrogge from 168.24.124.93 status=200
-27/09/2025:10:31 user=zobeltina from 222.35.122.239 status=200
-09/11/2025:09:20 user=gutknechthans-henning from 28.215.158.92 status=200
-26/04/2025:10:25 user=irena44 from 171.56.39.21 status=200
-22/01/2025:19:26 user=hans-guenter59 from 86.205.228.194 status=200
-20/01/2025:10:43 user=waltherfinke from 34.106.230.79 status=200

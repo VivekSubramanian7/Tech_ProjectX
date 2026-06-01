@@ -1,7 +1,0 @@
-# auth service access log
-25/10/2025:10:31 user=geiselhenryk from 30.154.111.19 status=200
-26/10/2025:08:55 user=maik45 from 99.64.77.212 status=200
-26/01/2025:11:17 user=muellerheinz-gerd from 199.10.139.172 status=200
-02/11/2025:19:33 user=ingetraud11 from 140.199.104.112 status=200
-24/03/2025:11:30 user=sergej57 from 118.251.15.114 status=200
-06/02/2025:22:17 user=tpergande from 43.119.105.133 status=200

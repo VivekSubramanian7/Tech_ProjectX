@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Hermann Josef Bloch
-E-Mail-Konto: eberhardttlustek@example.com
-Benutzername (Login): seidelmargitta
-Personalnummer: PNR-22605549
-Diensttelefon: 09422960083
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

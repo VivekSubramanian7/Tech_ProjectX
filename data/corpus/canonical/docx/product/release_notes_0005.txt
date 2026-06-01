@@ -1,9 +1,0 @@
-Release Notes — v9.5.9
-==============================
-- [JIRA-1380] Integrated dedicated benchmark
-- [JIRA-4532] Switchable intangible firmware
-- [JIRA-7662] Assimilated hybrid initiative
-- [JIRA-6219] Advanced needs-based throughput
-- [JIRA-9290] Synchronized stable frame
-- [JIRA-7950] Cloned intermediate protocol
-Build-Hash: d19baa4ccc8b

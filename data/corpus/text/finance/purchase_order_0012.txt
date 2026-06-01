@@ -1,5 +1,0 @@
-BESTELLUNG PO-591385
-Besteller: Dr. Hildburg Stiebitz MBA.
-Kontakt: dweinhage@example.net
-Lieferadresse: Theo-Briemer-Platz 31-83, 38303 Königs Wusterhausen
-Artikel: 34x Material SKU-39696

@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Evi Hein
-Personalnummer: PNR-37429014
-SV-Nummer: 04170866Y271
-Steuer-ID: 39641502086
-Auszahlung auf IBAN: DE39374704333961246946
-Bruttobezug: 8.656,00 EUR

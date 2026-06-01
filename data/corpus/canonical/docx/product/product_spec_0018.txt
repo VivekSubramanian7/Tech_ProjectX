@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-897982
-Maße: 114 x 131 x 94 mm
-Toleranz: ±0.9 mm
-Materialcharge: LOT-634570
-Interne Referenz: 32449876153

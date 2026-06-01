@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-909495
-Maße: 54 x 71 x 87 mm
-Toleranz: ±0.2 mm
-Materialcharge: LOT-734359
-Interne Referenz: 15350769484

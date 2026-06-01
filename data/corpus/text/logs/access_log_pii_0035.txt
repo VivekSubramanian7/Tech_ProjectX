@@ -1,6 +1,0 @@
-# auth service access log
-08/11/2025:06:58 user=ilonkadippel from 123.242.209.88 status=200
-23/03/2025:10:09 user=georg38 from 37.173.10.249 status=200
-02/11/2025:21:06 user=heinz-gerdklemm from 139.195.177.124 status=200
-20/06/2025:16:12 user=kobeltdonata from 46.22.126.68 status=200
-20/01/2025:02:13 user=holtkatarina from 178.65.90.34 status=200

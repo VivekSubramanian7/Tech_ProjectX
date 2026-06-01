@@ -1,5 +1,0 @@
-BESTELLUNG PO-618623
-Besteller: Dajana Stey B.Eng.
-Kontakt: tlustekbodo@example.net
-Lieferadresse: Putzallee 40-83, 67123 Roding
-Artikel: 17x Material SKU-55466

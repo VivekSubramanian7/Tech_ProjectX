@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Leila Oestrovsky
-E-Mail-Konto: miesdrago@example.org
-Benutzername (Login): lwerner
-Personalnummer: PNR-77046028
-Diensttelefon: +49 (0) 8100 660821
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

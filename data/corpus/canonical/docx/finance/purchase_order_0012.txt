@@ -1,5 +1,0 @@
-BESTELLUNG PO-178746
-Besteller: Irmi Pieper
-Kontakt: carstenrenate@example.org
-Lieferadresse: Ottmar-Gutknecht-Straße 8-8, 60924 Coburg
-Artikel: 13x Material SKU-16963

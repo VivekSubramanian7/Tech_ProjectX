@@ -1,6 +1,0 @@
-# auth service access log
-27/06/2025:02:47 user=rebekka42 from 160.161.22.98 status=200
-18/02/2025:09:39 user=alfonsocichorius from 170.151.220.3 status=200
-16/09/2025:13:01 user=ehlertandrew from 167.140.167.90 status=200
-14/04/2025:20:13 user=yzobel from 98.77.90.141 status=200
-13/01/2025:03:47 user=scholzannett from 223.85.75.205 status=200

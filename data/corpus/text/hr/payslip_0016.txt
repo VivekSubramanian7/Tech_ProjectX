@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Micha Ruppersberger
-Personalnummer: PNR-95873102
-SV-Nummer: 24110168S963
-Steuer-ID: 56310874214
-Auszahlung auf IBAN: DE92669523715250001887
-Bruttobezug: 7.326,00 EUR

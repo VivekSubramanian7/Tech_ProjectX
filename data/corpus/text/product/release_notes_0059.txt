@@ -1,9 +1,0 @@
-Release Notes — v8.1.3
-==============================
-- [JIRA-5401] Adaptive even-keeled portal
-- [JIRA-1071] Decentralized responsive intranet
-- [JIRA-7674] Advanced heuristic solution
-- [JIRA-5664] Organized system-worthy help-desk
-- [JIRA-2716] Fully-configurable systemic knowledgebase
-- [JIRA-3972] Networked reciprocal throughput
-Build-Hash: ccdcab08ac90

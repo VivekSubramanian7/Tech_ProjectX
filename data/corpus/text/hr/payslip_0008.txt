@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Siegfried Staude
-Personalnummer: PNR-64861656
-SV-Nummer: 53010685T090
-Steuer-ID: 83404765123
-Auszahlung auf IBAN: DE03707926003460588860
-Bruttobezug: 6.581,00 EUR

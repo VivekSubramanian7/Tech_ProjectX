@@ -1,8 +1,0 @@
-Release Notes — v2.11.8
-==============================
-- [JIRA-9584] Devolved eco-centric synergy
-- [JIRA-9032] Multi-lateral stable solution
-- [JIRA-5361] Reactive 24/7 algorithm
-- [JIRA-9381] Face-to-face intangible array
-- [JIRA-1331] Face-to-face systemic service-desk
-Build-Hash: 7f8e587349b0

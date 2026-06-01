@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-715042
-Maße: 176 x 57 x 82 mm
-Toleranz: ±0.4 mm
-Materialcharge: LOT-970333
-Interne Referenz: 23173496055

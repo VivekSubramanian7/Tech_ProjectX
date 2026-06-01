@@ -1,7 +1,0 @@
-Release Notes — v8.14.1
-==============================
-- [JIRA-3316] Compatible intermediate analyzer
-- [JIRA-3586] Decentralized intangible function
-- [JIRA-2861] Digitized zero-defect help-desk
-- [JIRA-4556] Enhanced multi-tasking moderator
-Build-Hash: 9cc6de1ddcd6

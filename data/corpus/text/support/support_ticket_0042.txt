@@ -1,5 +1,0 @@
-[Ticket #550366] Status: offen
-Gemeldet von: Irmi Wieloch-Martin
-Rückmeldung an: insaheinrich@example.net
-Telefon: (08398) 64604
-Beschreibung: Login schlägt nach Update fehl.

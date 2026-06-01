@@ -1,5 +1,0 @@
-BESTELLUNG PO-227667
-Besteller: Franka Röhricht MBA.
-Kontakt: klotzveit@example.net
-Lieferadresse: Vito-Löffler-Weg 51, 11589 Miesbach
-Artikel: 32x Material SKU-73658

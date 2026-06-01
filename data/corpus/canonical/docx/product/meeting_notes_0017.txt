@@ -1,6 +1,0 @@
-Protokoll Produktmeeting 06.05.2025
-Themen:
-  * e-enable next-generation models
-  * unleash mission-critical models
-  * generate transparent communities
-Nächstes Review: KW51

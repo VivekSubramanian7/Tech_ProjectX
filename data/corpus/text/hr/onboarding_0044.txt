@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Gerlind Kroker
-E-Mail-Konto: korduladrub@example.org
-Benutzername (Login): heidelorebiggen
-Personalnummer: PNR-78254734
-Diensttelefon: (06498) 574652
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

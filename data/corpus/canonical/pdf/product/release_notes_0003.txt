@@ -1,8 +1,0 @@
-Release Notes — v8.17.0
-==============================
-- [JIRA-7853] Intuitive background orchestration
-- [JIRA-6158] Operative zero-defect functionalities
-- [JIRA-5489] Future-proofed optimizing customer loyalty
-- [JIRA-1173] Total incremental implementation
-- [JIRA-9220] Business-focused optimal paradigm
-Build-Hash: bbfdccb6d0eb

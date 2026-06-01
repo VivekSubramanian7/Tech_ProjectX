@@ -1,5 +1,0 @@
-[Ticket #909766] Status: offen
-Gemeldet von: Denis Höfig
-Rückmeldung an: nils14@example.net
-Telefon: +49(0) 597657743
-Beschreibung: Login schlägt nach Update fehl.

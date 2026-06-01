@@ -1,6 +1,0 @@
-CHANGELOG
-v8.2 — Pre-emptive bi-directional projection
-v9.18 — Business-focused mission-critical toolset
-v4.2 — Robust tertiary infrastructure
-v1.22 — Adaptive tangible infrastructure
-v8.4 — Switchable directional hardware

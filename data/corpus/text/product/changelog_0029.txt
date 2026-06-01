@@ -1,5 +1,0 @@
-CHANGELOG
-v9.7 — Virtual asynchronous interface
-v7.11 — Expanded logistical approach
-v3.15 — Total object-oriented data-warehouse
-v1.16 — Stand-alone multimedia extranet

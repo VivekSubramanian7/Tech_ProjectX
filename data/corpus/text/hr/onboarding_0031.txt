@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Herr Hans-Werner Löffler
-E-Mail-Konto: schomberanika@example.org
-Benutzername (Login): okramer
-Personalnummer: PNR-86673750
-Diensttelefon: 00606 76389
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

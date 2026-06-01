@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Fabian Sölzer
-Personalnummer: PNR-40349300
-SV-Nummer: 38050947O694
-Steuer-ID: 36865729412
-Auszahlung auf IBAN: DE12401362145200923278
-Bruttobezug: 5.496,00 EUR

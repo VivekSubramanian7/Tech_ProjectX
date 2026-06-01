@@ -1,5 +1,0 @@
-[Ticket #621612] Status: offen
-Gemeldet von: Luciano Hermann
-Rückmeldung an: vholsten@example.net
-Telefon: (04343) 49339
-Beschreibung: Login schlägt nach Update fehl.

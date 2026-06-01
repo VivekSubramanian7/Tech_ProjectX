@@ -1,6 +1,0 @@
-# auth service access log
-23/06/2025:23:54 user=gorlitzkenan from 114.131.167.19 status=200
-22/04/2025:16:15 user=virginiaschulz from 85.164.79.124 status=200
-14/03/2025:19:23 user=rosinaetzler from 144.132.36.28 status=200
-10/03/2025:15:16 user=paffraththeresa from 97.220.40.23 status=200
-07/04/2025:13:57 user=maritmartin from 193.193.61.127 status=200

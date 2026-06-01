@@ -1,6 +1,0 @@
-CHANGELOG
-v1.16 — Triple-buffered dedicated forecast
-v7.10 — Team-oriented maximized artificial intelligence
-v3.1 — Distributed dedicated data-warehouse
-v7.2 — Open-source full-range hub
-v8.21 — Diverse well-modulated throughput

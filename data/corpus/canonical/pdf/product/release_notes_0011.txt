@@ -1,9 +1,0 @@
-Release Notes — v3.1.3
-==============================
-- [JIRA-9214] De-engineered motivating framework
-- [JIRA-5170] Inverse bottom-line archive
-- [JIRA-9386] Switchable intermediate challenge
-- [JIRA-2997] Future-proofed empowering architecture
-- [JIRA-5528] Secured explicit project
-- [JIRA-2386] Self-enabling fault-tolerant ability
-Build-Hash: cefad035debf

@@ -1,6 +1,0 @@
-[Ticket #508874] Status: offen
-Gemeldet von: Luise Siering
-Rückmeldung an: tatjana36@example.net
-Telefon: +49(0) 556279744
-Client-IP aus Log: 170.69.212.127
-Beschreibung: Login schlägt nach Update fehl.

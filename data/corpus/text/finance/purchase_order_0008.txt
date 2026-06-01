@@ -1,5 +1,0 @@
-BESTELLUNG PO-507571
-Besteller: Wilhelm Freudenberger
-Kontakt: irmtraudboucsein@example.org
-Lieferadresse: Denny-Rörricht-Allee 129, 28971 Gadebusch
-Artikel: 21x Material SKU-86657

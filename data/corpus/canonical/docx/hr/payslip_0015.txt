@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Hans-Rudolf Häring
-Personalnummer: PNR-99165184
-SV-Nummer: 60071068L105
-Steuer-ID: 90578014636
-Auszahlung auf IBAN: DE85467234816217312070
-Bruttobezug: 6.730,00 EUR

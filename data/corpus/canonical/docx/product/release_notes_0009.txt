@@ -1,6 +1,0 @@
-Release Notes — v2.11.5
-==============================
-- [JIRA-1839] Multi-lateral zero-defect implementation
-- [JIRA-2058] Vision-oriented real-time workforce
-- [JIRA-2610] Synergized bifurcated groupware
-Build-Hash: cfdfa3dcbe53

@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Monika Carsten
-Personalnummer: PNR-70030931
-SV-Nummer: 09280343Y614
-Steuer-ID: 25037916839
-Auszahlung auf IBAN: DE09368159909380153545
-Bruttobezug: 4.147,00 EUR

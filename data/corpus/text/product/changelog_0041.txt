@@ -1,6 +1,0 @@
-CHANGELOG
-v2.30 — Reduced needs-based monitoring
-v4.26 — Persevering multi-state paradigm
-v8.14 — Devolved context-sensitive ability
-v1.28 — Adaptive coherent time-frame
-v7.11 — Grass-roots actuating encoding

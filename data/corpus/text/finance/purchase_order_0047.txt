@@ -1,5 +1,0 @@
-BESTELLUNG PO-581028
-Besteller: Prof. Siglinde Buchholz
-Kontakt: gumprichotto@example.com
-Lieferadresse: Gabriela-Lorch-Straße 33/73, 96077 Brilon
-Artikel: 2x Material SKU-71361

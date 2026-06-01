@@ -1,8 +1,0 @@
-Release Notes — v7.12.9
-==============================
-- [JIRA-6517] Devolved intangible parallelism
-- [JIRA-9682] Re-engineered analyzing hardware
-- [JIRA-3086] Progressive background complexity
-- [JIRA-8716] Multi-lateral regional concept
-- [JIRA-5551] Seamless actuating Local Area Network
-Build-Hash: feba1b3ecbbc

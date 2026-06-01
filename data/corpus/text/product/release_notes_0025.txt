@@ -1,8 +1,0 @@
-Release Notes — v1.3.9
-==============================
-- [JIRA-7543] Public-key global attitude
-- [JIRA-5437] Polarized transitional matrices
-- [JIRA-4522] Multi-lateral composite middleware
-- [JIRA-7878] Optimized interactive challenge
-- [JIRA-5926] Face-to-face bottom-line open architecture
-Build-Hash: ea7cbdbacaf6

@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Frau Waltraud Gude
-E-Mail-Konto: ehlerthakan@example.com
-Benutzername (Login): jaehnhans-joerg
-Personalnummer: PNR-61850459
-Diensttelefon: +49(0)7139727691
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

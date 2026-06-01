@@ -1,6 +1,0 @@
-[Ticket #450088] Status: offen
-Gemeldet von: Milan Wieloch
-Rückmeldung an: hartungtheodor@example.com
-Telefon: (00288) 76801
-Client-IP aus Log: 168.75.58.191
-Beschreibung: Login schlägt nach Update fehl.

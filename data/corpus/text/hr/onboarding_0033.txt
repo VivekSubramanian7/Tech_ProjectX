@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Ortwin Ortmann
-E-Mail-Konto: marko74@example.net
-Benutzername (Login): nikolausebert
-Personalnummer: PNR-48036937
-Diensttelefon: +49(0) 510734695
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

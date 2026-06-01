@@ -1,6 +1,0 @@
-# auth service access log
-02/05/2025:18:31 user=gnatzarnd from 26.18.235.26 status=200
-03/10/2025:10:09 user=kklemm from 134.154.116.176 status=200
-16/11/2025:19:01 user=tom79 from 31.3.43.141 status=200
-12/04/2025:17:04 user=stilla80 from 39.22.57.61 status=200
-06/04/2025:00:17 user=bohnbachjeanette from 53.149.156.132 status=200

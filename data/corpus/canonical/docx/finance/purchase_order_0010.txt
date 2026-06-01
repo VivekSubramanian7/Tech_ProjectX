@@ -1,5 +1,0 @@
-BESTELLUNG PO-730998
-Besteller: Andrew Huhn
-Kontakt: david23@example.org
-Lieferadresse: Hermann Josef-Lorch-Allee 1-8, 30788 Mayen
-Artikel: 19x Material SKU-77409

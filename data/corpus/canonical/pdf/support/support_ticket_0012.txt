@@ -1,5 +1,0 @@
-[Ticket #106568] Status: offen
-Gemeldet von: Eugenie Kade
-Rückmeldung an: preisspatricia@example.com
-Telefon: +49(0)6645 31540
-Beschreibung: Login schlägt nach Update fehl.

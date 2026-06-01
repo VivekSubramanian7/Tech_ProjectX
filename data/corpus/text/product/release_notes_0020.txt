@@ -1,6 +1,0 @@
-Release Notes — v2.16.6
-==============================
-- [JIRA-3694] Implemented zero administration product
-- [JIRA-1356] Networked fault-tolerant forecast
-- [JIRA-3755] Exclusive well-modulated implementation
-Build-Hash: eddc91a1fe7d

@@ -1,7 +1,0 @@
-CHANGELOG
-v2.18 — Distributed composite application
-v9.18 — Public-key high-level capability
-v4.16 — Intuitive mission-critical concept
-v3.7 — Versatile hybrid orchestration
-v8.14 — Profound foreground workforce
-v7.7 — User-centric web-enabled groupware

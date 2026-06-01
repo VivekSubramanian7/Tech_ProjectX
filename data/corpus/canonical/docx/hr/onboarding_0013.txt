@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Mark Mude
-E-Mail-Konto: sofie33@example.org
-Benutzername (Login): ybaerer
-Personalnummer: PNR-52525218
-Diensttelefon: 06292 90672
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

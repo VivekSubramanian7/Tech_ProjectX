@@ -1,5 +1,0 @@
-[Ticket #790484] Status: offen
-Gemeldet von: Aziz Stadelmann B.Sc.
-Rückmeldung an: alexandrekruschwitz@example.net
-Telefon: (07824) 817811
-Beschreibung: Login schlägt nach Update fehl.

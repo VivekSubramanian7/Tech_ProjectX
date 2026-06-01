@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Gerhard Weller-Stahr
-Personalnummer: PNR-36713891
-SV-Nummer: 08170346F831
-Steuer-ID: 18972034680
-Auszahlung auf IBAN: DE19239857717521724608
-Bruttobezug: 8.657,00 EUR

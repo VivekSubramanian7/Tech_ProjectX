@@ -1,5 +1,0 @@
-[Ticket #474533] Status: offen
-Gemeldet von: Univ.Prof. Hartmut Köhler
-Rückmeldung an: magnus82@example.net
-Telefon: +49(0)8933 353475
-Beschreibung: Login schlägt nach Update fehl.

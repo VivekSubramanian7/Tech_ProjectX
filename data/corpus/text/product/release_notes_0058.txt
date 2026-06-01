@@ -1,7 +1,0 @@
-Release Notes — v2.14.8
-==============================
-- [JIRA-7477] Robust multi-state moderator
-- [JIRA-7949] Persevering maximized Local Area Network
-- [JIRA-2469] Mandatory secondary service-desk
-- [JIRA-4315] Decentralized neutral time-frame
-Build-Hash: 7e3dbae1903f

@@ -1,6 +1,0 @@
-[Ticket #759566] Status: offen
-Gemeldet von: Anka Junk
-Rückmeldung an: felizitas19@example.org
-Telefon: +49(0)5050 63421
-Client-IP aus Log: 61.82.191.222
-Beschreibung: Login schlägt nach Update fehl.

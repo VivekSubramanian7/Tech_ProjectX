@@ -1,8 +1,0 @@
-Release Notes — v5.3.3
-==============================
-- [JIRA-4879] Mandatory web-enabled circuit
-- [JIRA-6113] Advanced executive Graphical User Interface
-- [JIRA-9017] Team-oriented system-worthy task-force
-- [JIRA-5063] Virtual 24/7 moratorium
-- [JIRA-3366] Expanded object-oriented alliance
-Build-Hash: 8aa1ce888d29

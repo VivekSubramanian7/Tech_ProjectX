@@ -1,8 +1,0 @@
-Protokoll Produktmeeting 08.09.2025
-Themen:
-  * incentivize B2C eyeballs
-  * seize end-to-end functionalities
-  * morph out-of-the-box e-services
-  * architect robust functionalities
-  * engineer compelling architectures
-Nächstes Review: KW51

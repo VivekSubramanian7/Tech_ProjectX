@@ -1,8 +1,0 @@
-Release Notes — v4.14.3
-==============================
-- [JIRA-3051] Persevering global time-frame
-- [JIRA-7353] Networked zero administration attitude
-- [JIRA-9734] Switchable intermediate intranet
-- [JIRA-3107] Optimized hybrid framework
-- [JIRA-8177] Enhanced mobile hardware
-Build-Hash: ec9ecaf95aaa

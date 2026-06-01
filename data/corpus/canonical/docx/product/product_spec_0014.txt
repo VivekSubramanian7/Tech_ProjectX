@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-968140
-Maße: 57 x 174 x 192 mm
-Toleranz: ±0.4 mm
-Materialcharge: LOT-774776
-Interne Referenz: 19378445022

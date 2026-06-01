@@ -1,5 +1,0 @@
-[Ticket #533613] Status: offen
-Gemeldet von: Marina Hellwig
-Rückmeldung an: delia81@example.org
-Telefon: +49(0)4186987711
-Beschreibung: Login schlägt nach Update fehl.

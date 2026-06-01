@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Ing. Egbert Kostolzin
-E-Mail-Konto: gotthold57@example.org
-Benutzername (Login): margaret20
-Personalnummer: PNR-29247611
-Diensttelefon: 01735308134
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

@@ -12,8 +12,24 @@ venv/
 data/catalog.sqlite
 data/*.sqlite
 data/.eval_*
+data/.ml_verify_catalog.sqlite
 data/gdpr_synthetic_dataset_500/
 data/gdpr_synthetic_dataset_500.zip
+data/models/*.pt
+# Regeneratable eval corpus (large; produced by eval/corpus_large generators)
+data/corpus/
+# Model weights (downloadable; see scripts/download_yolo_weights.py)
+/yolov8n.pt
+
+# Frontend build output / deps
+web/node_modules/
+web/dist/
+web/tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.claude/
 
 # OS
 .DS_Store

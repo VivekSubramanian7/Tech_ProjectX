@@ -1,5 +1,0 @@
-[Ticket #471215] Status: offen
-Gemeldet von: Erdogan Noack
-Rückmeldung an: gundelloeffler@example.com
-Telefon: 00414256901
-Beschreibung: Login schlägt nach Update fehl.

@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Antonio Thanel
-E-Mail-Konto: hseifert@example.com
-Benutzername (Login): bartholomaeus19
-Personalnummer: PNR-69728477
-Diensttelefon: 0181602683
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

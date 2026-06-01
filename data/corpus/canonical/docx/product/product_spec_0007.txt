@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-624213
-Maße: 189 x 14 x 119 mm
-Toleranz: ±0.7 mm
-Materialcharge: LOT-968110
-Interne Referenz: 16570783947

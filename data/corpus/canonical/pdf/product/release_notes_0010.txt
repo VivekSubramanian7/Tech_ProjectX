@@ -1,8 +1,0 @@
-Release Notes — v6.20.4
-==============================
-- [JIRA-5878] Re-contextualized dedicated capability
-- [JIRA-1401] Universal reciprocal matrix
-- [JIRA-8554] Ergonomic global throughput
-- [JIRA-7442] Exclusive bi-directional info-mediaries
-- [JIRA-3697] Customer-focused upward-trending flexibility
-Build-Hash: afc47deb5dd8

@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Fredo Nerger
-E-Mail-Konto: hanni84@example.com
-Benutzername (Login): friedhildewieloch
-Personalnummer: PNR-38800073
-Diensttelefon: +49(0)9771 67723
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

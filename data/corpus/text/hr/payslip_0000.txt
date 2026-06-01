@@ -1,7 +1,0 @@
-Entgeltabrechnung
-Name: Agnes Nerger
-Personalnummer: PNR-60908978
-SV-Nummer: 06120989V384
-Steuer-ID: 10302859476
-Auszahlung auf IBAN: DE24505326192187713295
-Bruttobezug: 7.221,00 EUR

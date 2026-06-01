@@ -1,6 +1,0 @@
-Release Notes — v7.13.7
-==============================
-- [JIRA-4732] Self-enabling dynamic Local Area Network
-- [JIRA-6110] Secured attitude-oriented framework
-- [JIRA-9666] Advanced national secured line
-Build-Hash: cfbcafc7c2b5

@@ -1,6 +1,0 @@
-[Ticket #503552] Status: offen
-Gemeldet von: Grete Neureuther
-Rückmeldung an: jdehmel@example.net
-Telefon: +49(0)3267 60550
-Client-IP aus Log: 147.134.23.183
-Beschreibung: Login schlägt nach Update fehl.

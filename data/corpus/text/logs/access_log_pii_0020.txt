@@ -1,5 +1,0 @@
-# auth service access log
-07/06/2025:09:16 user=rtrommler from 170.193.148.49 status=200
-13/01/2025:10:11 user=genovevagude from 71.59.113.189 status=200
-11/06/2025:15:42 user=putzclarissa from 63.38.23.222 status=200
-27/11/2025:20:22 user=petar20 from 59.19.253.130 status=200

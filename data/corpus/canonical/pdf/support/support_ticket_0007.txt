@@ -1,6 +1,0 @@
-[Ticket #453577] Status: offen
-Gemeldet von: Bettina Vollbrecht-Eigenwillig
-Rückmeldung an: jgiess@example.net
-Telefon: +49(0)6662091077
-Client-IP aus Log: 109.49.26.102
-Beschreibung: Login schlägt nach Update fehl.

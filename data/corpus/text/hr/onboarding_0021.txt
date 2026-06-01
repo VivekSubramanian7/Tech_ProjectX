@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Jolanda Jacob MBA.
-E-Mail-Konto: irakuhl@example.com
-Benutzername (Login): jaehnalmut
-Personalnummer: PNR-16520255
-Diensttelefon: 01165 962556
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

@@ -1,5 +1,0 @@
-[Ticket #719372] Status: offen
-Gemeldet von: Katja Hande-Mülichen
-Rückmeldung an: jkiller@example.com
-Telefon: 00529343296
-Beschreibung: Login schlägt nach Update fehl.

@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Leokadia Sauer
-E-Mail-Konto: geisslerstjepan@example.net
-Benutzername (Login): haeringsilke
-Personalnummer: PNR-51814847
-Diensttelefon: 08502186053
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

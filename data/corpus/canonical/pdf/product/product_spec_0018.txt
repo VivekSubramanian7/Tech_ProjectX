@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-643534
-Maße: 199 x 43 x 167 mm
-Toleranz: ±0.9 mm
-Materialcharge: LOT-200462
-Interne Referenz: 46308569216

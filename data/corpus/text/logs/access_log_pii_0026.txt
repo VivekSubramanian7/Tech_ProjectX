@@ -1,7 +1,0 @@
-# auth service access log
-04/10/2025:23:48 user=tnaser from 109.244.253.228 status=200
-20/02/2025:07:51 user=conradijudith from 115.150.107.85 status=200
-13/01/2025:19:36 user=ottokarstadelmann from 148.174.245.92 status=200
-05/11/2025:20:39 user=erdal56 from 209.166.3.64 status=200
-26/06/2025:21:18 user=reinaldheintze from 97.253.19.27 status=200
-15/02/2025:04:47 user=ehaering from 149.225.177.200 status=200

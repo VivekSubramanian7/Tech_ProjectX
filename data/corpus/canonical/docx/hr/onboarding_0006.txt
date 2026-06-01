@@ -1,8 +1,0 @@
-Onboarding-Checkliste
-Neue Kollegin/Kollege: Herta Ladeck
-E-Mail-Konto: kenan65@example.com
-Benutzername (Login): schomberhelmtrud
-Personalnummer: PNR-32019463
-Diensttelefon: 08901081585
-
-[ ] Laptop ausgegeben   [ ] Badge aktiviert   [ ] VPN eingerichtet

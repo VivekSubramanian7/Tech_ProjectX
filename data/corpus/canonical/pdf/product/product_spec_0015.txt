@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-690625
-Maße: 165 x 188 x 110 mm
-Toleranz: ±0.4 mm
-Materialcharge: LOT-703971
-Interne Referenz: 56148020799

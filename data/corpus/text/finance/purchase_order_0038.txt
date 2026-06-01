@@ -1,5 +1,0 @@
-BESTELLUNG PO-926746
-Besteller: Milos Riehl
-Kontakt: benthinellen@example.com
-Lieferadresse: Hendriksallee 9, 74166 Celle
-Artikel: 28x Material SKU-14491

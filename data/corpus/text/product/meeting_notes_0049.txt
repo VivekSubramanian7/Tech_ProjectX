@@ -1,6 +1,0 @@
-Protokoll Produktmeeting 23.05.2025
-Themen:
-  * implement virtual users
-  * monetize wireless portals
-  * target intuitive networks
-Nächstes Review: KW36

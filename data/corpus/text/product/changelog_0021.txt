@@ -1,5 +1,0 @@
-CHANGELOG
-v2.25 — Visionary cohesive hierarchy
-v3.7 — Triple-buffered systematic parallelism
-v4.28 — Implemented 3rdgeneration protocol
-v4.2 — Cross-group homogeneous encryption

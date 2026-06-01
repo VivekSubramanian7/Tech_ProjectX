@@ -1,5 +1,0 @@
-BESTELLUNG PO-110153
-Besteller: Antonie Lindau
-Kontakt: jasmin68@example.net
-Lieferadresse: Klotzplatz 50, 00313 Recklinghausen
-Artikel: 2x Material SKU-89223

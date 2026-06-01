@@ -1,6 +1,0 @@
-# auth service access log
-28/04/2025:17:22 user=dbonbach from 95.218.28.26 status=200
-10/10/2025:03:30 user=fredy23 from 220.46.246.186 status=200
-26/06/2025:03:26 user=gordanascheel from 184.175.36.8 status=200
-03/03/2025:15:33 user=hoefigfanny from 198.126.51.241 status=200
-08/05/2025:03:26 user=nergervirginia from 79.255.130.222 status=200

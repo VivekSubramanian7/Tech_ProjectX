@@ -1,8 +1,0 @@
-Release Notes — v7.18.6
-==============================
-- [JIRA-1809] Enterprise-wide human-resource emulation
-- [JIRA-7577] Digitized analyzing model
-- [JIRA-5993] Organized motivating knowledgebase
-- [JIRA-4965] Grass-roots discrete synergy
-- [JIRA-4971] Reverse-engineered human-resource functionalities
-Build-Hash: e61b79bbb3a4

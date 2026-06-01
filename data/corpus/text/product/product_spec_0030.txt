@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-153043
-Maße: 181 x 124 x 155 mm
-Toleranz: ±0.2 mm
-Materialcharge: LOT-344061
-Interne Referenz: 90388546710

@@ -1,6 +1,0 @@
-[Ticket #229101] Status: offen
-Gemeldet von: Henny Keudel-Jähn
-Rückmeldung an: dkrein@example.org
-Telefon: 08020916449
-Client-IP aus Log: 4.43.194.55
-Beschreibung: Login schlägt nach Update fehl.

@@ -1,6 +1,0 @@
-# service configuration
-timeout_ms = 500
-max_retries = 2
-region = eu-central-3
-feature_flag_x = false
-cache_size_mb = 256

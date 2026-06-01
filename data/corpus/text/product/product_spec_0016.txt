@@ -1,6 +1,0 @@
-Technische Spezifikation
-Artikel-Nr.: SKU-868032
-Maße: 197 x 163 x 52 mm
-Toleranz: ±0.4 mm
-Materialcharge: LOT-931827
-Interne Referenz: 63825987044

@@ -1,6 +1,0 @@
-Release Notes — v8.17.7
-==============================
-- [JIRA-3210] Ergonomic explicit benchmark
-- [JIRA-7229] Secured client-server adapter
-- [JIRA-9228] Re-contextualized uniform architecture
-Build-Hash: e2d6bbc5d145
