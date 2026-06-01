@@ -10,3 +10,7 @@ source: local
 use_spacy: false
 # Use Ultralytics/EasyOCR when installed; PNG gdpr-* hints used as fallback in CI
 use_ml_image: true
+# Bounded parallelism — keep total CPU usage modest so a scan never freezes the PC.
+# Workers ≈ cpu_budget_pct% of cores. max_workers > 0 clamps further; 1 = sequential.
+cpu_budget_pct: 30
+max_workers: 0

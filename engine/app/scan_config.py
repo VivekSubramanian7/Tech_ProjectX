@@ -14,6 +14,11 @@ class ScanOptions:
 
     use_spacy: bool = False
     use_ml_image: bool = True
+    # Bounded parallelism. cpu_budget_pct caps how much of the machine a scan may
+    # use (workers ≈ that fraction of cores). max_workers > 0 clamps further;
+    # max_workers == 1 forces the sequential path.
+    cpu_budget_pct: int = 30
+    max_workers: int = 0
 
 
 @dataclass(frozen=True)
@@ -27,6 +32,8 @@ class ScanConfig:
     onedrive_fixture: Path | None = None
     use_spacy: bool = False
     use_ml_image: bool = True
+    cpu_budget_pct: int = 30
+    max_workers: int = 0
 
 
 def repo_root() -> Path:
@@ -78,6 +85,8 @@ def load_scan_config(config_path: Path | None = None) -> ScanConfig:
 
     use_spacy = bool(raw.get("use_spacy", False))
     use_ml_image = bool(raw.get("use_ml_image", True))
+    cpu_budget_pct = int(raw.get("cpu_budget_pct", 30))
+    max_workers = int(raw.get("max_workers", 0))
 
     return ScanConfig(
         path=path,
@@ -89,11 +98,36 @@ def load_scan_config(config_path: Path | None = None) -> ScanConfig:
         onedrive_fixture=onedrive_fixture,
         use_spacy=use_spacy,
         use_ml_image=use_ml_image,
+        cpu_budget_pct=cpu_budget_pct,
+        max_workers=max_workers,
     )
 
 
 def scan_options_from_config(cfg: ScanConfig) -> ScanOptions:
-    return ScanOptions(use_spacy=cfg.use_spacy, use_ml_image=cfg.use_ml_image)
+    return ScanOptions(
+        use_spacy=cfg.use_spacy,
+        use_ml_image=cfg.use_ml_image,
+        cpu_budget_pct=cfg.cpu_budget_pct,
+        max_workers=cfg.max_workers,
+    )
+
+
+def resolve_worker_count(options: ScanOptions) -> int:
+    """Worker threads for a scan: a bounded fraction of cores (the CPU ceiling).
+
+    workers ≈ floor(cpu_budget_pct/100 * cores); max_workers > 0 clamps it; the
+    result is always >= 1 so a scan never stalls.
+    """
+    import math
+    import os
+
+    cores = os.cpu_count() or 1
+    pct = max(1, min(100, int(getattr(options, "cpu_budget_pct", 30) or 30)))
+    budget = max(1, math.floor(pct / 100.0 * cores))
+    cap = int(getattr(options, "max_workers", 0) or 0)
+    if cap > 0:
+        return max(1, min(cap, budget))
+    return budget
 
 
 def resolve_scan_source(cfg: ScanConfig) -> Path | object:
