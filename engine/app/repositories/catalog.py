@@ -64,15 +64,18 @@ class CatalogRepository:
     @staticmethod
     def _migrate(conn: sqlite3.Connection) -> None:
         """Additive column migrations for pre-existing catalogs (idempotent)."""
-        existing = {row["name"] for row in conn.execute("PRAGMA table_info(scan_run)")}
-        additions = {
+        scan_run_cols = {row["name"] for row in conn.execute("PRAGMA table_info(scan_run)")}
+        for column, decl in {
             "total_bytes": "INTEGER NOT NULL DEFAULT 0",
             "duration_ms": "INTEGER",
             "type_breakdown": "TEXT",
-        }
-        for column, decl in additions.items():
-            if column not in existing:
+        }.items():
+            if column not in scan_run_cols:
                 conn.execute(f"ALTER TABLE scan_run ADD COLUMN {column} {decl}")
+
+        catalog_cols = {row["name"] for row in conn.execute("PRAGMA table_info(scan_catalog)")}
+        if "native_id" not in catalog_cols:
+            conn.execute("ALTER TABLE scan_catalog ADD COLUMN native_id TEXT")
 
     def reset_catalog(self, seed_sql_path: Path | None = None) -> None:
         """Clear all scan/findings data and re-seed classification enum."""
@@ -109,13 +112,14 @@ class CatalogRepository:
         ruleset_version: str,
         scan_status: str,
         model_version: str | None = None,
+        native_id: str | None = None,
     ) -> None:
         conn.execute(
             """
             INSERT INTO scan_catalog (
-                file_id, source_id, path, content_hash, size, mtime,
+                file_id, source_id, path, native_id, content_hash, size, mtime,
                 last_scanned_ts, ruleset_version, model_version, scan_status
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(file_id) DO UPDATE SET
                 content_hash=excluded.content_hash,
                 size=excluded.size,
@@ -123,12 +127,14 @@ class CatalogRepository:
                 last_scanned_ts=excluded.last_scanned_ts,
                 ruleset_version=excluded.ruleset_version,
                 model_version=excluded.model_version,
-                scan_status=excluded.scan_status
+                scan_status=excluded.scan_status,
+                native_id=COALESCE(excluded.native_id, scan_catalog.native_id)
             """,
             (
                 file_id,
                 source_id,
                 path,
+                native_id,
                 content_hash,
                 size,
                 mtime,

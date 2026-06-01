@@ -76,6 +76,20 @@ export interface Aggregates {
   tier2_needed: number;
   tier2_verified: number;
   assurance_pct: number;
+  // Owner decision counts
+  retained: number;
+  deleted: number;
+  escalated: number;
+  not_relevant: number;
+}
+
+export interface Tier2JobStatus {
+  job_id: string;
+  status: "running" | "complete" | "error";
+  processed: number;
+  confirmed: number;
+  rejected: number;
+  errors: number;
 }
 
 export interface Capabilities {
@@ -121,7 +135,12 @@ export const api = {
   scans: {
     list: () => request<{ data: ScanStatus[] }>("/scans"),
     get: (id: string) => request<{ data: ScanStatus }>(`/scans/${id}`),
-    create: (body: { path?: string; mode?: "full" | "delta"; use_config?: boolean }) =>
+    create: (body: {
+      path?: string;
+      source?: "local" | "onedrive";
+      mode?: "full" | "delta";
+      use_config?: boolean;
+    }) =>
       request<{ data: ScanStatus; meta: { scan_id: string; mode: string } }>("/scans", {
         method: "POST",
         body: JSON.stringify(body),
@@ -135,6 +154,15 @@ export const api = {
       request<{ data: { reset: boolean }; meta: { message: string } }>("/aggregates/reset", {
         method: "POST",
       }),
+  },
+
+  tier2: {
+    run: (body?: { scope_id?: string; budget?: number }) =>
+      request<{ data: Tier2JobStatus; meta: { job_id: string } }>("/tier2/run", {
+        method: "POST",
+        body: JSON.stringify(body ?? {}),
+      }),
+    status: () => request<{ data: Tier2JobStatus }>("/tier2/run"),
   },
 
   owner: {

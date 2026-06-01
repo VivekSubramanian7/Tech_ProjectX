@@ -58,6 +58,16 @@ class ScanRunState:
     phase: str | None = None
 
 
+@dataclass
+class Tier2JobState:
+    job_id: str
+    status: str = "running"
+    processed: int = 0
+    confirmed: int = 0
+    rejected: int = 0
+    errors: int = 0
+
+
 def _peek_magic(source: FileSource, ref: FileRef, n: int = 512) -> bytes:
     with source.open(ref) as stream:
         if hasattr(stream, "read"):
@@ -118,6 +128,7 @@ def _scan_text_file(
         file_id=ref.file_id,
         source_id=ref.scope_id,
         path=ref.path,
+        native_id=ref.native_id,
         content_hash=content_hash,
         size=ref.size,
         mtime=ref.mtime,
@@ -151,6 +162,7 @@ def _scan_text_file(
         file_id=ref.file_id,
         source_id=ref.scope_id,
         path=ref.path,
+        native_id=ref.native_id,
         content_hash=content_hash,
         size=ref.size,
         mtime=ref.mtime,
@@ -190,6 +202,7 @@ def _scan_image_file(
         file_id=ref.file_id,
         source_id=ref.scope_id,
         path=ref.path,
+        native_id=ref.native_id,
         content_hash=content_hash,
         size=ref.size,
         mtime=ref.mtime,
@@ -219,6 +232,7 @@ def _scan_image_file(
         file_id=ref.file_id,
         source_id=ref.scope_id,
         path=ref.path,
+        native_id=ref.native_id,
         content_hash=content_hash,
         size=ref.size,
         mtime=ref.mtime,
@@ -403,6 +417,7 @@ def _write_ref_result(
         file_id=ref.file_id,
         source_id=ref.scope_id,
         path=ref.path,
+        native_id=ref.native_id,
         content_hash=content_hash,
         size=ref.size,
         mtime=ref.mtime,
@@ -556,12 +571,16 @@ class ScanOrchestrator:
         )
         self.default_options = default_options or ScanOptions()
         self._runs: dict[str, ScanRunState] = {}
+        self._tier2_runs: dict[str, Tier2JobState] = {}
+        self._active_tier2_job_id: str | None = None
 
     def has_active_scan(self) -> bool:
         return any(state.status == "scanning" for state in self._runs.values())
 
     def clear_runs(self) -> None:
         self._runs.clear()
+        self._tier2_runs.clear()
+        self._active_tier2_job_id = None
 
     def run_scan(
         self,
@@ -1220,6 +1239,246 @@ class ScanOrchestrator:
             return [{k: v for k, v in f.items() if k != "finding_id"} for f in findings]
 
         return _run
+
+    # ── Explicit Tier-2 pass (Admin-triggered) ────────────────────────────────
+
+    def begin_tier2_pass(self, *, scope_id: str | None = None, budget: int | None = None) -> str:
+        """Start an explicit Tier-2 confirmation pass in a background daemon thread.
+
+        Returns a job_id immediately. Poll get_tier2_status(job_id) for progress.
+        409 callers: check has_active_tier2_pass() before calling.
+        """
+        job_id = str(uuid.uuid4())
+        state = Tier2JobState(job_id=job_id, status="running")
+        self._tier2_runs[job_id] = state
+        self._active_tier2_job_id = job_id
+
+        def _worker() -> None:
+            try:
+                result = self.run_tier2_pass(scope_id=scope_id, budget=budget, _state=state)
+                state.processed = result["processed"]
+                state.confirmed = result["confirmed"]
+                state.rejected = result["rejected"]
+                state.errors = result["errors"]
+                state.status = "complete"
+            except Exception:
+                logger.exception("Tier-2 pass %s failed", job_id)
+                state.status = "error"
+            finally:
+                if self._active_tier2_job_id == job_id:
+                    self._active_tier2_job_id = None
+
+        threading.Thread(target=_worker, daemon=True, name=f"tier2-pass-{job_id[:8]}").start()
+        return job_id
+
+    def has_active_tier2_pass(self) -> bool:
+        return self._active_tier2_job_id is not None
+
+    def get_tier2_status(self, job_id: str) -> dict[str, Any]:
+        state = self._tier2_runs.get(job_id)
+        if state is None:
+            raise KeyError(job_id)
+        return {
+            "job_id": state.job_id,
+            "status": state.status,
+            "processed": state.processed,
+            "confirmed": state.confirmed,
+            "rejected": state.rejected,
+            "errors": state.errors,
+        }
+
+    def get_latest_tier2_status(self) -> dict[str, Any] | None:
+        if not self._tier2_runs:
+            return None
+        latest_id = next(reversed(self._tier2_runs))
+        return self.get_tier2_status(latest_id)
+
+    def run_tier2_pass(
+        self,
+        *,
+        scope_id: str | None = None,
+        budget: int | None = None,
+        _state: "Tier2JobState | None" = None,
+    ) -> dict[str, Any]:
+        """Re-read files from catalog, send ephemeral context to Tier-2, update findings.
+
+        Only processes findings where: resolution_status='open', tier=1, and
+        confidence_score falls below the risk-tiered EscalationPolicy threshold.
+        """
+        from app.enums import ENTRIES
+        from app.services.escalation_policy import EscalationPolicy, Tier2BudgetExceeded
+
+        max_budget = budget if budget is not None else int(os.environ.get("TIER2_BUDGET", "100"))
+        policy = EscalationPolicy(max_escalations_per_run=max_budget)
+
+        # Load all open Tier-1 findings with their catalog info.
+        with self.repo.connect() as conn:
+            rows = conn.execute(
+                """
+                SELECT f.id, f.classification_code, f.confidence_score, f.location_json,
+                       f.masked_snippet, sc.path, sc.source_id, sc.native_id
+                FROM finding f
+                JOIN scan_catalog sc ON f.file_id = sc.file_id
+                WHERE f.resolution_status = 'open' AND f.tier = 1
+                ORDER BY f.risk_score DESC, f.id
+                """
+            ).fetchall()
+
+        if not rows:
+            return {"processed": 0, "confirmed": 0, "rejected": 0, "errors": 0}
+
+        # Group findings by file_id (path is the grouping key).
+        from collections import defaultdict
+
+        by_path: dict[str, list[dict]] = defaultdict(list)
+        for row in rows:
+            entry = ENTRIES.get(row["classification_code"])
+            risk_weight = entry.risk_weight if entry else "Medium"
+            by_path[row["path"]].append(
+                {
+                    "id": row["id"],
+                    "classification_code": row["classification_code"],
+                    "confidence_score": float(row["confidence_score"]),
+                    "risk_weight": risk_weight,
+                    "location": json.loads(row["location_json"]),
+                    "masked_snippet": row["masked_snippet"],
+                    "source_id": row["source_id"],
+                    "native_id": row["native_id"],
+                    "path": row["path"],
+                }
+            )
+
+        processed = 0
+        confirmed = 0
+        rejected = 0
+        errors = 0
+
+        with self.repo.connect() as conn:
+            for path_key, findings in by_path.items():
+                # Re-open the file once for all its findings.
+                try:
+                    file_bytes = _read_file_for_tier2(path_key, findings[0])
+                except Exception:
+                    logger.warning("Tier-2: cannot re-open %s — skipping", path_key)
+                    errors += len(findings)
+                    if _state:
+                        _state.errors = errors
+                    continue
+
+                for finding in findings:
+                    try:
+                        if not policy.should_escalate(finding["risk_weight"], finding["confidence_score"]):
+                            continue
+                        policy.record_escalation()
+                    except Tier2BudgetExceeded:
+                        break
+
+                    try:
+                        loc = finding["location"]
+                        modality = loc.get("modality", "text")
+
+                        if modality == "image":
+                            crop = _crop_image_bytes(file_bytes, loc)
+                            verdict = run_tier2_image(
+                                {
+                                    "classification_code": finding["classification_code"],
+                                    "confidence_score": finding["confidence_score"],
+                                    "risk_weight": finding["risk_weight"],
+                                },
+                                ephemeral_crop=crop,
+                            )
+                        else:
+                            snippet = _slice_text_context(file_bytes, loc)
+                            verdict = run_tier2_text(
+                                {
+                                    "classification_code": finding["classification_code"],
+                                    "confidence_score": finding["confidence_score"],
+                                    "risk_weight": finding["risk_weight"],
+                                    "masked_snippet": finding["masked_snippet"],
+                                },
+                                ephemeral_snippet=snippet,
+                            )
+
+                        self.repo.update_finding_tier2(
+                            conn,
+                            finding["id"],
+                            confidence_score=verdict.confidence_score,
+                            tier=2,
+                            model_version=verdict.model_version,
+                            prompt_hash=verdict.prompt_hash,
+                        )
+                        processed += 1
+                        if verdict.confirmed:
+                            confirmed += 1
+                        else:
+                            rejected += 1
+                    except Exception:
+                        logger.exception("Tier-2 error on finding %s", finding["id"])
+                        errors += 1
+
+                    if _state:
+                        _state.processed = processed
+                        _state.confirmed = confirmed
+                        _state.rejected = rejected
+                        _state.errors = errors
+
+            conn.commit()
+
+        return {"processed": processed, "confirmed": confirmed, "rejected": rejected, "errors": errors}
+
+
+def _read_file_for_tier2(path: str, finding_info: dict) -> bytes:
+    """Re-open a file ephemerally for Tier-2 context extraction.
+
+    For local files: read directly from the filesystem path.
+    For OneDrive files: download via GraphClient using the stored native_id.
+    Bytes are never written to disk — held in memory only.
+    """
+    if not path.startswith("onedrive://"):
+        return Path(path).read_bytes()
+
+    # OneDrive path: onedrive://{drive_id}/{filename}
+    # Requires Graph credentials + stored native_id.
+    from app.sources.graph_client import GraphClient
+
+    drive_id = finding_info.get("source_id", "")
+    native_id = finding_info.get("native_id", "")
+    if not native_id:
+        raise ValueError(f"No native_id stored for OneDrive file: {path}")
+    client = GraphClient()
+    return client.download(drive_id, native_id)
+
+
+def _slice_text_context(file_bytes: bytes, location: dict, window: int = 500) -> str:
+    """Extract a ±window-char ephemeral context window around the finding span."""
+    try:
+        text = file_bytes.decode("utf-8", errors="replace")
+        span = location.get("span", [0, 0])
+        start = max(0, int(span[0]) - window)
+        end = min(len(text), int(span[1]) + window)
+        return text[start:end]
+    except Exception:
+        return ""
+
+
+def _crop_image_bytes(file_bytes: bytes, location: dict) -> bytes:
+    """Crop the image to the finding bbox; return PNG bytes or original on failure."""
+    try:
+        from io import BytesIO
+
+        from PIL import Image
+
+        bbox = location.get("bbox", [])
+        if len(bbox) < 4:
+            return file_bytes
+        x, y, w, h = int(bbox[0]), int(bbox[1]), int(bbox[2]), int(bbox[3])
+        img = Image.open(BytesIO(file_bytes)).convert("RGB")
+        region = img.crop((x, y, x + w, y + h))
+        buf = BytesIO()
+        region.save(buf, format="PNG")
+        return buf.getvalue()
+    except Exception:
+        return file_bytes
 
 
 def _sort_findings(findings: list[dict[str, Any]]) -> list[dict[str, Any]]:

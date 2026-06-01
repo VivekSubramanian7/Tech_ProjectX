@@ -45,8 +45,8 @@ export default function ScanLauncher({ onScanComplete }: Props) {
     try {
       const body =
         source === "local"
-          ? { path: folderPath.trim(), mode: "full" as const, use_config: false }
-          : { mode: "full" as const, use_config: true };
+          ? { path: folderPath.trim(), mode: "full" as const, use_config: false, source: "local" as const }
+          : { mode: "full" as const, use_config: false, source: "onedrive" as const };
       const res = await api.scans.create(body);
       setActiveScanId(res.meta.scan_id);
     } catch (e) {

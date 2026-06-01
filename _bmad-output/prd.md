@@ -380,6 +380,7 @@ Each FR is tagged by phase `[MVP]` / `[Growth]` / `[Vision]`. FRs state capabili
 ### Admin & Oversight
 - **FR41:** An administrator can configure scan sources. `[MVP]`
 - **FR42:** A DPO/administrator can view an aggregate dashboard of estate metrics (files scanned, data volume, findings count, scan progress). `[MVP]`
+- **FR42b:** An administrator can reset the scan catalog from the admin dashboard (clears scans, findings, audit log, and KPI data) after explicit confirmation, for demo and clean re-runs. `[MVP]`
 - **FR43:** A DPO can view findings aggregated by classification type. `[MVP]`
 - **FR44:** A DPO can view findings trended over time and sliced by org unit. `[Growth]`
 - **FR45:** A DPO can export regulator-ready compliance reports. `[Growth]`

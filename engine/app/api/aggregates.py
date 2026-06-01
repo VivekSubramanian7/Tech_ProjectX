@@ -78,6 +78,17 @@ def get_aggregates() -> dict:
         if float(row["confidence_score"]) < tau:
             tier2_needed += 1
 
+    # Owner-decision breakdown — counts per resolution_status (excludes 'open').
+    decision_rows = conn.execute(
+        """
+        SELECT resolution_status, COUNT(*) AS c
+        FROM finding
+        WHERE resolution_status != 'open'
+        GROUP BY resolution_status
+        """
+    ).fetchall()
+    decision_counts: dict[str, int] = {row["resolution_status"]: row["c"] for row in decision_rows}
+
     open_count = findings_row["c"]
     assured = open_count - tier2_needed
     assurance_pct = round(100.0 * assured / open_count, 1) if open_count else 0.0
@@ -92,6 +103,11 @@ def get_aggregates() -> dict:
             "tier2_needed": tier2_needed,
             "tier2_verified": tier2_verified,
             "assurance_pct": assurance_pct,
+            # Owner decision counts
+            "retained": decision_counts.get("kept", 0),
+            "deleted": decision_counts.get("deleted_pending", 0),
+            "escalated": decision_counts.get("escalated", 0),
+            "not_relevant": decision_counts.get("false_positive", 0),
         }
     }
 

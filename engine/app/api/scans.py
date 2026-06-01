@@ -26,6 +26,7 @@ _shared_orch = ScanOrchestrator(_shared_repo)
 
 class ScanRequest(BaseModel):
     path: str | None = Field(None, description="Local folder path (overrides config path)")
+    source: Literal["local", "onedrive"] = Field("local", description="Data source: local folder or OneDrive via Graph")
     mode: Literal["full", "delta"] = Field("full", description="full or delta scan")
     tier2: bool = Field(False, description="Apply Tier-2 escalation after Tier-1")
     reapply_ruleset: bool = Field(False, description="Re-scan stale ruleset files in delta mode")
@@ -54,7 +55,32 @@ def _resolve_scan_options(body: ScanRequest) -> ScanOptions:
 def create_scan(body: ScanRequest) -> dict:
     _shared_repo.init_db(SEED_SQL if SEED_SQL.is_file() else None)
 
-    if body.use_config and not body.path:
+    if body.source == "onedrive":
+        # Live OneDrive scan — resolve target via Graph credentials.
+        from app.scan_config import ScanConfig as _SC
+        from app.scan_config import resolve_scan_source as _resolve
+
+        cfg_od = _SC(
+            path=Path("."),  # unused for onedrive source
+            scope_id=None,
+            mode=body.mode,
+            tier2=body.tier2,
+            reapply_ruleset=body.reapply_ruleset,
+            source="onedrive",
+        )
+        try:
+            target = _resolve(cfg_od)
+        except Exception as exc:
+            raise HTTPException(status_code=503, detail=f"OneDrive connection failed: {exc}") from exc
+        from app.sources.onedrive_live import LiveOneDriveGraphSource
+
+        scope_id = target._drive_id if isinstance(target, LiveOneDriveGraphSource) else None
+        mode = body.mode
+        tier2 = body.tier2
+        reapply = body.reapply_ruleset
+        options = _resolve_scan_options(body)
+
+    elif body.use_config and not body.path:
         cfg = load_scan_config()
         if body.mode != "full" or body.tier2 or body.reapply_ruleset:
             cfg = ScanConfig(

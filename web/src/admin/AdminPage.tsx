@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import {
   Files,
   ScanSearch,
@@ -12,9 +12,12 @@ import {
   Cpu,
   Sparkles,
   Activity,
+  XCircle,
+  CheckCircle2,
+  PlayCircle,
 } from "lucide-react";
 import { toast } from "sonner";
-import { api, type Aggregates, type ScanStatus } from "@/lib/api";
+import { api, type Aggregates, type ScanStatus, type Tier2JobStatus } from "@/lib/api";
 import { useRole } from "@/lib/rbac";
 import { formatBytes } from "@/lib/utils";
 import { KpiTile } from "@/components/KpiTile";
@@ -31,6 +34,9 @@ export default function AdminPage() {
   const [scansLoading, setScansLoading] = useState(true);
   const [aggError, setAggError] = useState<string | null>(null);
   const [resetting, setResetting] = useState(false);
+  const [tier2Job, setTier2Job] = useState<Tier2JobStatus | null>(null);
+  const [tier2Running, setTier2Running] = useState(false);
+  const tier2PollRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const fetchAggregates = useCallback(() => {
     setAggLoading(true);
@@ -79,6 +85,39 @@ export default function AdminPage() {
       toast.error(e instanceof Error ? e.message : "Reset failed");
     } finally {
       setResetting(false);
+    }
+  }
+
+  async function handleRunTier2() {
+    setTier2Running(true);
+    try {
+      const res = await api.tier2.run();
+      setTier2Job(res.data);
+      // Poll until complete
+      tier2PollRef.current = setInterval(async () => {
+        try {
+          const status = await api.tier2.status();
+          setTier2Job(status.data);
+          if (status.data.status !== "running") {
+            if (tier2PollRef.current) clearInterval(tier2PollRef.current);
+            setTier2Running(false);
+            if (status.data.status === "complete") {
+              toast.success(
+                `Tier-2 complete — ${status.data.confirmed} confirmed, ${status.data.rejected} rejected`,
+              );
+            } else {
+              toast.error("Tier-2 pass encountered an error");
+            }
+            fetchAggregates();
+          }
+        } catch {
+          if (tier2PollRef.current) clearInterval(tier2PollRef.current);
+          setTier2Running(false);
+        }
+      }, 1500);
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Failed to start Tier-2 pass");
+      setTier2Running(false);
     }
   }
 
@@ -173,6 +212,43 @@ export default function AdminPage() {
           </div>
         </section>
 
+        {/* Owner decisions */}
+        <section aria-labelledby="decisions-section">
+          <h2 id="decisions-section" className="text-lg font-semibold mb-4">
+            Owner decisions
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <KpiTile
+              label="Retained"
+              value={aggregates?.retained ?? 0}
+              sub="owner kept the file"
+              icon={<ShieldCheck className="w-4 h-4" />}
+              loading={aggLoading}
+            />
+            <KpiTile
+              label="Deleted"
+              value={aggregates?.deleted ?? 0}
+              sub="pending soft-delete"
+              icon={<Trash2 className="w-4 h-4" />}
+              loading={aggLoading}
+            />
+            <KpiTile
+              label="Not sure"
+              value={aggregates?.escalated ?? 0}
+              sub="escalated to manager"
+              icon={<ShieldQuestion className="w-4 h-4" />}
+              loading={aggLoading}
+            />
+            <KpiTile
+              label="Not GDPR-relevant"
+              value={aggregates?.not_relevant ?? 0}
+              sub="flagged false-positive"
+              icon={<XCircle className="w-4 h-4" />}
+              loading={aggLoading}
+            />
+          </div>
+        </section>
+
         {/* Tiered detection assurance — Tier 1 (deterministic) → Tier 2 (LLM) */}
         <section
           aria-labelledby="assurance-heading"
@@ -230,6 +306,37 @@ export default function AdminPage() {
                   <> {aggregates.tier2_verified} already verified.</>
                 )}
               </p>
+
+              {/* Explicit Tier-2 trigger */}
+              <div className="mt-3 pt-3 border-t border-border">
+                <button
+                  onClick={handleRunTier2}
+                  disabled={tier2Running || (aggregates?.tier2_needed ?? 0) === 0}
+                  className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {tier2Running ? (
+                    <>
+                      <Sparkles className="w-3.5 h-3.5 animate-pulse" />
+                      Running… {tier2Job ? `${tier2Job.processed} processed` : ""}
+                    </>
+                  ) : (
+                    <>
+                      <PlayCircle className="w-3.5 h-3.5" />
+                      Run Tier-2 confirmation
+                    </>
+                  )}
+                </button>
+                {tier2Job && !tier2Running && tier2Job.status === "complete" && (
+                  <p className="mt-2 text-xs text-muted-foreground flex items-center gap-1">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-green-500" />
+                    Last pass: {tier2Job.confirmed} confirmed · {tier2Job.rejected} rejected
+                    {tier2Job.errors > 0 && ` · ${tier2Job.errors} errors`}
+                  </p>
+                )}
+                <p className="mt-1.5 text-xs text-muted-foreground">
+                  Falls back to deterministic check when external LLM is not configured.
+                </p>
+              </div>
             </div>
           </div>
         </section>

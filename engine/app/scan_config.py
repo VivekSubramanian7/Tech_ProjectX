@@ -73,8 +73,8 @@ def load_scan_config(config_path: Path | None = None) -> ScanConfig:
     tier2 = bool(raw.get("tier2", False))
     reapply_ruleset = bool(raw.get("reapply_ruleset", False))
     source = raw.get("source", "local")
-    if source not in {"local", "onedrive_fixture"}:
-        raise ValueError(f"scan config 'source' must be 'local' or 'onedrive_fixture': {cfg_file}")
+    if source not in {"local", "onedrive_fixture", "onedrive"}:
+        raise ValueError(f"scan config 'source' must be 'local', 'onedrive_fixture', or 'onedrive': {cfg_file}")
 
     fixture_raw = raw.get("onedrive_fixture")
     onedrive_fixture: Path | None = None
@@ -131,10 +131,25 @@ def resolve_worker_count(options: ScanOptions) -> int:
 
 
 def resolve_scan_source(cfg: ScanConfig) -> Path | object:
-    """Return scan target: local Path or OneDriveGraphSource."""
+    """Return scan target: local Path, fixture OneDriveGraphSource, or live LiveOneDriveGraphSource."""
     if cfg.source == "onedrive_fixture":
         from app.sources.onedrive_graph import OneDriveGraphSource
 
         fixture = cfg.onedrive_fixture or (repo_root() / "data" / "onedrive_fixture.json")
         return OneDriveGraphSource.from_fixture(fixture)
+
+    if cfg.source == "onedrive":
+        import os
+
+        from app.sources.graph_client import GraphClient
+        from app.sources.onedrive_live import LiveOneDriveGraphSource
+
+        client = GraphClient()
+        drive_id = (
+            str(getattr(cfg, "drive_id", None) or "").strip()
+            or os.environ.get("GRAPH_DRIVE_ID", "").strip()
+            or client.resolve_drive_id()
+        )
+        return LiveOneDriveGraphSource(drive_id, client=client)
+
     return cfg.path
