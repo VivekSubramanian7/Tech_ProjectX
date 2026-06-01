@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
+import threading
 import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -17,22 +18,83 @@ def _utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+# init_db runs on nearly every API request; repeating executescript during a
+# background scan holds schema locks and causes "database is locked" on progress
+# writes. One init per resolved db path per process is enough.
+_init_lock = threading.Lock()
+_init_done: set[Path] = set()
+
+
 @dataclass
 class CatalogRepository:
     db_path: Path
 
     def connect(self) -> sqlite3.Connection:
-        conn = sqlite3.connect(self.db_path)
+        # 30s busy timeout + WAL so dashboard reads don't collide with a long scan's
+        # writes ("database is locked"). WAL lets readers proceed during writes.
+        conn = sqlite3.connect(self.db_path, timeout=30.0)
         conn.row_factory = sqlite3.Row
+        try:
+            conn.execute("PRAGMA journal_mode=WAL")
+            conn.execute("PRAGMA busy_timeout=30000")
+        except sqlite3.Error:
+            pass
         return conn
 
     def init_db(self, seed_sql_path: Path | None = None) -> None:
-        self.db_path.parent.mkdir(parents=True, exist_ok=True)
+        key = self.db_path.resolve()
+        with _init_lock:
+            if key in _init_done:
+                return
+            self.db_path.parent.mkdir(parents=True, exist_ok=True)
+            with self.connect() as conn:
+                conn.executescript(SCHEMA_SQL)
+                self._migrate(conn)
+                # Seed the classification enum only when empty. init_db runs on every
+                # request, and the seed file is DELETE+INSERT; re-running it concurrently
+                # (e.g. dashboard polling during a background scan) races and trips a
+                # UNIQUE constraint. Seeding once keeps it idempotent and race-free.
+                if seed_sql_path and seed_sql_path.is_file():
+                    row = conn.execute("SELECT COUNT(*) AS c FROM classification_enum").fetchone()
+                    if not row or row["c"] == 0:
+                        conn.executescript(seed_sql_path.read_text(encoding="utf-8"))
+                conn.commit()
+            _init_done.add(key)
+
+    @staticmethod
+    def _migrate(conn: sqlite3.Connection) -> None:
+        """Additive column migrations for pre-existing catalogs (idempotent)."""
+        existing = {row["name"] for row in conn.execute("PRAGMA table_info(scan_run)")}
+        additions = {
+            "total_bytes": "INTEGER NOT NULL DEFAULT 0",
+            "duration_ms": "INTEGER",
+            "type_breakdown": "TEXT",
+        }
+        for column, decl in additions.items():
+            if column not in existing:
+                conn.execute(f"ALTER TABLE scan_run ADD COLUMN {column} {decl}")
+
+    def reset_catalog(self, seed_sql_path: Path | None = None) -> None:
+        """Clear all scan/findings data and re-seed classification enum."""
+        key = self.db_path.resolve()
         with self.connect() as conn:
-            conn.executescript(SCHEMA_SQL)
+            conn.executescript(
+                """
+                DELETE FROM finding;
+                DELETE FROM audit_log;
+                DELETE FROM file_ownership;
+                DELETE FROM scan_catalog;
+                DELETE FROM scan_run;
+                DELETE FROM source_delta_state;
+                DELETE FROM owner_edge;
+                DELETE FROM classification_enum;
+                """
+            )
             if seed_sql_path and seed_sql_path.is_file():
                 conn.executescript(seed_sql_path.read_text(encoding="utf-8"))
             conn.commit()
+        with _init_lock:
+            _init_done.add(key)
 
     def upsert_catalog(
         self,
@@ -184,6 +246,63 @@ class CatalogRepository:
             )
         return list(conn.execute("SELECT * FROM finding ORDER BY file_id, id"))
 
+    def list_open_findings_for_owner(
+        self, conn: sqlite3.Connection, owner_user_id: str
+    ) -> list[sqlite3.Row]:
+        return list(
+            conn.execute(
+                """
+                SELECT f.*, c.path AS file_path
+                FROM finding f
+                JOIN scan_catalog c ON c.file_id = f.file_id
+                WHERE f.owner_user_id = ? AND f.resolution_status = 'open'
+                ORDER BY f.risk_score DESC, f.id ASC
+                """,
+                (owner_user_id,),
+            )
+        )
+
+    def get_finding(self, conn: sqlite3.Connection, finding_id: int) -> sqlite3.Row | None:
+        return conn.execute(
+            """
+            SELECT f.*, c.path AS file_path
+            FROM finding f
+            JOIN scan_catalog c ON c.file_id = f.file_id
+            WHERE f.id = ?
+            """,
+            (finding_id,),
+        ).fetchone()
+
+    def update_finding_resolution(
+        self,
+        conn: sqlite3.Connection,
+        finding_id: int,
+        *,
+        resolution_status: str,
+        actor: str,
+        action: str,
+        justification: str | None = None,
+    ) -> sqlite3.Row | None:
+        row = self.get_finding(conn, finding_id)
+        if row is None:
+            return None
+        conn.execute(
+            "UPDATE finding SET resolution_status = ? WHERE id = ?",
+            (resolution_status, finding_id),
+        )
+        self.append_audit(
+            conn,
+            entity_type="finding",
+            entity_id=str(finding_id),
+            action=action,
+            actor=actor,
+            justification=justification,
+            detector_version=row["detector_version"],
+            model_version=row["model_version"],
+            prompt_hash=row["prompt_hash"],
+        )
+        return self.get_finding(conn, finding_id)
+
     def count_catalog(self, conn: sqlite3.Connection) -> int:
         row = conn.execute("SELECT COUNT(*) AS c FROM scan_catalog").fetchone()
         return int(row["c"])
@@ -269,15 +388,31 @@ class CatalogRepository:
         files_scanned: int,
         findings_count: int,
         tier2_applied: int = 0,
+        total_bytes: int | None = None,
+        duration_ms: int | None = None,
+        type_breakdown: str | None = None,
     ) -> None:
         conn.execute(
             """
             UPDATE scan_run
             SET status = ?, files_scanned = ?, findings_count = ?,
-                tier2_applied = ?, completed_ts = ?
+                tier2_applied = ?, completed_ts = ?,
+                total_bytes = COALESCE(?, total_bytes),
+                duration_ms = COALESCE(?, duration_ms),
+                type_breakdown = COALESCE(?, type_breakdown)
             WHERE scan_id = ?
             """,
-            (status, files_scanned, findings_count, tier2_applied, _utc_now(), scan_id),
+            (
+                status,
+                files_scanned,
+                findings_count,
+                tier2_applied,
+                _utc_now(),
+                total_bytes,
+                duration_ms,
+                type_breakdown,
+                scan_id,
+            ),
         )
 
     def get_scan_run(self, conn: sqlite3.Connection, scan_id: str) -> sqlite3.Row | None:

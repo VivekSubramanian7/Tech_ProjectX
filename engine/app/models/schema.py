@@ -79,7 +79,10 @@ CREATE TABLE IF NOT EXISTS scan_run (
     tier2_applied INTEGER NOT NULL DEFAULT 0,
     started_ts TEXT NOT NULL,
     completed_ts TEXT,
-    ruleset_version TEXT
+    ruleset_version TEXT,
+    total_bytes INTEGER NOT NULL DEFAULT 0,
+    duration_ms INTEGER,
+    type_breakdown TEXT
 );
 
 CREATE TABLE IF NOT EXISTS source_delta_state (

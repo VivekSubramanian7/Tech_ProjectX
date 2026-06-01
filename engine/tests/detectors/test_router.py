@@ -17,6 +17,14 @@ def test_docx_routes_to_text():
     assert route_file("report.docx") == Modality.TEXT
 
 
+def test_pptx_is_scannable():
+    assert ".pptx" in scannable_extensions()
+
+
+def test_pptx_routes_to_text():
+    assert route_file("deck.pptx") == Modality.TEXT
+
+
 def test_png_routes_to_image():
     assert route_file("photo.png") == Modality.IMAGE
 

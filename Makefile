@@ -1,4 +1,4 @@
-.PHONY: test enum scan eval lint-engine
+.PHONY: test enum scan eval lint-engine dev
 
 export PYTHONPATH := engine:eval
 
@@ -16,3 +16,6 @@ scan:
 
 lint-engine:
 	cd engine && ruff check app tests && mypy app
+
+dev:
+	powershell -ExecutionPolicy Bypass -File launch.ps1

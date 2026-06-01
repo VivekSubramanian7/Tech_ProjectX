@@ -13,6 +13,7 @@ from typing import BinaryIO, Iterator
 from app.config import CHUNK_SIZE, OVERLAP_CHARS
 
 _DOCX_NS = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
+_PPTX_NS = {"a": "http://schemas.openxmlformats.org/drawingml/2006/main"}
 
 
 @dataclass(frozen=True)
@@ -76,6 +77,24 @@ def extract_docx_bytes(data: bytes) -> str:
     return "\n".join(parts)
 
 
+def extract_pptx_bytes(data: bytes) -> str:
+    """Extract slide text from a .pptx (OOXML zip) using stdlib only."""
+    slides: list[str] = []
+    with zipfile.ZipFile(io.BytesIO(data)) as zf:
+        slide_names = sorted(
+            name
+            for name in zf.namelist()
+            if name.startswith("ppt/slides/slide") and name.endswith(".xml")
+        )
+        for index, name in enumerate(slide_names, start=1):
+            root = ET.fromstring(zf.read(name))
+            runs = [node.text for node in root.findall(".//a:t", _PPTX_NS) if node.text]
+            if runs:
+                body = " ".join(runs)
+                slides.append(f"--- Slide {index} ---\n{body}")
+    return "\n\n".join(slides)
+
+
 def extract_file(ref_path: str, stream: BinaryIO) -> tuple[Iterator[TextSegment], str]:
     path = Path(ref_path)
     suffix = path.suffix.lower()
@@ -83,6 +102,8 @@ def extract_file(ref_path: str, stream: BinaryIO) -> tuple[Iterator[TextSegment]
         return _extract_pdf(stream)
     if suffix == ".docx":
         return _extract_docx(stream)
+    if suffix == ".pptx":
+        return _extract_pptx(stream)
     text, content_hash = extract_plain_text(stream, suffix)
     return segments_from_text(text), content_hash
 
@@ -91,6 +112,13 @@ def _extract_docx(stream: BinaryIO) -> tuple[Iterator[TextSegment], str]:
     data = stream.readall() if hasattr(stream, "readall") else stream.read()
     content_hash = hashlib.sha256(data).hexdigest()
     text = extract_docx_bytes(data)
+    return segments_from_text(text), content_hash
+
+
+def _extract_pptx(stream: BinaryIO) -> tuple[Iterator[TextSegment], str]:
+    data = stream.readall() if hasattr(stream, "readall") else stream.read()
+    content_hash = hashlib.sha256(data).hexdigest()
+    text = extract_pptx_bytes(data)
     return segments_from_text(text), content_hash
 
 

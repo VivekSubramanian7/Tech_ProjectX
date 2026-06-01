@@ -78,20 +78,30 @@ def _decode_png_bytes(data: bytes) -> DecodedImage:
 
 def _decode_with_pillow(path: Path, data: bytes) -> DecodedImage:
     try:
-        from PIL import Image
+        from PIL import Image, ImageFile
     except ImportError as exc:
         raise ValueError(f"unsupported image format: {path}") from exc
 
     import io
 
-    img = Image.open(io.BytesIO(data)).convert("RGB")
-    width, height = img.size
-    return DecodedImage(width=width, height=height, rgb=img.tobytes())
+    # Tolerate slightly-truncated JPEGs (common in scraped image sets) instead of
+    # raising — a partially-decoded image still yields useful scan coverage.
+    ImageFile.LOAD_TRUNCATED_IMAGES = True
+    try:
+        img = Image.open(io.BytesIO(data)).convert("RGB")
+        width, height = img.size
+        return DecodedImage(width=width, height=height, rgb=img.tobytes())
+    except (OSError, ValueError, SyntaxError) as exc:
+        raise ValueError(f"undecodable image: {path}: {exc}") from exc
+
+
+def decode_bytes(data: bytes, path: Path) -> DecodedImage:
+    """Decode already-read image bytes (PNG native; JPEG/WebP via Pillow)."""
+    if data.startswith(b"\x89PNG\r\n\x1a\n"):
+        return _decode_png_bytes(data)
+    return _decode_with_pillow(path, data)
 
 
 def decode_image_once(path: Path) -> DecodedImage:
     """Decode image once to shared RGB bytes (PNG native; JPEG/WebP via Pillow)."""
-    data = path.read_bytes()
-    if data.startswith(b"\x89PNG\r\n\x1a\n"):
-        return _decode_png_bytes(data)
-    return _decode_with_pillow(path, data)
+    return decode_bytes(path.read_bytes(), path)

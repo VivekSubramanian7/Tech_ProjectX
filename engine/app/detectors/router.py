@@ -12,7 +12,7 @@ class Modality(str, Enum):
     OCR = "ocr"
 
 
-_TEXT_EXTENSIONS = {".txt", ".csv", ".md", ".log", ".docx", ".doc", ".rtf"}
+_TEXT_EXTENSIONS = {".txt", ".csv", ".md", ".log", ".docx", ".doc", ".rtf", ".pptx"}
 _IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".tiff", ".tif"}
 
 
@@ -41,6 +41,7 @@ def scannable_extensions() -> frozenset[str]:
             ".docx",
             ".doc",
             ".rtf",
+            ".pptx",
             ".pdf",
             ".png",
             ".jpg",

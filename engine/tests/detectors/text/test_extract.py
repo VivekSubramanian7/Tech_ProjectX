@@ -1,41 +1,47 @@
 """Text extraction tests."""
 
 import io
-import zipfile
 from pathlib import Path
 
-from app.detectors.text.extract import extract_docx_bytes, extract_file, extract_plain_text, segments_from_text
+from app.detectors.text.extract import extract_docx_bytes, extract_file, extract_plain_text, extract_pptx_bytes, segments_from_text
 from app.detectors.text.regex_checksum import RegexChecksumDetector
+
+from office_fixtures import minimal_docx, minimal_pptx
 
 FIXTURES = Path(__file__).resolve().parents[2] / "fixtures"
 
 
-def _minimal_docx(text: str) -> bytes:
-    document_xml = f"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
-  <w:body>
-    <w:p><w:r><w:t>{text}</w:t></w:r></w:p>
-  </w:body>
-</w:document>"""
-    buf = io.BytesIO()
-    with zipfile.ZipFile(buf, "w") as zf:
-        zf.writestr("word/document.xml", document_xml)
-    return buf.getvalue()
-
-
 def test_extract_docx_bytes():
-    data = _minimal_docx("Contact: test@example.com")
+    data = minimal_docx("Contact: test@example.com")
     text = extract_docx_bytes(data)
     assert "test@example.com" in text
 
 
 def test_extract_file_docx(tmp_path: Path):
     path = tmp_path / "note.docx"
-    path.write_bytes(_minimal_docx("Email: user@corp.de"))
+    path.write_bytes(minimal_docx("Email: user@corp.de"))
     with path.open("rb") as f:
         segments, content_hash = extract_file(str(path), f)
     joined = "".join(s.text for s in segments)
     assert "user@corp.de" in joined
+    assert len(content_hash) == 64
+
+
+def test_extract_pptx_bytes():
+    data = minimal_pptx(["Quarterly revenue", "Contact: slide@example.com"])
+    text = extract_pptx_bytes(data)
+    assert "--- Slide 1 ---" in text
+    assert "Quarterly revenue" in text
+    assert "slide@example.com" in text
+
+
+def test_extract_file_pptx(tmp_path: Path):
+    path = tmp_path / "deck.pptx"
+    path.write_bytes(minimal_pptx(["Email: deck@corp.de"]))
+    with path.open("rb") as f:
+        segments, content_hash = extract_file(str(path), f)
+    joined = "".join(s.text for s in segments)
+    assert "deck@corp.de" in joined
     assert len(content_hash) == 64
 
 

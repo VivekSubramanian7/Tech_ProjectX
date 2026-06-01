@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from app.detectors.base import BBox, ImageDetection, mask_value
-from app.detectors.image._png import read_png_text_chunks
+from app.detectors.image._png import DecodedImage, read_png_text_chunks
 
 DETECTOR_VERSION = "signature-stub-0.1.0"
 
@@ -16,11 +16,18 @@ class SignatureDetector:
     def __init__(self, *, enabled: bool = True) -> None:
         self.enabled = enabled
 
-    def detect(self, path: Path) -> list[ImageDetection]:
+    def detect(
+        self,
+        path: Path,
+        *,
+        decoded: "DecodedImage | None" = None,
+        data: bytes | None = None,
+    ) -> list[ImageDetection]:
         if not self.enabled:
             return []
 
-        chunks = read_png_text_chunks(path.read_bytes())
+        raw = data if data is not None else path.read_bytes()
+        chunks = read_png_text_chunks(raw)
         hint = chunks.get("gdpr-detect", "")
         if not hint.startswith("SIGNATURE"):
             return []

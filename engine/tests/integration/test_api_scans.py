@@ -1,3 +1,4 @@
+import time
 from pathlib import Path
 
 from fastapi.testclient import TestClient
@@ -16,9 +17,20 @@ def test_post_scans_triggers_run(tmp_path, monkeypatch):
     monkeypatch.setattr("app.api.scans._shared_repo", repo)
     monkeypatch.setattr("app.api.scans._shared_orch", orch)
     client = TestClient(app)
-    response = client.post("/scans", json={"path": str(FIXTURES), "use_config": False})
+    response = client.post(
+        "/scans",
+        json={"path": str(FIXTURES), "use_config": False, "use_ml_image": False},
+    )
     assert response.status_code == 200
     body = response.json()
     assert "data" in body
-    assert body["data"]["status"] == "complete"
-    assert body["data"]["findings_count"] >= 1
+    scan_id = body["meta"]["scan_id"]
+    status = body["data"]["status"]
+    for _ in range(100):
+        if status == "complete":
+            break
+        time.sleep(0.05)
+        status = client.get(f"/scans/{scan_id}").json()["data"]["status"]
+    assert status == "complete"
+    final = client.get(f"/scans/{scan_id}").json()["data"]
+    assert final["findings_count"] >= 1
