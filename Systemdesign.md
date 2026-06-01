@@ -21,108 +21,215 @@
 
 ---
 
-## System Architecture
+## High-Level Overview
+
+Five layers communicate only through the REST API and the shared catalog — no raw PII crosses layer boundaries.
 
 ```mermaid
-graph TD
-    subgraph Browser["Browser  :5173  —  React 19 + Vite + Tailwind"]
-        A[AdminPage / ScanLauncher / ScanProgress]
-        B[KPI Dashboard / ClassificationBreakdown / ThroughputChart]
-        C[RbacGuard — admin / owner]
+flowchart LR
+    Users["Users<br/>Owner · Admin"]
+    Web["Web SPA<br/>React + Vite"]
+    API["FastAPI<br/>:8000"]
+    Engine["Scan Engine<br/>orchestrator + detectors"]
+    Catalog[("catalog.sqlite<br/>findings · scans · audit")]
+    Sources["File Sources<br/>local · OneDrive"]
+
+    Users --> Web
+    Web -->|"/api proxy"| API
+    API --> Engine
+    Engine --> Catalog
+    Engine --> Sources
+    Sources -.->|stream files| Engine
+```
+
+| Layer | Path | Role |
+|---|---|---|
+| **Web** | `web/src/` | Role-gated UI; masked snippets only |
+| **API** | `engine/app/api/` | Thin REST routers; async scan dispatch |
+| **Engine** | `engine/app/services/` + `detectors/` | Scan, detect, score, write findings |
+| **Catalog** | `data/catalog.sqlite` | Single store; enum + location + scores — no raw PII |
+| **Sources** | `engine/app/sources/` | Pluggable ingestion (local walk / Graph delta) |
+
+---
+
+## System Architecture — Module Map
+
+One level deeper than the overview: named modules and how they connect. Scan-step detail lives in the flow diagrams below.
+
+```mermaid
+flowchart TB
+    subgraph UI["web/src — React SPA  :5173"]
+        direction TB
+        App["App.tsx · RoleSelect"]
+        Owner["owner/OwnerPage<br/>FindingCard · ActionBar · DocumentViewer"]
+        Admin["admin/AdminPage<br/>ScanLauncher · ScanProgress · KPI tiles"]
+        Guard["RbacGuard · lib/rbac.tsx"]
+        Client["lib/api.ts"]
     end
 
-    subgraph API["FastAPI  :8000"]
-        D[POST /scans]
-        E[GET  /scans/{id}]
-        F[GET  /aggregates]
-        G[GET  /findings]
-        H[POST /tier2/pass]
-        I[GET  /capabilities]
+    subgraph REST["engine/app/api — FastAPI  :8000"]
+        scans_r["scans.py"]
+        findings_r["findings.py"]
+        agg_r["aggregates.py"]
+        tier2_r["tier2.py"]
     end
 
-    subgraph Orch["ScanOrchestrator"]
-        J[begin_scan — daemon thread]
-        K[Modality Router]
-        L[_DetectorPool — thread-local]
-        M[ThreadPoolExecutor — bounded workers]
+    subgraph Core["engine/app — orchestration & persistence"]
+        Orch["scan_orchestrator.py<br/>daemon thread · delta · progress"]
+        Router["detectors/router.py<br/>TEXT · IMAGE · OCR"]
+        Score["services/scoring.py"]
+        Own["services/ownership.py"]
+        Write["services/finding_write.py"]
+        Audit["audit.py"]
+        Repo["repositories/catalog.py<br/>sole SQL access · WAL"]
+        Identity["identity.py · file_id"]
     end
 
-    subgraph Sources["File Sources"]
-        N[LocalFolderSource]
-        O[OneDriveGraphSource — delta token]
-        P[OneDriveLiveSource]
+    subgraph Ingest["engine/app/sources — FileSource seam"]
+        Base["base.py — FileRef · iter_files · open"]
+        Local["local_folder.py"]
+        Graph["onedrive_graph.py · graph_client.py"]
+        Live["onedrive_live.py"]
     end
 
-    subgraph TextPipeline["Text Pipeline"]
-        Q[TextExtractor — docx / pdf / pptx / csv / txt]
-        R[RegexChecksumDetector — 36 patterns + Luhn/IBAN]
-        S[NerDetector — rules-de or spaCy de_core_news_lg]
-        T[merge_detections_with_overlap]
+    subgraph TextMod["Text modules — detectors/text/"]
+        Extract["extract.py<br/>PDF · DOCX · PPTX · plain"]
+        PdfScan["pypdf PdfReader<br/>per-page text segments"]
+        DocxScan["OOXML zip — word/document.xml"]
+        PptxScan["OOXML zip — ppt/slides/*.xml"]
+        Regex["regex_checksum.py<br/>36 patterns · Luhn · IBAN"]
+        NER["ner.py<br/>rules-de · spaCy de_core_news_lg"]
+        Merge["merge_detections_with_overlap"]
     end
 
-    subgraph ImagePipeline["Image Pipeline"]
-        U[decode_bytes — Pillow, once per file]
-        V[YoloDetector — YOLO11n ONNX stage-1]
-        W[CascadeDetector — Haar stage-2]
-        X[OcrDetector — RapidOCR ONNX]
-        Y[SignatureDetector]
+    subgraph ImgMod["Image modules — detectors/image/"]
+        Decode["_png.py · decode_image_once<br/>Pillow — single decode per file"]
+        Yolo["yolo.py — YOLO11n ONNX<br/>onnxruntime · data/models/yolo11n.onnx"]
+        Cascade["cascade.py — Haar stage-2<br/>face · licence plate"]
+        OCR["ocr.py — RapidOCR ONNX<br/>det + rec · torch-free"]
+        Sig["signature.py — ink-stroke heuristics"]
+        Warmup["warmup.py · ml_status.py"]
     end
 
-    subgraph Tier2["Tier-2 Escalation"]
-        Z[EscalationPolicy — τ by risk weight]
-        AA[run_tier2_text — OpenRouter LLM or offline stub]
-        AB[run_tier2_image — OpenRouter VLM or offline stub]
+    subgraph T2Mod["Tier-2 — detectors/tier2/"]
+        Policy["escalation_policy.py<br/>τ by risk · budget cap"]
+        LLM["llm_text.py"]
+        VLM["vlm_image.py"]
+        ORClient["openrouter_client.py<br/>online · offline stub in CI"]
     end
 
-    subgraph DB["SQLite  WAL mode"]
-        AC[(scan_catalog)]
-        AD[(finding)]
-        AE[(scan_run)]
+    subgraph Shared["Shared artifacts"]
+        Enum["enum/classification_enum.yaml<br/>→ Python · TS · SQL seed"]
+        Models["data/models/yolo11n.onnx"]
+        Eval["eval/run_eval.py · labeled corpus"]
     end
 
-    A --> C
-    B --> C
-    C -- Vite proxy /api --> API
+    subgraph DB["catalog.sqlite — WAL"]
+        TCat["scan_catalog"]
+        TFind["finding"]
+        TRun["scan_run · audit_log"]
+    end
 
-    D --> J
-    E --> J
-    F --> AC
-    G --> AD
-    H --> J
-    I --> Orch
+    App --> Guard
+    Owner --> Client
+    Admin --> Client
+    Client --> REST
 
-    J --> K
-    K --> M
-    M --> L
-    L --> TextPipeline
-    L --> ImagePipeline
-    J --> Sources
-    N --> J
-    O --> J
-    P --> J
+    scans_r --> Orch
+    findings_r --> Repo
+    agg_r --> Repo
+    tier2_r --> Orch
 
-    Q --> R
-    Q --> S
-    R --> T
-    S --> T
-    T --> AD
+    Orch --> Router
+    Orch --> Ingest
+    Orch --> Score
+    Orch --> Own
+    Orch --> Write
+    Orch --> Policy
+    Orch --> Repo
+    Write --> Audit
 
-    U --> V
-    V --> W
-    U --> X
-    U --> Y
-    W --> AD
-    X --> AD
-    Y --> AD
+    Local --> Base
+    Graph --> Base
+    Live --> Base
 
-    J --> Z
-    Z --> AA
-    Z --> AB
-    AA --> AD
-    AB --> AD
+    Router -->|TEXT / OCR| Extract
+    Extract --> PdfScan
+    Extract --> DocxScan
+    Extract --> PptxScan
+    Extract --> Regex
+    Extract --> NER
+    Regex --> Merge
+    NER --> Merge
+    Merge --> Score
 
-    J --> AC
-    J --> AE
+    Router -->|IMAGE| Decode
+    Decode --> Yolo
+    Yolo --> Cascade
+    Decode --> OCR
+    Decode --> Sig
+    OCR --> Regex
+    Yolo --> Score
+    Cascade --> Score
+    Sig --> Score
+
+    Policy --> LLM
+    Policy --> VLM
+    LLM --> ORClient
+    VLM --> ORClient
+    LLM --> Repo
+    VLM --> Repo
+
+    Repo --> DB
+    Audit --> DB
+    Enum -.-> TextMod
+    Enum -.-> ImgMod
+    Enum -.-> UI
+    Models --> Yolo
+    Warmup --> Yolo
+    Warmup --> OCR
+    Eval -.-> TextMod
+    Eval -.-> ImgMod
+```
+
+### Module quick reference
+
+| Module | File(s) | What it does |
+|---|---|---|
+| **Modality router** | `detectors/router.py` | Routes by extension; PDF gets 512-byte magic peek → TEXT or OCR |
+| **PDF scanner** | `detectors/text/extract.py` + **pypdf** | Page-by-page text extraction; scanned PDFs fall through to OCR path |
+| **DOCX / PPTX scanner** | `extract.py` | Stdlib OOXML zip parse — no external office libs |
+| **Regex + checksum** | `regex_checksum.py` | EMAIL, IBAN, cards, passports, German IDs; Luhn/IBAN validation |
+| **NER** | `ner.py` | PERSON_NAME, addresses; rules-de default, spaCy optional |
+| **YOLO11n** | `yolo.py` + `yolo11n.onnx` | Stage-1 COCO coarse detect (person, vehicle); onnxruntime only at runtime |
+| **Haar cascade** | `cascade.py` | Stage-2 face inside person box, plate inside vehicle box |
+| **RapidOCR** | `ocr.py` | ONNX det+rec on image/PDF-OCR path; feeds regex over extracted text |
+| **Signature** | `signature.py` | Heuristic ink-stroke detection → SIGNATURE enum |
+| **Escalation policy** | `escalation_policy.py` | Risk-tiered τ (0.75–0.95) + per-run Tier-2 budget |
+| **Tier-2 LLM/VLM** | `llm_text.py`, `vlm_image.py` | Ephemeral snippet/crop only; OpenRouter or deterministic stub |
+| **Catalog repo** | `repositories/catalog.py` | Only layer that touches SQLite; delta tokens, findings, scans |
+| **Ownership** | `ownership.py` | MVP path-prefix → owner mapping (`data/mock_owners.json`) |
+| **OneDrive delta** | `onedrive_graph.py` | Graph `/delta` token stored per drive for incremental scans |
+| **Enum taxonomy** | `enum/classification_enum.yaml` | 36 codes (20 MVP); drives detectors, UI labels, Tier-2 thresholds |
+
+---
+
+## Data Flow Summary
+
+```mermaid
+flowchart LR
+    Src["FileSource"] --> Delta{"Delta<br/>pre-check"}
+    Delta -->|skip| Skip["unchanged file"]
+    Delta -->|process| Route["Modality Router"]
+    Route --> T1["Tier-1 detectors"]
+    T1 --> Sc["Scoring"]
+    Sc --> Esc{"τ + budget"}
+    Esc -->|low conf| T2["Tier-2 LLM/VLM"]
+    Esc -->|ok| Write["finding_write"]
+    T2 --> Write
+    Write --> Cat[("catalog")]
+    Cat --> API["FastAPI RBAC"]
+    API --> SPA["React UI"]
 ```
 
 ---
